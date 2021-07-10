@@ -1,0 +1,115 @@
+.page1 {
+    width: 100%;
+    height: 1000px;
+    margin-top: 0px;
+    position: relative;
+    .page1text {
+        position: absolute;
+        z-index: 8;
+        width: 780px;
+        height: 500px;
+        margin-left: 32%;
+        margin-top: 18%;
+        text-align: center;
+        color: white;
+        // p {
+        //     font-size: 18px;
+        // }
+        h1 {
+            font-size: 70px;
+            font-weight: bold;
+        }
+        button {
+            padding: 5px 20px;
+            margin-top: 50px;
+            background-color: transparent;
+            border: 2px solid white;
+            color: white;
+            &:hover {
+                transition: 1s;
+                background-color: white;
+                color: black;
+            }
+        }
+    }
+    .circle1 {
+        display: none;
+        position: absolute;
+        top: 45%;
+        left: 95px;
+        width: 100px;
+        height: 100px;
+        background-image: url("https://images-ext-1.discordapp.net/external/lXTYqhJtUou5YeHjvzNayIXNSCaAMvbHbk4RNq2J6hY/http/www.themezaa.com/html/pofo/images/homepage-3-slider-img-3.jpg?width=1202&height=676");
+        background-size: 100% 100%;
+        border-radius: 50%;
+        z-index: 8;
+    }
+    .circle2 {
+        display: none;
+        position: absolute;
+        top: 45%;
+        right: 95px;
+        width: 100px;
+        height: 100px;
+        background-image: url("https://images-ext-2.discordapp.net/external/QgT2MJ6u9dpx-giYFHmX_it_ZMrJldavtW2vV9f-Xoo/http/www.themezaa.com/html/pofo/images/homepage-3-slider-img-1.jpg?width=1202&height=676");
+        background-size: 100% 100%;
+        border-radius: 50%;
+        z-index: 8;
+    }
+    .circle3 {
+        display: none;
+        position: absolute;
+        top: 45%;
+        left: 95px;
+        width: 100px;
+        height: 100px;
+        background-image: url("https://images-ext-2.discordapp.net/external/7DcRHBt-KGQeig-oCi6q8FeXYKv99BI4Z9IFkD144Wg/http/www.themezaa.com/html/pofo/images/homepage-option17-slider-01.jpg?width=1051&height=676");
+        background-size: 100% 100%;
+        border-radius: 50%;
+        z-index: 8;
+    }
+    .circle4 {
+        display: none;
+        position: absolute;
+        top: 45%;
+        right: 95px;
+        width: 100px;
+        height: 100px;
+        background-image: url("https://images-ext-1.discordapp.net/external/lXTYqhJtUou5YeHjvzNayIXNSCaAMvbHbk4RNq2J6hY/http/www.themezaa.com/html/pofo/images/homepage-3-slider-img-3.jpg?width=1202&height=676");
+        background-size: 100% 100%;
+        border-radius: 50%;
+        z-index: 8;
+    }
+    .circle5 {
+        display: none;
+        position: absolute;
+        top: 45%;
+        left: 95px;
+        width: 100px;
+        height: 100px;
+        background-image: url("https://images-ext-2.discordapp.net/external/QgT2MJ6u9dpx-giYFHmX_it_ZMrJldavtW2vV9f-Xoo/http/www.themezaa.com/html/pofo/images/homepage-3-slider-img-1.jpg?width=1202&height=676");
+        background-size: 100% 100%;
+        border-radius: 50%;
+        z-index: 8;
+    }
+    .circle6 {
+        display: none;
+        position: absolute;
+        top: 45%;
+        right: 95px;
+        width: 100px;
+        height: 100px;
+        background-image: url("https://images-ext-2.discordapp.net/external/7DcRHBt-KGQeig-oCi6q8FeXYKv99BI4Z9IFkD144Wg/http/www.themezaa.com/html/pofo/images/homepage-option17-slider-01.jpg?width=1051&height=676");
+        background-size: 100% 100%;
+        border-radius: 50%;
+        z-index: 8;
+    }
+    .carousel-item {
+        img {
+            box-shadow: 20px 20px 50px 10px black inset;
+            width: 100%;
+            height: 1000px;
+            filter: brightness(60%);
+        }
+    }
+}

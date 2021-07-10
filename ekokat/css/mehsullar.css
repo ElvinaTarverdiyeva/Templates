@@ -1,0 +1,152 @@
+*,
+head,
+body {
+    margin: 0px;
+}
+
+body {
+    height: 1050px;
+}
+
+.header1 {
+    background-color: #012c3c;
+    height: 50px;
+    width: 100%;
+}
+
+.ikon i {
+    color: #999ea3;
+    border-right: 1px solid #999ea3;
+    padding: 17px 18px;
+}
+
+.ikon i:hover {
+    background-color: #FE5454;
+    color: white;
+    transition: 1s;
+}
+
+.elaqe p {
+    color: #999ea3;
+    display: inline-block;
+    border-right: 1px solid #999ea3;
+    padding: 13px 18px;
+}
+
+.elaqe p:hover {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.header2 img {
+    margin: auto;
+}
+
+.header3 {
+    background-color: #5bca5b;
+    position: relative;
+}
+
+.navmenu ul li {
+    margin: 5px 5px;
+    padding: 5px;
+}
+
+.fonta {
+    color: rgb(3, 3, 44);
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.fonta:hover {
+    color: #d62323;
+    transition: 0.2s;
+}
+
+.dmenu1 {
+    margin-top: 20px;
+}
+
+.dmenu1 a {
+    color: rgb(19, 126, 85);
+}
+
+.ikon2 i {
+    color: #5bca5b;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 8px;
+    margin-top: 2px;
+    background-color: white;
+}
+
+.ikon2 i:hover {
+    color: #d62323;
+    transition: 0.5s;
+}
+
+footer {
+    background-color: rgb(112, 23, 23);
+    height: 300px;
+}
+
+.footikon {
+    margin-left: 170px;
+}
+
+.footikon i {
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+.seh1 {
+    margin-top: 1px;
+    height: 250px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(..//image/ekokat2.jpeg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.seh1 h5 {
+    color: white;
+    border: 1px solid;
+    padding: 7px 42px;
+    margin-top: 70px;
+    margin-left: 1100px;
+}
+
+.ikon4 i {
+    color: rgb(218, 106, 106);
+}
+
+.ikon4 h5 {
+    padding-top: 7px;
+    padding-left: 15px;
+}
+
+.ikon4 p {
+    padding-left: 40px;
+    padding-top: 7px;
+}
+
+.surelaqe {
+    height: 160px;
+    border: 1px solid rgb(230, 227, 227);
+    background-color: rgb(230, 227, 227);
+}
+
+.fotog {
+    height: 600px;
+    background-image: url(..//image/fotogaleri.png);
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.videog {
+    height: 600px;
+    border: 2px solid black;
+    background-color: black;
+    background-size: 100% 100%;
+    position: relative;
+    text-align: center;
+}

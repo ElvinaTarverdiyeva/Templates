@@ -1,0 +1,52 @@
+.page4 {
+    width: 100%;
+    height: 450px;
+    background-color: rgba(0, 0, 0, 0.884);
+    .page4text {
+        padding: 70px 40px 0px 80px;
+        p {
+            color: rgba(128, 128, 128, 0.774);
+        }
+        h3 {
+            color: white;
+            margin: 10px 0px;
+        }
+        button {
+            border: 1px solid white;
+            padding: 5px 25px;
+            border-radius: 5px;
+            color: white;
+            background-color: transparent;
+            &:hover {
+                transition: 1s;
+                color: black;
+                background-color: white;
+            }
+        }
+    }
+}
+
+.page5 {
+    width: 100%;
+    height: 150px;
+    ul {
+        padding-top: 75px;
+        margin-left: 100px;
+        width: 900px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        li {
+            list-style: none;
+            a {
+                font-family: sans-serif;
+                color: rgba(0, 0, 0, 0.705);
+                text-decoration: none;
+                &:hover {
+                    text-decoration: underline;
+                    color: black;
+                }
+            }
+        }
+    }
+}

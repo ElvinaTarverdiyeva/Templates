@@ -1,0 +1,108 @@
+    @media screen and (max-width: 1200px) {
+        .page1 {
+            height: 800px;
+            background-image: url(../image/page6-1.png);
+            .planetname {
+                width: 600px;
+                height: 800px;
+                .planetimg {
+                    height: 60%;
+                }
+                p {
+                    width: 90%;
+                    margin-left: 30px;
+                }
+            }
+        }
+    }
+    
+    .page2 {
+        height: 600px;
+        p {
+            width: 90%;
+            margin-left: 60px;
+            margin-top: 20px;
+            font-size: 17px;
+        }
+    }
+    
+    .page3 {
+        width: 100%;
+        height: 800px;
+    }
+    
+    .page5 {
+        .container {
+            h1 {
+                font-size: 40px;
+                width: 90%;
+                margin-left: 10%;
+            }
+            p {
+                font-size: 16px;
+                width: 90%;
+            }
+        }
+    }
+    
+    @media screen and (max-width: 700px) {
+        .page1 {
+            width: 100%;
+            height: 600px;
+            .container {
+                .page1text1 {
+                    h1 {
+                        font-size: 90px;
+                        padding-top: 15%;
+                    }
+                    input {
+                        margin-right: 10px;
+                    }
+                }
+            }
+            .planetname {
+                width: 100%;
+                height: 600px;
+                .planetimg {
+                    height: 50%;
+                }
+                h1 {
+                    margin-bottom: 10px;
+                }
+                p {
+                    width: 90%;
+                    margin-left: 30px;
+                }
+            }
+        }
+        .page2 {
+            height: 700px;
+            p {
+                margin-left: 40px;
+            }
+        }
+        .page3 {
+            height: 1250px;
+            background-color: white;
+            .container {
+                height: 900px;
+                .page3photo1 {
+                    height: 80%;
+                }
+            }
+        }
+        .page4 {
+            height: 1100px;
+        }
+        .page5 {
+            height: 700px;
+            .container {
+                p {
+                    margin-left: 20px;
+                }
+            }
+        }
+        .page6 {
+            height: 700px;
+        }
+    }

@@ -1,0 +1,212 @@
+    .page2 {
+        width: 100%;
+        height: 800px;
+        padding-top: 2%;
+        .page2cont {
+            width: 90%;
+            height: 95%;
+            margin-left: 5%;
+            #page2hedh2 {
+                font-weight: bold;
+                color: white;
+                margin-left: 50px;
+            }
+            .slider1 {
+                width: 100%;
+                height: 300px;
+                margin: 40px auto;
+                overflow: hidden;
+                position: relative;
+                span {
+                    position: absolute;
+                    top: 30%;
+                    font-size: 60px;
+                    font-weight: bold;
+                    color: white;
+                    cursor: pointer;
+                    left: .5%;
+                    z-index: 1;
+                }
+                span:nth-of-type(2) {
+                    left: 98%;
+                    text-align: right;
+                }
+                section {
+                    width: 98%;
+                    height: 300px;
+                    background-color: transparent;
+                    margin: 10px auto;
+                    display: flex;
+                    justify-content: left;
+                    overflow-x: auto;
+                    .div12,
+                    .div13 {
+                        min-width: 400px;
+                        height: 220px;
+                        position: relative;
+                        left: 0;
+                        text-align: center;
+                        // padding-top: 30px;
+                        margin: 10px 20px;
+                        color: white;
+                        background-color: purple;
+                        transition: 0.5s;
+                        overflow-y: hidden;
+                        img {
+                            height: 220px;
+                            width: 400px;
+                        }
+                        .filmname1 {
+                            position: absolute;
+                            z-index: 4;
+                            h5 {
+                                margin-left: -110px;
+                                margin-top: 60px;
+                                font-weight: bold;
+                            }
+                            .div13plus {
+                                margin-left: 35px;
+                                p:nth-child(1) {
+                                    border: 2px solid grey;
+                                    padding: 3px 5px;
+                                    background-color: grey;
+                                }
+                                p:nth-child(2) {
+                                    margin-left: 10px;
+                                    margin-top: 4px;
+                                }
+                            }
+                            button {
+                                margin-left: -70px;
+                                width: 150px;
+                                height: 40px;
+                                background-color: #bf000a;
+                                color: white;
+                                border: none;
+                                text-transform: uppercase;
+                                transition: ease-out .3s;
+                                outline: none;
+                                position: relative;
+                                z-index: 1;
+                                .fa {
+                                    margin-right: 5px;
+                                }
+                                &:hover {
+                                    color: white;
+                                    cursor: pointer;
+                                }
+                                &::before {
+                                    transition: .8s all ease;
+                                    position: absolute;
+                                    top: 0;
+                                    left: 0;
+                                    right: 0;
+                                    bottom: 0;
+                                    opacity: 0;
+                                    content: "";
+                                    background-color: #e50914;
+                                }
+                                &:hover::before {
+                                    transition: .8s all ease;
+                                    left: 50%;
+                                    right: 50%;
+                                    opacity: 1;
+                                    z-index: -1;
+                                }
+                            }
+                        }
+                        .div12cover {
+                            display: none;
+                            position: absolute;
+                            z-index: 5;
+                            width: 400px;
+                            height: 220px;
+                            overflow: hidden;
+                            background-color: rgba(0, 0, 0, 0.836);
+                            // .filmname,
+                            // .ikon3 {
+                            //     border: 2px solid red;
+                            //     height: 190px;
+                            // }
+                            .filmname {
+                                h5 {
+                                    margin-left: -110px;
+                                    margin-top: 60px;
+                                    font-weight: bold;
+                                }
+                                .div13plus {
+                                    margin-left: 35px;
+                                    p:nth-child(1) {
+                                        border: 2px solid grey;
+                                        padding: 3px 5px;
+                                        background-color: grey;
+                                    }
+                                    p:nth-child(2) {
+                                        margin-left: 10px;
+                                        margin-top: 4px;
+                                    }
+                                }
+                                button {
+                                    margin-left: -70px;
+                                    width: 150px;
+                                    height: 40px;
+                                    background-color: #bf000a;
+                                    color: white;
+                                    border: none;
+                                    text-transform: uppercase;
+                                    transition: ease-out .3s;
+                                    outline: none;
+                                    position: relative;
+                                    z-index: 1;
+                                    .fa {
+                                        margin-right: 5px;
+                                    }
+                                    &:hover {
+                                        color: white;
+                                        cursor: pointer;
+                                    }
+                                    &::before {
+                                        transition: .8s all ease;
+                                        position: absolute;
+                                        top: 0;
+                                        left: 0;
+                                        right: 0;
+                                        bottom: 0;
+                                        opacity: 0;
+                                        content: "";
+                                        background-color: #e50914;
+                                    }
+                                    &:hover::before {
+                                        transition: .8s all ease;
+                                        left: 50%;
+                                        right: 50%;
+                                        opacity: 1;
+                                        z-index: -1;
+                                    }
+                                }
+                            }
+                            .ikon3 {
+                                padding-top: 25px;
+                                i {
+                                    border: 5px solid grey;
+                                    padding: 10px 12px;
+                                    border-radius: 50px;
+                                    margin-top: 10px;
+                                    color: #bf000a;
+                                    background-color: white;
+                                }
+                            }
+                        }
+                        &:hover {
+                            transform: scale(1.1, 1.1);
+                            border-left: 5px solid #bf000a;
+                            overflow: hidden;
+                        }
+                    }
+                }
+                section::-webkit-scrollbar {
+                    visibility: hidden;
+                }
+            }
+        }
+    }

@@ -1,0 +1,141 @@
+@media only screen and (max-width:2000px) {
+    .page7{
+    position: relative;
+    .page7bg{
+        position: relative;
+        z-index: 1;
+    width: 100%;
+    height: 700px;
+   
+    clip-path: polygon(0 9%, 100% 0, 100% 92%, 0% 100%);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7)), url("https://images-ext-1.discordapp.net/external/KtZFBw1vNIZoZuZyFaXTh6AqJavdw6y5SIFWfFmk_Qc/http/slimhamdi.net/salimo/demos/img/sections/facts-bg.jpg?width=1440&height=585");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    }
+    
+    .page7about{
+        width: 100%;
+        height: 60%;
+        position: absolute;
+        z-index: 3;
+        top: 18%;
+        color: white;
+        
+        h1{
+            text-align: center;
+            font-size: 55px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+           
+            span{
+                color: #ffb400;
+            }
+        }
+        h6{
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            font-size:20px;
+        }
+
+        .ikon4{
+            width: 100%;
+            height: 400px;
+      
+            .ikon4-1{
+                padding-left: 40px;
+                i{
+                    font-size: 100px;
+                    margin-top: 30%;
+                    
+                    
+                }
+                h2{
+                    margin-left: 10px;
+                    color: #ffb400;
+                    margin-top: 10px;
+                    font-size: 45px;
+                    font-weight: bold;
+                    
+                }
+                h5{
+                    margin-left: 7px;
+                }
+            }
+        }
+
+    }
+
+}
+.page7eyri{
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: 80px;
+    clip-path: polygon(0 91%, 100% 0, 100% 54%, 0% 100%);
+       background-color: #ffb400; 
+    top: -80px;
+}
+
+}
+
+
+
+@media only screen and (max-width:1000px) { 
+    .page7{
+       
+        .page7bg{
+        height: 700px;
+        }
+        
+        .page7about{
+     
+            .ikon4{
+                .ikon4-1{
+                  
+                    i{
+                        font-size: 90px;
+                  
+                    }
+             
+                }
+            }
+    
+        }
+    
+    }
+
+}
+
+
+@media only screen and (max-width:765px) {
+    .page7{
+        .page7bg{
+        height: 1500px;
+        clip-path: polygon(0 7%, 100% 0, 100% 94%, 0 99%);
+        } 
+        .page7about{
+            top: 10%;
+            .ikon4{
+                .ikon4-1{
+                    padding-left: 40px;
+                    text-align: center;
+                    i{
+                        font-size: 90px;
+                        margin-top: 10%;
+                        
+                    }
+                }
+            }
+    
+        }
+    
+    }
+    .page7eyri{
+
+        clip-path: polygon(0 84%, 100% 0, 100% 48%, 0% 100%);
+           background-color: #ffb400; 
+       top: -3%;
+
+    }
+}
+

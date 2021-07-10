@@ -1,0 +1,1477 @@
+.page1 {
+  width: 100%;
+  height: 1000px;
+  margin-top: 0px;
+  position: relative;
+}
+
+.page1 .page1text {
+  position: absolute;
+  z-index: 8;
+  width: 780px;
+  height: 500px;
+  margin-left: 32%;
+  margin-top: 18%;
+  text-align: center;
+  color: white;
+}
+
+.page1 .page1text h1 {
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.page1 .page1text button {
+  padding: 5px 20px;
+  margin-top: 50px;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+}
+
+.page1 .page1text button:hover {
+  -webkit-transition: 1s;
+  transition: 1s;
+  background-color: white;
+  color: black;
+}
+
+.page1 .circle1 {
+  display: none;
+  position: absolute;
+  top: 45%;
+  left: 95px;
+  width: 100px;
+  height: 100px;
+  background-image: url("https://images-ext-1.discordapp.net/external/lXTYqhJtUou5YeHjvzNayIXNSCaAMvbHbk4RNq2J6hY/http/www.themezaa.com/html/pofo/images/homepage-3-slider-img-3.jpg?width=1202&height=676");
+  background-size: 100% 100%;
+  border-radius: 50%;
+  z-index: 8;
+}
+
+.page1 .circle2 {
+  display: none;
+  position: absolute;
+  top: 45%;
+  right: 95px;
+  width: 100px;
+  height: 100px;
+  background-image: url("https://images-ext-2.discordapp.net/external/QgT2MJ6u9dpx-giYFHmX_it_ZMrJldavtW2vV9f-Xoo/http/www.themezaa.com/html/pofo/images/homepage-3-slider-img-1.jpg?width=1202&height=676");
+  background-size: 100% 100%;
+  border-radius: 50%;
+  z-index: 8;
+}
+
+.page1 .circle3 {
+  display: none;
+  position: absolute;
+  top: 45%;
+  left: 95px;
+  width: 100px;
+  height: 100px;
+  background-image: url("https://images-ext-2.discordapp.net/external/7DcRHBt-KGQeig-oCi6q8FeXYKv99BI4Z9IFkD144Wg/http/www.themezaa.com/html/pofo/images/homepage-option17-slider-01.jpg?width=1051&height=676");
+  background-size: 100% 100%;
+  border-radius: 50%;
+  z-index: 8;
+}
+
+.page1 .circle4 {
+  display: none;
+  position: absolute;
+  top: 45%;
+  right: 95px;
+  width: 100px;
+  height: 100px;
+  background-image: url("https://images-ext-1.discordapp.net/external/lXTYqhJtUou5YeHjvzNayIXNSCaAMvbHbk4RNq2J6hY/http/www.themezaa.com/html/pofo/images/homepage-3-slider-img-3.jpg?width=1202&height=676");
+  background-size: 100% 100%;
+  border-radius: 50%;
+  z-index: 8;
+}
+
+.page1 .circle5 {
+  display: none;
+  position: absolute;
+  top: 45%;
+  left: 95px;
+  width: 100px;
+  height: 100px;
+  background-image: url("https://images-ext-2.discordapp.net/external/QgT2MJ6u9dpx-giYFHmX_it_ZMrJldavtW2vV9f-Xoo/http/www.themezaa.com/html/pofo/images/homepage-3-slider-img-1.jpg?width=1202&height=676");
+  background-size: 100% 100%;
+  border-radius: 50%;
+  z-index: 8;
+}
+
+.page1 .circle6 {
+  display: none;
+  position: absolute;
+  top: 45%;
+  right: 95px;
+  width: 100px;
+  height: 100px;
+  background-image: url("https://images-ext-2.discordapp.net/external/7DcRHBt-KGQeig-oCi6q8FeXYKv99BI4Z9IFkD144Wg/http/www.themezaa.com/html/pofo/images/homepage-option17-slider-01.jpg?width=1051&height=676");
+  background-size: 100% 100%;
+  border-radius: 50%;
+  z-index: 8;
+}
+
+.page1 .carousel-item img {
+  -webkit-box-shadow: 20px 20px 50px 10px black inset;
+          box-shadow: 20px 20px 50px 10px black inset;
+  width: 100%;
+  height: 1000px;
+  -webkit-filter: brightness(60%);
+          filter: brightness(60%);
+}
+
+body {
+  overflow-x: hidden;
+}
+
+header {
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  z-index: 999;
+}
+
+header .navbar-brand {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+header .navbar-brand h1 {
+  color: white;
+}
+
+header .navbar-brand span {
+  color: #d35065;
+}
+
+header .collapse ul li a {
+  color: white;
+  margin: 5px 15px;
+  font-size: 13px;
+}
+
+header .collapse .ikon4 a {
+  padding: 2px 15px;
+  color: white;
+}
+
+header .collapse .ikon4 a .fa-search {
+  border: 2px solid gray;
+  border-bottom: none;
+  padding: 2px 15px;
+  border-top: none;
+}
+
+header .headersearch {
+  display: none;
+  font-family: cursive;
+  position: absolute;
+  width: 100%;
+  height: 1000px;
+  z-index: 12;
+  background-color: black;
+}
+
+header .headersearch button {
+  color: white;
+  font-size: 30px;
+  float: right;
+  border: none;
+  background-color: transparent;
+  margin-top: 40px;
+  margin-right: 40px;
+}
+
+header .headersearch .input1 {
+  border-bottom: 1px solid white;
+  margin-top: 22%;
+  width: 50%;
+  margin-left: 25%;
+}
+
+header .headersearch .input1 input {
+  width: 95%;
+  padding: 10px 40px;
+  font-size: 30px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  outline: none;
+}
+
+header .headersearch .input1 span i {
+  font-size: 30px;
+  color: white;
+  float: right;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+header .homehover {
+  padding-top: 50px;
+  display: none;
+  color: white;
+  width: 57%;
+  height: 430px;
+  background-color: rgba(32, 32, 32, 0.973);
+  position: absolute;
+  top: 70px;
+}
+
+header .homehover .homediv4 {
+  height: 300px;
+  border-right: 1px solid grey;
+}
+
+header .homehover h6 {
+  font-size: 12px;
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+
+header .homehover ul li {
+  list-style: none;
+  margin-top: 10px;
+}
+
+header .homehover ul li a {
+  color: grey;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+header .homehover ul li a:hover {
+  margin-left: 5px;
+  color: white;
+}
+
+header .homehover ul li button {
+  background-color: #d42946;
+  border: none;
+  padding: 2px 5px;
+  font-size: 12px;
+  color: white;
+}
+
+.page2 {
+  width: 100%;
+  height: 750px;
+  background-image: url("https://images-ext-2.discordapp.net/external/4utWneTbPuEdnQIG_c80Bp_GMmSssuFJCENoHuxnMOs/http/www.themezaa.com/html/pofo/images/homepage-option17-banner-bg.jpg?width=1440&height=600");
+  background-size: 100% 100%;
+}
+
+.page2 .page2div1 h6 {
+  color: #f53535;
+  margin-top: 150px;
+  margin-bottom: 15px;
+}
+
+.page2 .page2div1 h1 {
+  margin-bottom: 25px;
+}
+
+.page2 .page2div2 {
+  margin-top: 50px;
+  width: 250px;
+  height: 200px;
+  margin-left: 15px;
+}
+
+.page2 .page2div2 i {
+  font-size: 50px;
+  color: #f53535;
+  font-weight: initial;
+  margin-bottom: 15px;
+}
+
+.page2 .page2div2 p {
+  font-size: 15px;
+}
+
+.page3 {
+  font-family: sans-serif;
+  width: 100%;
+  height: 900px;
+}
+
+.page3 .page3div1 {
+  text-align: center;
+}
+
+.page3 .page3div1 h1 {
+  margin-top: 130px;
+  width: 780px;
+  margin-left: 170px;
+}
+
+.page3 .page3div1 .page3div1p {
+  margin-top: 30px;
+  width: 780px;
+  margin-left: 170px;
+}
+
+.page3 .page3div1 .page3div2 {
+  margin-top: 80px;
+  width: 260px;
+  height: 330px;
+  border: 1px solid rgba(128, 128, 128, 0.658);
+  text-align: center;
+  border-radius: 5px;
+}
+
+.page3 .page3div1 .page3div2 .ikonborder {
+  margin-top: 50px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #ee2849;
+  margin-left: 30%;
+  text-align: center;
+}
+
+.page3 .page3div1 .page3div2 .ikonborder i {
+  margin-top: 25%;
+  color: white;
+  font-size: 50px;
+}
+
+.page3 .page3div1 .page3div2 h6 {
+  margin-top: 30px;
+}
+
+.page3 .page3div1 .page3div2 p {
+  color: rgba(128, 128, 128, 0.74);
+}
+
+.page4 {
+  width: 100%;
+  height: 450px;
+  background-color: rgba(0, 0, 0, 0.884);
+}
+
+.page4 .page4text {
+  padding: 70px 40px 0px 80px;
+}
+
+.page4 .page4text p {
+  color: rgba(128, 128, 128, 0.774);
+}
+
+.page4 .page4text h3 {
+  color: white;
+  margin: 10px 0px;
+}
+
+.page4 .page4text button {
+  border: 1px solid white;
+  padding: 5px 25px;
+  border-radius: 5px;
+  color: white;
+  background-color: transparent;
+}
+
+.page4 .page4text button:hover {
+  -webkit-transition: 1s;
+  transition: 1s;
+  color: black;
+  background-color: white;
+}
+
+.page5 {
+  width: 100%;
+  height: 150px;
+}
+
+.page5 ul {
+  padding-top: 75px;
+  margin-left: 100px;
+  width: 900px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.page5 ul li {
+  list-style: none;
+}
+
+.page5 ul li a {
+  font-family: sans-serif;
+  color: rgba(0, 0, 0, 0.705);
+  text-decoration: none;
+}
+
+.page5 ul li a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.page6 {
+  width: 100%;
+  height: 700px;
+}
+
+.page6 .div1 {
+  margin-bottom: 10px;
+}
+
+.page6 .div1 img {
+  width: 465px;
+  height: 327px;
+  position: absolute;
+}
+
+.page6 .div1 img:hover {
+  -webkit-transition: 1s;
+  transition: 1s;
+  height: 235px;
+}
+
+.page6 .div1 .page6text1 {
+  margin-top: 265px;
+  text-align: center;
+}
+
+.page7 {
+  width: 100%;
+  height: 600px;
+  font-family: cursive;
+}
+
+.page7 div {
+  height: 100%;
+}
+
+.page7 .page7photo {
+  width: 100%;
+  height: 65%;
+  background-image: url("https://images-ext-2.discordapp.net/external/PQ97QLWoVPJulx-oizyyXYUh9s1hfOdqiggAL0rvbmc/http/www.themezaa.com/html/pofo/images/explore-work-02.png");
+  background-size: 100% 100%;
+  margin-top: 20%;
+}
+
+.page7 .page7text1 h1 {
+  margin-top: 20%;
+  margin-bottom: 15px;
+}
+
+.page7 .page7text1 p {
+  margin-top: 15px;
+  color: grey;
+  font-size: 13px;
+}
+
+.page7 .page7text1 button {
+  text-transform: uppercase;
+  border-radius: 5px;
+  padding: 5px 15px;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+}
+
+.page7 .page7text1 button i {
+  color: white;
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+.page7 .page7text1 button:hover {
+  -webkit-transition: 1s;
+  transition: 1s;
+  background-color: white;
+  color: black;
+}
+
+.page7 .page7text1 button:hover i {
+  color: black;
+}
+
+.page8 {
+  width: 100%;
+  height: 700px;
+  background-color: #f3f1f1;
+}
+
+.page8 .page8text1,
+.page8 .page8img {
+  height: 700px;
+}
+
+.page8 .page8img {
+  background-image: url("https://images-ext-1.discordapp.net/external/nN9hEi0Wdi5j9K9QfxLdfCzcrLf546OwSApRhVhsfMU/http/www.themezaa.com/html/pofo/images/services-classic-07.jpg");
+  background-size: 100% 100%;
+}
+
+.page8 .page8text1 {
+  padding-left: 5%;
+}
+
+.page8 .page8text1 h1 {
+  margin-top: 10%;
+  width: 400px;
+  font-size: 45px;
+  margin-bottom: 50px;
+}
+
+.page8 .page8text1 .page8div4 {
+  height: 200px;
+  padding-top: 20px;
+  font-family: cursive;
+  color: grey;
+}
+
+.page8 .page8text1 .page8div4 div {
+  height: 100%;
+}
+
+.page8 .page8text1 .page8div4 .row i {
+  font-size: 55px;
+}
+
+.page8 .page8text1 .page8div4 .row h5 {
+  margin: 5px 0px 10px;
+  color: black;
+}
+
+.page9 {
+  width: 100%;
+  height: 700px;
+  text-align: center;
+  padding-top: 4%;
+}
+
+.page9 hr {
+  height: 1px;
+  width: 100px;
+  background-color: red;
+}
+
+.page9 .container {
+  margin-top: 90px;
+}
+
+.page9 .container .page8imgs {
+  height: 350px;
+  text-align: center;
+}
+
+.page9 .container .page8imgs .page9text2 {
+  position: absolute;
+  top: 280px;
+  left: 23%;
+}
+
+.page9 .container .page8imgs .page9text2 p {
+  color: grey;
+}
+
+.page9 .container .page8imgs .middle {
+  position: absolute;
+}
+
+.page9 .container .page8imgs .img1 {
+  margin-top: -20px;
+  cursor: pointer;
+  width: 100%;
+  height: 500px;
+}
+
+.page9 .container .page8imgs .front,
+.page9 .container .page8imgs .back {
+  width: 90%;
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  position: absolute;
+  -webkit-transition: -webkit-transform .2s linear;
+  transition: -webkit-transform .2s linear;
+  transition: transform .2s linear;
+  transition: transform .2s linear, -webkit-transform .2s linear;
+}
+
+.page9 .container .page8imgs .front {
+  -webkit-transform: perspective(600px) rotateY(0deg);
+          transform: perspective(600px) rotateY(0deg);
+}
+
+.page9 .container .page8imgs .back {
+  height: 55%;
+  background-color: #d41f3d;
+  -webkit-transform: perspective(600px) rotateX(180deg);
+          transform: perspective(600px) rotateX(180deg);
+}
+
+.page9 .container .page8imgs .back-content {
+  color: #2c3e50;
+  text-align: center;
+  width: 100%;
+}
+
+.page9 .container .page8imgs .back-content p {
+  margin-top: 30%;
+  color: white;
+  text-align: center;
+  padding: 0px 40px;
+}
+
+.page9 .container .page8imgs .img1:hover > .front {
+  -webkit-transform: perspective(600px) rotateX(-180deg);
+          transform: perspective(600px) rotateX(-180deg);
+}
+
+.page9 .container .page8imgs .img1:hover > .back {
+  -webkit-transform: perspective(600px) rotateX(0deg);
+          transform: perspective(600px) rotateX(0deg);
+}
+
+.page10 {
+  width: 100%;
+  height: 900px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.75)), color-stop(rgba(22, 22, 22, 0.75)), to(rgba(22, 22, 22, 0.75))), url("https://images-ext-1.discordapp.net/external/Air9f0DejugQ9MIGur041sv67SoD2EYxf_qSkULYFWw/http/www.themezaa.com/html/pofo/images/homepage-9-parallax-img5.jpg?width=1082&height=676");
+  background-image: linear-gradient(rgba(22, 22, 22, 0.75), rgba(22, 22, 22, 0.75), rgba(22, 22, 22, 0.75)), url("https://images-ext-1.discordapp.net/external/Air9f0DejugQ9MIGur041sv67SoD2EYxf_qSkULYFWw/http/www.themezaa.com/html/pofo/images/homepage-9-parallax-img5.jpg?width=1082&height=676");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.page10 .page10img {
+  height: 900px;
+}
+
+.page10 .page10img img {
+  width: 100%;
+  height: 70%;
+  margin-top: 100px;
+}
+
+.page10 .page10text1 {
+  height: 900px;
+  color: white;
+}
+
+.page10 .page10text1 h1 {
+  font-size: 50px;
+  width: 700px;
+  margin-top: 100px;
+  color: white;
+}
+
+.page10 .page10text1 p {
+  color: rgba(128, 128, 128, 0.815);
+  width: 500px;
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+.page10 .page10text1 p i {
+  color: #dd1e3e;
+}
+
+.page10 .page10text1 hr {
+  background-color: rgba(128, 128, 128, 0.815);
+  width: 500px;
+  float: left;
+  margin-top: -5px;
+}
+
+.page10 .page10text1 button {
+  text-transform: uppercase;
+  border-radius: 5px;
+  padding: 5px 15px;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  margin-top: 50px;
+}
+
+.page10 .page10text1 button i {
+  color: black;
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+.page10 .page10text1 button:hover {
+  -webkit-transition: 1s;
+  transition: 1s;
+  background-color: black;
+  color: white;
+}
+
+.page10 .page10text1 button:hover i {
+  color: white;
+}
+
+.page11 {
+  width: 100%;
+  height: 600px;
+}
+
+.page11 .container {
+  height: 600px;
+}
+
+.page11 .container .page11img {
+  width: 500px;
+  height: 400px;
+  margin: 100px 50px;
+  background-image: url("https://images-ext-1.discordapp.net/external/oUa5HH3vIiiB5ZciZ8DPow7k49GllAhUItqWZ08Mo4g/http/www.themezaa.com/html/pofo/images/image-8.jpg");
+  background-size: 100% 100%;
+}
+
+.page11 .container .page11text {
+  margin: 100px 50px;
+}
+
+.page11 .container .page11text h6 {
+  color: #df2343;
+}
+
+.page11 .container .page11text p {
+  margin-top: 30px;
+  color: gray;
+}
+
+.page11 .container .page11text button {
+  text-transform: uppercase;
+  border-radius: 5px;
+  padding: 5px 15px;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  margin-top: 50px;
+}
+
+.page11 .container .page11text button i {
+  color: white;
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+.page11 .container .page11text button:hover {
+  -webkit-transition: 1s;
+  transition: 1s;
+  background-color: white;
+  color: black;
+}
+
+.page11 .container .page11text button:hover i {
+  color: black;
+}
+
+.page12 {
+  margin-top: 100px;
+  width: 100%;
+  height: 300px;
+}
+
+.page12 .container {
+  border-top: 1px solid rgba(128, 128, 128, 0.753);
+}
+
+.page12 .container .page8text1 {
+  height: 300px;
+  padding-left: 5%;
+}
+
+.page12 .container .page8text1 h1 {
+  margin-top: 10%;
+  width: 400px;
+  font-size: 45px;
+  margin-bottom: 50px;
+}
+
+.page12 .container .page8text1 .page8div4 {
+  height: 200px;
+  padding-top: 20px;
+  font-family: cursive;
+  color: grey;
+}
+
+.page12 .container .page8text1 .page8div4 div {
+  height: 100%;
+}
+
+.page12 .container .page8text1 .page8div4 .row i {
+  font-size: 55px;
+}
+
+.page12 .container .page8text1 .page8div4 .row h5 {
+  margin: 5px 0px 10px;
+  color: black;
+}
+
+.page13 {
+  width: 100%;
+  height: 650px;
+  background-color: #f3f1f1;
+}
+
+.page13 .container-fluid {
+  height: 650px;
+}
+
+.page13 .container-fluid .page11img {
+  width: 100%;
+  height: 650px;
+  background-image: url("https://images-ext-2.discordapp.net/external/Paj85tLYVUCTDZQ_9vg_Bkd_ZdKr4-dk4QFLbGCYwwI/http/www.themezaa.com/html/pofo/images/parallax-bg11.jpg?width=957&height=676");
+  background-size: 100% 100%;
+}
+
+.page13 .container-fluid .page11text {
+  margin: 100px 50px;
+}
+
+.page13 .container-fluid .page11text h6 {
+  color: #df2343;
+}
+
+.page13 .container-fluid .page11text h1 {
+  width: 500px;
+}
+
+.page13 .container-fluid .page11text p {
+  margin-top: 30px;
+  color: gray;
+  width: 500px;
+}
+
+.page13 .container-fluid .page11text button {
+  text-transform: uppercase;
+  border-radius: 5px;
+  padding: 5px 15px;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  margin-top: 50px;
+}
+
+.page13 .container-fluid .page11text button i {
+  color: white;
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+.page13 .container-fluid .page11text button:hover {
+  -webkit-transition: 1s;
+  transition: 1s;
+  background-color: white;
+  color: black;
+}
+
+.page13 .container-fluid .page11text button:hover i {
+  color: black;
+}
+
+.page14 {
+  width: 100%;
+  height: 140px;
+}
+
+.page14 .container {
+  margin-top: 100px;
+}
+
+.page14 .container .page14div4 {
+  text-align: center;
+}
+
+.page14 .container .page14div4 i {
+  font-size: 70px;
+  color: gray;
+}
+
+.page14 .container .page14div4 p {
+  width: 150px;
+  float: left;
+  color: gray;
+}
+
+.page15 {
+  width: 100%;
+  height: 650px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.75)), color-stop(rgba(22, 22, 22, 0.75)), to(rgba(22, 22, 22, 0.75))), url("https://images-ext-1.discordapp.net/external/FkOSEEl3Xwd92fP54fQAgsp_jTWpxDInvTPF-y6Tt6o/http/www.themezaa.com/html/pofo/images/parallax-bg6.jpg?width=1180&height=676");
+  background-image: linear-gradient(rgba(22, 22, 22, 0.75), rgba(22, 22, 22, 0.75), rgba(22, 22, 22, 0.75)), url("https://images-ext-1.discordapp.net/external/FkOSEEl3Xwd92fP54fQAgsp_jTWpxDInvTPF-y6Tt6o/http/www.themezaa.com/html/pofo/images/parallax-bg6.jpg?width=1180&height=676");
+  background-size: 100% 100%;
+}
+
+.page15 .container {
+  text-align: center;
+}
+
+.page15 .container .page15ikon {
+  font-size: 100px;
+  padding-top: 70px;
+}
+
+.page15 .container .page15ikon i {
+  color: white;
+}
+
+.page15 .container h1 {
+  color: white;
+}
+
+.page15 .container p {
+  color: gray;
+}
+
+.page15 .container button {
+  text-transform: uppercase;
+  border-radius: 5px;
+  padding: 5px 15px;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  margin-top: 50px;
+}
+
+.page15 .container button i {
+  color: black;
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+.page15 .container button:hover {
+  -webkit-transition: 1s;
+  transition: 1s;
+  background-color: black;
+  color: white;
+}
+
+.page15 .container button:hover i {
+  color: white;
+}
+
+.page16 {
+  width: 100%;
+  height: 200px;
+}
+
+.seventeen {
+  height: 730px;
+  width: 100%;
+  background-color: #f3f1f1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.seventeen .seventeen-txt {
+  height: 250px;
+  width: 300px;
+  text-align: center;
+  padding: 70px 0;
+  margin-left: 36%;
+}
+
+.seventeen .seventeen-txt hr {
+  background-color: #ff214f;
+  width: 80px;
+}
+
+.seventeen .seventeen-txt p {
+  font-size: 14px;
+  color: rgba(92, 91, 91, 0.9);
+}
+
+.seventeen .seventeen-txt h2 {
+  font-weight: 600;
+}
+
+.seventeen .seventeen-cards {
+  height: 350px;
+  width: 100%;
+}
+
+.seventeen .seventeen-cards .cards-1 {
+  background-color: white;
+  height: 360px;
+  width: 95%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 7px;
+}
+
+.seventeen .seventeen-cards .cards-1 img {
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  margin: 30px 0;
+}
+
+.seventeen .seventeen-cards .cards-1 p {
+  width: 70%;
+  margin: 20px 0;
+  font-size: 14px;
+  text-align: center;
+  color: rgba(92, 91, 91, 0.9);
+}
+
+.seventeen .seventeen-cards .cards-1 h5 {
+  font-size: 18px;
+}
+
+.seventeen .seventeen-cards .cards-1 span {
+  color: rgba(92, 91, 91, 0.9);
+  font-size: 11px;
+}
+
+.page18 {
+  width: 100%;
+  height: 800px;
+}
+
+.page18 .container {
+  height: 100%;
+}
+
+.page18 .container .page18hed {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.page18 .container .page18hed hr {
+  width: 100px;
+  background-color: #db2a47;
+}
+
+.page18 .container .page18kards img {
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+}
+
+.page18 .container .page18kards img:hover {
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+  position: relative;
+}
+
+.page18 .container .page18kards p {
+  margin-top: 20px;
+  color: grey;
+  font-size: 11px;
+}
+
+.page18 .container .page18kards a {
+  color: black;
+  text-decoration: none;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+.page18 .container .page18kards a:hover {
+  color: #db2a47;
+}
+
+.page18 .container .page18kards hr {
+  margin: 20px 0px;
+}
+
+footer {
+  width: 100%;
+  height: 170px;
+  background-color: black;
+}
+
+footer .div1 {
+  margin-top: 70px;
+}
+
+footer .div1 p {
+  color: grey;
+}
+
+footer .div2 {
+  margin-top: 40px;
+  text-align: center;
+}
+
+footer .div2 a {
+  text-decoration: none;
+  color: white;
+  font-size: 50px;
+}
+
+footer .div2 a span {
+  color: #db2a47;
+}
+
+footer .div3 {
+  margin-top: 70px;
+}
+
+footer .div3 p {
+  color: grey;
+}
+
+footer .div3 .links {
+  margin-left: 20px;
+}
+
+footer .div3 .links i {
+  color: white;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 1000px) {
+  body {
+    overflow-x: hidden;
+  }
+  header .navbar-nav {
+    display: none;
+  }
+  header .ikon4 {
+    margin-top: -70px;
+  }
+  .page1 .page1text {
+    margin-left: 10%;
+    margin-top: 30%;
+  }
+  .page1 .circle1 {
+    left: 20px;
+  }
+  .page1 .circle2 {
+    right: 20px;
+  }
+  .page1 .circle3 {
+    left: 20px;
+  }
+  .page1 .circle4 {
+    right: 20px;
+  }
+  .page1 .circle5 {
+    left: 20px;
+  }
+  .page1 .circle6 {
+    right: 20px;
+  }
+  .page2 {
+    height: 1000px;
+    background-image: none;
+    background-color: #f3f1f1;
+    text-align: center;
+  }
+  .page2 .page2div2 {
+    margin-left: 200px;
+  }
+  .page3 {
+    height: 1300px;
+  }
+  .page3 .page3div1 {
+    text-align: center;
+  }
+  .page3 .page3div1 h1 {
+    margin-top: 130px;
+    width: 780px;
+    margin-left: 0px;
+  }
+  .page3 .page3div1 .page3div1p {
+    margin-left: 0px;
+  }
+  .page3 .page3div1 .page3div2 {
+    margin-left: 80px;
+  }
+  .page4 {
+    width: 100%;
+    height: 1600px;
+    background-color: rgba(0, 0, 0, 0.884);
+  }
+  .page4 .row div {
+    margin-bottom: 20px;
+  }
+  .page5 {
+    height: 270px;
+  }
+  .page5 ul {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-left: -100px;
+  }
+  .page6 {
+    height: 1400px;
+  }
+  .page6 .div1 img {
+    width: 440px;
+  }
+  .page7 {
+    height: 1200px;
+  }
+  .page7 div {
+    height: 600px;
+  }
+  .page8 {
+    height: 1400px;
+  }
+  .page8 .page8text1 h1 {
+    width: 100%;
+    margin-left: 100px;
+  }
+  .page9 {
+    height: 700px;
+  }
+  .page9 .container .page8imgs .page9text2 {
+    top: 240px;
+    left: 13%;
+  }
+  .page9 .container .page8imgs .front {
+    height: 45%;
+  }
+  .page9 .container .page8imgs .back {
+    height: 45%;
+  }
+  .page10 {
+    height: 1500px;
+  }
+  .page10 .page10img {
+    height: 800px;
+  }
+  .page10 .page10text1 {
+    margin-left: 100px;
+    height: 800px;
+  }
+  .page11 {
+    height: 1200px;
+  }
+  .page13 {
+    height: 1200px;
+  }
+  .page14 {
+    height: 300px;
+  }
+  .page14 .container {
+    margin-top: 180px;
+  }
+  .page16 {
+    width: 100%;
+    height: 450px;
+  }
+  .page16 .container {
+    margin-left: 330px;
+  }
+  .seventeen {
+    height: 1100px;
+  }
+  .seventeen .seventeen-txt {
+    margin-left: 30%;
+  }
+  .seventeen .seventeen-cards .cards-1 {
+    margin-bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  header .collapse .ikon4 a .fa-facebook,
+  header .collapse .ikon4 a .fa-twitter,
+  header .collapse .ikon4 a .fa-dribbble {
+    display: none;
+  }
+  header .collapse .ikon4 a .fa-search {
+    display: block;
+  }
+  .page1 {
+    height: 900px;
+  }
+  .page1 .page1text {
+    margin-left: -130px;
+    margin-top: 70%;
+  }
+  .page1 .page1text p {
+    font-size: 12px;
+  }
+  .page1 .page1text h1 {
+    font-size: 30px;
+  }
+  .page1 .carousel-control-prev {
+    display: none;
+  }
+  .page1 .carousel-control-next {
+    display: none;
+  }
+  .page2 {
+    height: 1000px;
+  }
+  .page3 {
+    height: 2200px;
+  }
+  .page3 .page3div1 h1 {
+    width: 390px;
+    margin-left: 40px;
+  }
+  .page3 .page3div1 .page3div1p {
+    margin-top: 30px;
+    width: 430px;
+    margin-left: 10px;
+  }
+  .page4 {
+    height: 1700px;
+  }
+  .page5 ul {
+    margin-left: 0px;
+    width: 400px;
+  }
+  .page5 ul li {
+    list-style: none;
+  }
+  .page5 ul li a {
+    font-size: 11px;
+  }
+  .page6 {
+    height: 2800px;
+  }
+  .page8 {
+    height: 1800px;
+  }
+  .page8 .page8text1 {
+    height: 1050px;
+  }
+  .page8 .page8text1 h1 {
+    margin-left: 60px;
+  }
+  .page8 .page8text1 .page8div4 .row i {
+    font-size: 55px;
+  }
+  .page8 .page8text1 .page8div4 .row h5 {
+    margin-top: -200px;
+    margin-left: 80px;
+  }
+  .page8 .page8text1 .page8div4 .row p {
+    margin-left: 80px;
+  }
+  .page9 {
+    height: 1300px;
+    background-size: contain;
+  }
+  .page9 .container .page8imgs .page9text2 {
+    left: 26%;
+  }
+  .page10 .page10text1 {
+    margin-left: 0px;
+  }
+  .page10 .page10text1 h1 {
+    font-size: 40px;
+    width: 450px;
+  }
+  .page11 {
+    height: 1100px;
+  }
+  .page11 .container .page11img {
+    margin: 50px -15px;
+  }
+  .page11 .container .page11text {
+    margin: 150px 10px;
+  }
+  .page14 {
+    height: 650px;
+  }
+  .page14 .container .page14div4 {
+    text-align: center;
+  }
+  .page14 .container .page14div4 p {
+    width: 150px;
+    float: none;
+    color: gray;
+    margin-left: 150px;
+  }
+  .page15 {
+    height: 550px;
+  }
+  .page15 .container {
+    text-align: center;
+  }
+  .page15 .container .page15ikon {
+    font-size: 80px;
+    padding-top: 10px;
+  }
+  .page15 .container h1 {
+    font-size: 20px;
+  }
+  .page15 .container p {
+    font-size: 13px;
+  }
+  .page15 .container button {
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 5px 15px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    margin-top: 50px;
+  }
+  .page15 .container button i {
+    color: black;
+    font-size: 20px;
+    margin-right: 15px;
+  }
+  .page15 .container button:hover {
+    -webkit-transition: 1s;
+    transition: 1s;
+    background-color: black;
+    color: white;
+  }
+  .page15 .container button:hover i {
+    color: white;
+  }
+  .page16 {
+    width: 100%;
+    height: 450px;
+  }
+  .page16 .container {
+    margin-left: 80px;
+  }
+  .seventeen {
+    height: 1500px;
+  }
+  .seventeen .seventeen-txt {
+    margin-left: 20%;
+  }
+  .seventeen .seventeen-cards .cards-1 {
+    margin-bottom: 50px;
+    margin-left: 20px;
+  }
+  .page18 {
+    height: 1800px;
+  }
+  footer {
+    height: 400px;
+    text-align: center;
+  }
+  footer .div3 {
+    margin-left: 25%;
+  }
+}
+/*# sourceMappingURL=style.css.map */

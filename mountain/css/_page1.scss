@@ -1,0 +1,96 @@
+    body {
+        height: 3000px;
+    }
+    
+    .page1 {
+        height: 1000px;
+        width: 100%;
+        background-image: url(../image/page1bg.jpg);
+        background-size: 100% 100%;
+        font-family: cursive;
+        .menudiv {
+            display: none;
+            width: 300px;
+            height: 100%;
+            background-color: black;
+            position: absolute;
+            animation: menudiv 1s linear;
+            .buttonX {
+                float: right;
+                border: none;
+                background-color: transparent;
+                color: white;
+                font-size: 30px;
+            }
+            ul {
+                margin-top: 40px;
+                margin-left: 50px;
+                li {
+                    color: white;
+                    list-style: none;
+                    margin-bottom: 10px;
+                    a {
+                        color: white;
+                        text-decoration: none;
+                        &:hover {
+                            color: red;
+                        }
+                    }
+                }
+            }
+        }
+        .container {
+            height: 100%;
+            position: relative;
+            button {
+                float: right;
+                border: none;
+                background-color: transparent;
+                i {
+                    font-size: 30px;
+                    color: white;
+                    margin-top: 25px;
+                }
+            }
+            .div-right {
+                width: 450px;
+                height: 450px;
+                border: 10px solid #f6b83b94;
+                border-right: none;
+                position: absolute;
+                margin-top: 550px;
+                p:nth-child(1) {
+                    background-color: #ffb04275;
+                    width: 400px;
+                    height: 30px;
+                    float: right;
+                    margin-top: 40px;
+                    padding: 3px 10px;
+                    color: white;
+                }
+                h2 {
+                    width: 600px;
+                    margin-top: 150px;
+                    margin-left: 60px;
+                    font-size: 60px;
+                    color: white;
+                }
+                .text1 {
+                    color: white;
+                    margin-left: 56px;
+                    width: 860px;
+                    margin-top: 30px;
+                    font-size: 19px;
+                }
+                a {
+                    text-decoration: none;
+                    border-bottom: 2px solid white;
+                    color: white;
+                    padding: 10px 0;
+                    position: absolute;
+                    margin-left: 56px;
+                    font-size: 19px;
+                }
+            }
+        }
+    }

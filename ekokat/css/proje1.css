@@ -1,0 +1,72 @@
+*,
+head,
+body {
+    margin: 0px;
+}
+
+body {
+    height: 2050px;
+    /* background-color: black; */
+}
+
+.header1 {
+    background-color: #60686e;
+}
+
+.header1 p,
+button {
+    padding-right: 20px;
+}
+
+.header1 {
+    padding-left: 1400px;
+    padding-top: 10px;
+}
+
+.header3 {
+    border: 2px solid gray;
+}
+
+.navmenu ul li {
+    padding: 5px 75px;
+    border-right: 2px solid gray;
+}
+
+header {
+    position: fixed;
+}
+
+
+/* 
+.menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+} */
+
+.ikon1 i {
+    color: white;
+    background-color: black;
+    border-radius: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.btngrup {
+    border: 1px solid rgb(211, 208, 208);
+    width: 300px;
+    height: 55px;
+    border-radius: 0px 30px 30px 0px;
+}
+
+.btngrup button {
+    border-radius: 15px;
+    height: 40px;
+    margin: auto;
+    margin-right: 5px;
+}
+
+.btngrup button:hover {
+    background-color: black;
+    color: white;
+}

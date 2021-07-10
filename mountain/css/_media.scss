@@ -1,0 +1,186 @@
+    @media screen and (max-width: 980px) {
+        .page1 {
+            .container {
+                .div-right {
+                    .text1 {
+                        width: 700px;
+                    }
+                }
+            }
+        }
+        .page2 {
+            .container {
+                .page2text {
+                    height: 630px;
+                    .borderleft {
+                        float: none;
+                        margin-left: 150px;
+                        h1 {
+                            margin-left: -90px;
+                        }
+                        p {
+                            margin-left: -90px;
+                            width: 340px;
+                        }
+                        a {
+                            margin-top: -10px;
+                        }
+                    }
+                }
+            }
+        }
+        .page4 {
+            height: 700px;
+            .div4div2 {
+                margin-bottom: 30px;
+            }
+        }
+        .page5 {
+            .container {
+                .page5div1 {
+                    width: 200px;
+                    h1 {
+                        font-size: 30px;
+                    }
+                    p {
+                        width: 300px;
+                    }
+                }
+                .page5div2 {
+                    width: 220px;
+                    float: none;
+                    margin-left: 480px;
+                    .photo {
+                        width: 300px;
+                        .photo2 {
+                            width: 300px;
+                        }
+                    }
+                    p {
+                        width: 200px;
+                    }
+                }
+            }
+        }
+        .page6 {
+            height: 950px;
+            .div3 {
+                margin-left: -100px;
+            }
+        }
+    }
+    
+    @media screen and (max-width: 700px) {
+        body {
+            height: 3000px;
+        }
+        .page1 {
+            .container {
+                .div-right {
+                    width: 400px;
+                    height: 600px;
+                    margin-top: 300px;
+                    p:nth-child(1) {
+                        width: 340px;
+                    }
+                    h2 {
+                        width: 400px;
+                        font-size: 40px;
+                    }
+                    .text1 {
+                        width: 400px;
+                        margin-top: 30px;
+                        font-size: 18px;
+                    }
+                    a {
+                        border-bottom: 2px solid #f6b83b;
+                    }
+                }
+            }
+        }
+        .page2 {
+            height: 1350px;
+            padding-top: 0px;
+            .borderleft {
+                float: none;
+                margin-left: 150px;
+                h1 {
+                    width: 350px;
+                }
+            }
+        }
+        .page3 {
+            height: 750px;
+            .container {
+                .page3text1 {
+                    .page3div {
+                        h1 {
+                            width: 400px;
+                            font-size: 30px;
+                        }
+                    }
+                    p {
+                        width: 470px;
+                    }
+                }
+                .page3text2 {
+                    p {
+                        float: none;
+                        margin-bottom: 680px;
+                    }
+                }
+            }
+        }
+        .page4 {
+            height: 1300px;
+        }
+        .page5 {
+            height: 1440px;
+            .container {
+                .page5div2 {
+                    float: none;
+                    margin-top: 600px;
+                    margin-left: 70px;
+                    .photo {
+                        width: 400px;
+                        height: 600px;
+                        .photo2 {
+                            width: 380px;
+                            height: 580px;
+                        }
+                    }
+                }
+            }
+        }
+        .page6 {
+            height: 900px;
+            .container {
+                .div2 {
+                    width: 600px;
+                    height: 800px;
+                    h1 {
+                        width: 440px;
+                        font-size: 33px;
+                        margin-top: 0px;
+                        margin-bottom: 50px;
+                        margin-left: 30px;
+                    }
+                    input {
+                        width: 400px;
+                    }
+                    textarea {
+                        width: 400px;
+                    }
+                    button {
+                        margin-left: 25%;
+                    }
+                }
+                .div3 {
+                    margin-left: -270px;
+                }
+            }
+        }
+        .page7 {
+            height: 600px;
+        }
+    }

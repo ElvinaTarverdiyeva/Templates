@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/680b959cea.js" crossorigin="anonymous"></script>
+    <title>Hello, world!</title>
+    <link rel="stylesheet" href="scss/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous"
+    />
+
+</head>
+
+<body>
+    <div class="search1">
+        <i class="fas fa-times-circle closeX"></i>
+        <br>
+        <div class="inputsearch">
+
+            <i class="fas fa-search"></i>
+            <input type="search" placeholder="Discover news,articles and more.">
+        </div>
+    </div>
+    <div class="menutel">
+        <i class="fas fa-times-circle closeX"></i>
+        <div class="menu1">
+            <h5>Main Menu</h5>
+            <ul>
+                <li>
+                    <a href="">Home</a>
+                </li>
+                <li>
+                    <a href="">Tutors</a>
+                </li>
+                <li>
+                    <a href="">Contact</a>
+                </li>
+            </ul>
+            <hr>
+            <h5>Topics</h5>
+            <ul>
+                <li>
+                    <a href="">CSS3</a>
+                </li>
+                <li>
+                    <a href="">Gatsby</a>
+                </li>
+                <li>
+                    <a href="">JavaScript</a>
+                </li>
+                <li>
+                    <a href="">React</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <header>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-4 hed">
+                    <img src="https://images-ext-2.discordapp.net/external/AUd0Jks1dNMc1ACF6VW7qWRtt_zy7-SmWoWHhsW5uf4/https/flexiblog-education.netlify.app/static/bad5f02928a2842d0cf1f649d6f7d1da/86eb4/logo-dark.png" alt="">
+                </div>
+                <div class="col-sm-5 telmod1">
+                    <div class="telmod">
+                        <i class="fas fa-moon" id="moon"></i>
+                        <i class="fas fa-sun" id="sun"></i>
+                        <i class="fas fa-search" id="search"></i>
+                        <i class="fas fa-bars" id="bars"></i>
+                    </div>
+
+                </div>
+                <div class="col-md-4 ">
+                    <div class="inputsearch">
+                        <i class="fas fa-search"></i>
+                        <input type="search" placeholder="Discover news,articles and more.">
+                    </div>
+                </div>
+                <div class="col-md-4 navbar">
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="tutors.html">Tutors</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                        <li>
+                            <div class="mod2" id="mod2">
+                                <div class="row">
+                                    <i class="fas fa-moon"></i>
+                                    <i class="fas fa-circle" id="circClick"></i>
+                                    <i class="fas fa-sun"></i>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <div class="container">
+        <section class="page1">
+            <img src="https://images-ext-2.discordapp.net/external/GOGHNUpYGa_KnIFOXhuc5gCtsZMZruO5xtZ238AOsMU/https/flexiblog-education.netlify.app/static/55c518cf9240d101e0fea78cb5f9e675/hero.png" alt="">
+            <h1>Learn React in 30 days with great instructors!</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br> sed do eiusmod tempor incididunt ut labore et.
+            </p>
+            <button id="btn1">Start Learning</button>
+            <button id="btn2">View Tutors</button>
+            <div class="imghover">
+                <div class="row">
+                    <div class="col-sm-3"><i class="fas fa-user-graduate"></i></div>
+                    <div class="col-sm-3">
+                        <h5>250+</h5>
+                        <h6>LESSONS</h6>
+                    </div>
+                    <div class="col-sm-3">
+                        <h5>30+</h5>
+                        <h6>COURSES</h6>
+                    </div>
+                    <div class="col-sm-3">
+                        <h5>15+</h5>
+                        <h6>TUTORS</h6>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="page2">
+            <div class="basliq2">
+                <h3>Featured this month</h3>
+            </div>
+
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img src="https://media.discordapp.net/attachments/838713501240524871/841277614610055178/css.jpg?width=1073&height=670" alt="">
+                    <div class="content">
+                        <div class="row1 row pt-4 pl-4">
+                            <button style="background-color: #5290af;">CSS3</button>
+                        </div>
+                        <div class="row2 row pl-4 pt-2">
+                            <h3>Magic Flip Cards <br> Solving A Common <br> Sizing Problem</h3>
+                        </div>
+                        <div class="row3 row pl-4 pt-3 pb-3">
+                            <div class="img">
+                                <a href=""><img src="https://media.discordapp.net/attachments/838713501240524871/841277682071371847/john-doe.png" alt=""></a>
+                            </div>
+                            <div class="row3-1 pl-3 row flex-column justify-content-around">
+                                <div class="name row">
+                                    <p>John Doe</p>
+                                </div>
+                                <div class="date row">
+                                    <p>March 20, 2020 </p>
+                                    <p style="margin-left: 10px;"><i class="far fa-clock"></i> 1 min</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="https://media.discordapp.net/attachments/838713501240524871/841277657844416512/gatsby2.jpg?width=894&height=670" alt="">
+                    <div class="content">
+                        <div class="row1 row pt-4 pl-4">
+                            <button style="background-color: #806b94;">Gatsby</button>
+                        </div>
+                        <div class="row2 row pl-4 pt-2">
+                            <h3>Magic Flip Cards <br> Solving A Common <br> Sizing Problem</h3>
+                        </div>
+                        <div class="row3 row pl-4 pt-3 pb-3">
+                            <div class="img">
+                                <a href=""><img src="https://media.discordapp.net/attachments/838713501240524871/841277682071371847/john-doe.png" alt=""></a>
+                            </div>
+                            <div class="row3-1 pl-3 row flex-column justify-content-around">
+                                <div class="name row">
+                                    <p>John Doe</p>
+                                </div>
+                                <div class="date row">
+                                    <p>March 20, 2020 </p>
+                                    <p style="margin-left: 10px;"><i class="far fa-clock"></i> 1 min</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="https://media.discordapp.net/attachments/838713501240524871/841277666548252682/react.png?width=1206&height=670" alt="">
+                    <div class="content">
+                        <div class="row1 row pt-4 pl-4">
+                            <button style="background-color: #7b96c8;">React</button>
+                        </div>
+                        <div class="row2 row pl-4 pt-4">
+                            <h3>Programmatically <br> Create Pages From Data</h3>
+                        </div>
+                        <div class="row3 row pl-4 pt-3 pb-3">
+                            <div class="img">
+                                <a href=""><img src="https://media.discordapp.net/attachments/838713501240524871/841277682071371847/john-doe.png" alt=""></a>
+                            </div>
+                            <div class="row3-1 pl-3 row flex-column justify-content-around">
+                                <div class="name row">
+                                    <p>John Doe</p>
+                                </div>
+                                <div class="date row">
+                                    <p>March 20, 2020 </p>
+                                    <p style="margin-left: 10px;"><i class="far fa-clock"></i> 1 min</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="https://media.discordapp.net/attachments/838713501240524871/841277666548252682/react.png?width=1206&height=670" alt="">
+                    <div class="content">
+                        <div class="row1 row pt-4 pl-4">
+                            <button style="background-color: #7b96c8;">React</button>
+                        </div>
+                        <div class="row2 row pl-4 pt-4">
+                            <h3>Programmatically <br> Create Pages From Data</h3>
+                        </div>
+                        <div class="row3 row pl-4 pt-3 pb-3">
+                            <div class="img">
+                                <a href=""><img src="https://media.discordapp.net/attachments/838713501240524871/841277682071371847/john-doe.png" alt=""></a>
+                            </div>
+                            <div class="row3-1 pl-3 row flex-column justify-content-around">
+                                <div class="name row">
+                                    <p>John Doe</p>
+                                </div>
+                                <div class="date row">
+                                    <p>March 20, 2020 </p>
+                                    <p style="margin-left: 10px;"><i class="far fa-clock"></i> 1 min</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="https://media.discordapp.net/attachments/838713501240524871/841277657844416512/gatsby2.jpg?width=894&height=670" alt="">
+                    <div class="content">
+                        <div class="row1 row pt-4 pl-4">
+                            <button style="background-color: #806b94;">Gatsby</button>
+                        </div>
+                        <div class="row2 row pl-4 pt-4">
+                            <h3>How to use React <br> Context effectively</h3>
+                        </div>
+                        <div class="row3 row pl-4 pt-3 pb-3">
+                            <div class="img">
+                                <a href=""><img src="https://media.discordapp.net/attachments/838713501240524871/841277682071371847/john-doe.png" alt=""></a>
+                            </div>
+                            <div class="row3-1 pl-3 row flex-column justify-content-around">
+                                <div class="name row">
+                                    <p>John Doe</p>
+                                </div>
+                                <div class="date row">
+                                    <p>March 20, 2020 </p>
+                                    <p style="margin-left: 10px;"><i class="far fa-clock"></i> 1 min</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="page3">
+            <div class="row">
+                <div class="col-md-4 page3img">
+                    <img src="https://images-ext-1.discordapp.net/external/Tfc1Oc4F5LtDWmQleZSzVn5vbyNoaWgd7V_A6AaUHa4/https/flexiblog-education.netlify.app/static/78b84b7a97feb446ff3d450bc8b78fb3/testimonial.png" alt="">
+                </div>
+                <div class="col-md-8 page3text">
+                    <h1>You can Learn Anything.</h1>
+                    <p>
+                        "When I got out of university, I couldn't get a job. But now, I have a job and I am in love with computer science because of Academy."
+                    </p>
+                    <h5>Aubree Joyce</h5>
+                </div>
+            </div>
+
+
+
+        </section>
+        <section class="page4">
+            <div class="row">
+                <div class="col-md-12 hed">
+                    <h2><span>|</span> CSS3</h2>
+                    <button>View More</button>
+                </div>
+                <div class="col-md-12 card4">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6">
+                            <div class="card mb-3" style="max-width: 540px;">
+                                <div class="row no-gutters">
+                                    <div class="col-sm-4 cardleft" style="background-color:#4e68e9;">
+                                        <div class="card1-1">
+                                            <i class="fab fa-css3-alt"></i>
+                                            <h6>CSS Tips</h6>
+                                        </div>
+                                        <img src="https://media.discordapp.net/attachments/827485050257014826/840972704794148924/download.png" alt="" width="100%">
+                                    </div>
+                                    <div class="col-sm-8">
+                                        <div class="card-body">
+                                            <a href="" class="card-title">CSS3</a>
+                                            <h4 class="card-text">30 Useful CSS Example For Logically Creative Minds</h4>
+                                            <h6 class="card-text">Jane Smith
+                                            </h6>
+                                            <p>July 15, 2020</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="ccol-sm-12 col-md-6">
+                            <div class="card mb-3" style="max-width: 540px;">
+                                <div class="row no-gutters">
+                                    <div class="col-md-4 cardleft" style="background-color:#4e68e9;">
+                                        <div class="card1-1">
+                                            <i class="fab fa-css3-alt"></i>
+                                            <h6>CSS Tips</h6>
+                                        </div>
+                                        <img src="https://media.discordapp.net/attachments/827485050257014826/840972704794148924/download.png" alt="" width="100%">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <a href="" class="card-title">CSS3</a>
+                                            <h4 class="card-text">How to quickly prototype apps with CSS Grid and CSS VAriables</h4>
+                                            <h6 class="card-text">Jane Smith
+                                            </h6>
+                                            <p>July 15, 2020</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <div class="card mb-3" style="max-width: 540px;">
+                                <div class="row no-gutters">
+                                    <div class="col-md-4 cardleft" style="background-color:#4e68e9;">
+                                        <div class="card1-1">
+                                            <i class="fab fa-css3-alt"></i>
+                                            <h6>CSS Tips</h6>
+                                        </div>
+                                        <img src="https://media.discordapp.net/attachments/827485050257014826/840972704794148924/download.png" alt="" width="100%">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <a href="" class="card-title">CSS3</a>
+                                            <h4 class="card-text">How to create a responsive top naviation menu</h4>
+                                            <h6 class="card-text">Jane Smith
+                                            </h6>
+                                            <p>July 15, 2020</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <div class="card mb-3" style="max-width: 540px;">
+                                <div class="row no-gutters">
+                                    <div class="col-md-4 cardleft" style="background-color:#4e68e9;">
+                                        <div class="card1-1">
+                                            <i class="fab fa-css3-alt"></i>
+                                            <h6>CSS Tips</h6>
+                                        </div>
+                                        <img src="https://media.discordapp.net/attachments/827485050257014826/840972704794148924/download.png" alt="" width="100%">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <a href="" class="card-title">CSS3</a>
+                                            <h4 class="card-text">Magic flip cards solving a common sizing problem</h4>
+                                            <h6 class="card-text">Jane Smith
+                                            </h6>
+                                            <p>July 15, 2020</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="page4">
+            <div class="row">
+                <div class="col-md-12 hed">
+                    <h2><span>|</span>Gatsby</h2>
+                    <button>View More</button>
+                </div>
+                <div class="col-md-12 card4">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6">
+                            <div class="card mb-3" style="max-width: 540px;">
+                                <div class="row no-gutters">
+                                    <div class="col-sm-4 cardleft" style="background-color: #5f27cd;">
+                                        <div class="card1-1">
+                                            <i class="fab fa-gofore"></i>
+                                            <h6>Gatsby</h6>
+                                        </div>
+                                        <img src="https://media.discordapp.net/attachments/827485050257014826/840972704794148924/download.png" alt="" width="100%">
+                                    </div>
+                                    <div class="col-sm-8">
+                                        <div class="card-body">
+                                            <a href="" class="card-title" style=" background-color: #5f27cd;">Gatsby</a>
+                                            <h4 class="card-text">Why Gatsby is better with JavaScript</h4>
+                                            <h6 class="card-text">John Doe</h6>
+                                            <p>July 15, 2020</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="ccol-sm-12 col-md-6">
+                            <div class="card mb-3" style="max-width: 540px;">
+                                <div class="row no-gutters">
+                                    <div class="col-sm-4 cardleft" style="background-color: #5f27cd;">
+                                        <div class="card1-1">
+                                            <i class="fab fa-gofore"></i>
+                                            <h6>Gatsby</h6>
+                                        </div>
+                                        <img src="https://media.discordapp.net/attachments/827485050257014826/840972704794148924/download.png" alt="" width="100%">
+                                    </div>
+                                    <div class="col-sm-8">
+                                        <div class="card-body">
+                                            <a href="" class="card-title" style=" background-color: #5f27cd;">Gatsby</a>
+                                            <h4 class="card-text">Gatsby's firts survey goes command line</h4>
+                                            <h6 class="card-text">John Doe
+                                            </h6>
+                                            <p>July 15, 2020</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <div class="card mb-3" style="max-width: 540px;">
+                                <div class="row no-gutters">
+                                    <div class="col-sm-4 cardleft" style="background-color: #5f27cd;">
+                                        <div class="card1-1">
+                                            <i class="fab fa-gofore"></i>
+                                            <h6>Gatsby</h6>
+                                        </div>
+                                        <img src="https://media.discordapp.net/attachments/827485050257014826/840972704794148924/download.png" alt="" width="100%">
+                                    </div>
+                                    <div class="col-sm-8">
+                                        <div class="card-body">
+                                            <a href="" class="card-title" style=" background-color: #5f27cd;">Gatsby</a>
+                                            <h4 class="card-text">Preparing a gatsby site for deployment</h4>
+                                            <h6 class="card-text">John Doe
+                                            </h6>
+                                            <p>July 15, 2020</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <div class="card mb-3" style="max-width: 540px;">
+                                <div class="row no-gutters">
+                                    <div class="col-sm-4 cardleft" style="background-color: #5f27cd;">
+                                        <div class="card1-1">
+                                            <i class="fab fa-gofore"></i>
+                                            <h6>Gatsby</h6>
+                                        </div>
+                                        <img src="https://media.discordapp.net/attachments/827485050257014826/840972704794148924/download.png" alt="" width="100%">
+                                    </div>
+                                    <div class="col-sm-8">
+                                        <div class="card-body">
+                                            <a href="" class="card-title" style=" background-color: #5f27cd;">Gatsby</a>
+                                            <h4 class="card-text">Learn JavaScript Deeply with Gatsby</h4>
+                                            <h6 class="card-text">John Doe
+                                            </h6>
+                                            <p>July 15, 2020</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="page4">
+            <div class="row">
+                <div class="col-md-12 hed">
+                    <h2><span>|</span>JavaScript</h2>
+                    <button>View More</button>
+                </div>
+                <div class="col-md-12 card4">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6">
+                            <div class="card mb-3" style="max-width: 540px;">
+                                <div class="row no-gutters">
+                                    <div class="col-sm-4 cardleft" style="background-color: #feca57;">
+                                        <div class="card1-1">
+                                            <i class="fab fa-js-square"></i>
+                                            <h6>JavaScript</h6>
+                                        </div>
+                                        <img src="https://media.discordapp.net/attachments/827485050257014826/840972704794148924/download.png" alt="" width="100%">
+                                    </div>
+                                    <div class="col-sm-8">
+                                        <div class="card-body">
+                                            <a href="" class="card-title" style="background-color: #feca57;">JavaScript</a>
+                                            <h4 class="card-text">Creating secure password flows with nodeJS and mySQL</h4>
+                                            <h6 class="card-text">Steve Grant
+                                            </h6>
+                                            <p>July 15, 2020</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="ccol-sm-12 col-md-6">
+                            <div class="card mb-3" style="max-width: 540px;">
+                                <div class="row no-gutters">
+                                    <div class="col-sm-4 cardleft" style="background-color: #feca57;">
+                                        <div class="card1-1">
+                                            <i class="fab fa-js-square"></i>
+                                            <h6>JavaScript</h6>
+                                        </div>
+                                        <img src="https://media.discordapp.net/attachments/827485050257014826/840972704794148924/download.png" alt="" width="100%">
+                                    </div>
+                                    <div class="col-sm-8">
+                                        <div class="card-body">
+                                            <a href="" class="card-title" style="background-color: #feca57;">JavaScript</a>
+                                            <h4 class="card-text">How to build a simple cryptocurrency blockchain in node.js</h4>
+                                            <h6 class="card-text">Steve Grant
+                                            </h6>
+                                            <p>July 15, 2020</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <div class="card mb-3" style="max-width: 540px;">
+                                <div class="row no-gutters">
+                                    <div class="col-sm-4 cardleft" style="background-color: #feca57;">
+                                        <div class="card1-1">
+                                            <i class="fab fa-js-square"></i>
+                                            <h6>JavaScript</h6>
+                                        </div>
+                                        <img src="https://media.discordapp.net/attachments/827485050257014826/840972704794148924/download.png" alt="" width="100%">
+                                    </div>
+                                    <div class="col-sm-8">
+                                        <div class="card-body">
+                                            <a href="" class="card-title" style="background-color: #feca57;">JavaScript</a>
+                                            <h4 class="card-text">Modern JavaScript explained for beginers</h4>
+                                            <h6 class="card-text">Steve Grant
+                                            </h6>
+                                            <p>July 15, 2020</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <div class="card mb-3" style="max-width: 540px;">
+                                <div class="row no-gutters">
+                                    <div class="col-sm-4 cardleft" style="background-color: #feca57;">
+                                        <div class="card1-1">
+                                            <i class="fab fa-js-square"></i>
+                                            <h6>JavaScript</h6>
+                                        </div>
+                                        <img src="https://media.discordapp.net/attachments/827485050257014826/840972704794148924/download.png" alt="" width="100%">
+                                    </div>
+                                    <div class="col-sm-8">
+                                        <div class="card-body">
+                                            <a href="" class="card-title" style="background-color: #feca57;">JavaScript</a>
+                                            <h4 class="card-text">How to create a partivle trail animation in JavaScript</h4>
+                                            <h6 class="card-text">Steve Grant
+                                            </h6>
+                                            <p>July 15, 2020</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="page4">
+            <div class="row">
+                <div class="col-md-12 hed">
+                    <h2><span>|</span> React</h2>
+                    <button>View More</button>
+                </div>
+                <div class="col-md-12 card4">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6">
+                            <div class="card mb-3" style="max-width: 540px;">
+                                <div class="row no-gutters">
+                                    <div class="col-sm-4 cardleft" style="background-color: #2e86de;">
+                                        <div class="card1-1">
+                                            <i class="fab fa-react"></i>
+                                            <h6>React Tutorial</h6>
+                                        </div>
+                                        <img src="https://media.discordapp.net/attachments/827485050257014826/840972704794148924/download.png" alt="" width="100%">
+                                    </div>
+                                    <div class="col-sm-8">
+                                        <div class="card-body">
+                                            <a href="" class="card-title" style="background-color: #2e86de;">React</a>
+                                            <h4 class="card-text">Implementing infinite sctoll and image lazy loading in React</h4>
+                                            <h6 class="card-text">Steve Grant
+                                            </h6>
+                                            <p>July 15, 2020</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="ccol-sm-12 col-md-6">
+                            <div class="card mb-3" style="max-width: 540px;">
+                                <div class="row no-gutters">
+                                    <div class="col-sm-4 cardleft" style="background-color: #2e86de;">
+                                        <div class="card1-1">
+                                            <i class="fab fa-react"></i>
+                                            <h6>React Tutorial</h6>
+                                        </div>
+                                        <img src="https://media.discordapp.net/attachments/827485050257014826/840972704794148924/download.png" alt="" width="100%">
+                                    </div>
+                                    <div class="col-sm-8">
+                                        <div class="card-body">
+                                            <a href="" class="card-title" style="background-color: #2e86de;">React</a>
+                                            <h4 class="card-text">React hooks tutorial for beginners</h4>
+                                            <h6 class="card-text">Steve Grant
+                                            </h6>
+                                            <p>July 15, 2020</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <div class="card mb-3" style="max-width: 540px;">
+                                <div class="row no-gutters">
+                                    <div class="col-sm-4 cardleft" style="background-color: #2e86de;">
+                                        <div class="card1-1">
+                                            <i class="fab fa-react"></i>
+                                            <h6>React Tutorial</h6>
+                                        </div>
+                                        <img src="https://media.discordapp.net/attachments/827485050257014826/840972704794148924/download.png" alt="" width="100%">
+                                    </div>
+                                    <div class="col-sm-8">
+                                        <div class="card-body">
+                                            <a href="" class="card-title" style="background-color: #2e86de;">React</a>
+                                            <h4 class="card-text">Building a web app with headless cms and React</h4>
+                                            <h6 class="card-text">Steve Grant
+                                            </h6>
+                                            <p>July 15, 2020</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <div class="card mb-3" style="max-width: 540px;">
+                                <div class="row no-gutters">
+                                    <div class="col-sm-4 cardleft" style="background-color: #2e86de;">
+                                        <div class="card1-1">
+                                            <i class="fab fa-react"></i>
+                                            <h6>React Tutorial</h6>
+                                        </div>
+                                        <img src="https://media.discordapp.net/attachments/827485050257014826/840972704794148924/download.png" alt="" width="100%">
+                                    </div>
+                                    <div class="col-sm-8">
+                                        <div class="card-body">
+                                            <a href="" class="card-title" style="background-color: #2e86de;">React</a>
+                                            <h4 class="card-text">How to understand a component's lifecycle methods</h4>
+                                            <h6 class="card-text">Steve Grant
+                                            </h6>
+                                            <p>July 15, 2020</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="page5">
+            <h1>Subscrible to our newsletter!</h1>
+            <p>We'll send you the best of our blog just once a month.We <br> promise.</p>
+            <input type="email" placeholder="Email Address"> <br>
+            <button>Subscrible</button>
+        </section>
+
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col1">
+                    <img src="https://images-ext-2.discordapp.net/external/AUd0Jks1dNMc1ACF6VW7qWRtt_zy7-SmWoWHhsW5uf4/https/flexiblog-education.netlify.app/static/bad5f02928a2842d0cf1f649d6f7d1da/86eb4/logo-dark.png" style="width: 150px;margin: 80px 0px 10px;">
+
+                    <p>
+                        © 2021, All Rights Reserved.
+                    </p>
+                    <h6>
+                        <a href="">Powered By</a>
+                        <img src="https://media.discordapp.net/attachments/827485050257014826/841252792843763742/pngaaa.com-275957.png" alt="" width="30px">
+                        <a href="">Gatsby</a>
+                    </h6>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <h5>Quick Links</h5>
+                    <ul>
+                        <li>
+                            <a href="">Advertise with us</a>
+                        </li>
+                        <li>
+                            <a href="">About Us</a>
+                        </li>
+                        <li>
+                            <a href="">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <h5>Legal Stuff</h5>
+                    <ul>
+                        <li>
+                            <a href="">Privact Notice</a>
+                        </li>
+                        <li>
+                            <a href="">Cookie Policy</a>
+                        </li>
+                        <li>
+                            <a href="">Terms Of Use</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <h5>Social Media</h5>
+                    <ul>
+                        <li>
+                            <i class="fab fa-github"></i>
+                            <a href="">Github</a>
+                        </li>
+                        <li>
+                            <i class="fab fa-twitter"></i>
+                            <a href="">Twitter</a>
+                        </li>
+                        <li>
+                            <i class="fab fa-instagram"></i>
+                            <a href="">Instragram</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

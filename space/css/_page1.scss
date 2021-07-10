@@ -1,0 +1,78 @@
+        body {
+            overflow-x: hidden;
+            background-color: #fad3901c;
+        }
+        
+        .page1 {
+            width: 100%;
+            height: 850px;
+            background-color: #130f40;
+            font-family: cursive;
+            background-image: url(../image/page1bg.png);
+            background-size: 100% 100%;
+            .container {
+                height: 100%;
+                .page1text1 {
+                    width: 800px;
+                    height: 400px;
+                    color: white;
+                    h1 {
+                        font-size: 90px;
+                        padding-top: 30%;
+                    }
+                    h2 {
+                        margin: 20px 0;
+                    }
+                    p {
+                        width: 430px;
+                    }
+                    input {
+                        padding: 8px;
+                        width: 350px;
+                        border: 2px solid #FC427B;
+                        border-radius: 10px;
+                        margin-right: 20px;
+                    }
+                    button {
+                        border: none;
+                        border-radius: 10px;
+                        padding: 8px 20px;
+                        color: white;
+                        background-color: #FC427B;
+                    }
+                }
+            }
+            .planetname {
+                display: none;
+                width: 700px;
+                height: 850px;
+                position: absolute;
+                right: 0;
+                background-color: #c42e5b;
+                animation: planetdiv 2s linear;
+                button {
+                    font-size: 35px;
+                    border: none;
+                    background-color: transparent;
+                    position: absolute;
+                    color: white;
+                }
+                .planetimg {
+                    width: 100%;
+                    height: 65%;
+                    background-color: yellow;
+                    background-size: cover;
+                }
+                h1 {
+                    color: white;
+                    font-size: 60px;
+                    text-align: center;
+                    margin-bottom: 40px;
+                }
+                p {
+                    color: white;
+                    width: 680px;
+                    text-align: center;
+                }
+            }
+        }

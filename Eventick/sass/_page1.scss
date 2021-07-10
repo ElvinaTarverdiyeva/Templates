@@ -1,0 +1,91 @@
+                    .page1 {
+                        height: 800px;
+                        width: 100%;
+                        background-image: url("https://images-ext-2.discordapp.net/external/3sn-1Na8Z8er5eVk5DI8Kr0jdu2C65wYJQeQCY95Kuw/https/preview.templatehouse.net/eventick/demo/images/static-images.jpg?width=1435&height=673");
+                        background-size: cover;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                        .page1about {
+                            width: 900px;
+                            height: 500px;
+                            text-align: center;
+                            h2 {
+                                color: #E71B37;
+                                font-size: 35px;
+                                letter-spacing: 4px;
+                                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                            }
+                            h1 {
+                                font-size: 68px;
+                                color: white;
+                                letter-spacing: 4px;
+                                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                            }
+                            p {
+                                color: white;
+                                font-size: 20px;
+                                span {
+                                    color: #E71B37;
+                                }
+                            }
+                            button {
+                                margin-top: 20px;
+                                border: none;
+                                width: 200px;
+                                height: 45px;
+                                border-radius: 5px;
+                                margin-left: 5px;
+                            }
+                            button:nth-child(1) {
+                                background-color: white;
+                                font-weight: bold;
+                                transition: color 0.5s, background-color 0.5s;
+                                &:hover {
+                                    background-color: #E71B37;
+                                    color: white;
+                                }
+                            }
+                            button:nth-child(2) {
+                                background-color: #E71B37;
+                                color: white;
+                                font-weight: bold;
+                                transition: color 0.5s, background-color 0.5s;
+                                &:hover {
+                                    background-color: white;
+                                    color: black;
+                                }
+                            }
+                            .ikons5 {
+                                margin-top: 40px;
+                                i {
+                                    border: none;
+                                    background-color: white;
+                                    color: #E71B37;
+                                    margin-right: 10px;
+                                    border-radius: 50%;
+                                    &:hover {
+                                        box-shadow: 0 0 30px #E71B37;
+                                        background-color: #E71B37;
+                                        color: white;
+                                    }
+                                }
+                                i:nth-child(1) {
+                                    padding: 12px 15px;
+                                }
+                                i:nth-child(2) {
+                                    padding: 12px 13px;
+                                }
+                                i:nth-child(3) {
+                                    padding: 12px 12px;
+                                }
+                                i:nth-child(4) {
+                                    padding: 12px 15px;
+                                }
+                                i:nth-child(5) {
+                                    padding: 12px 15px;
+                                }
+                            }
+                        }
+                    }

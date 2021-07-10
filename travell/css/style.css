@@ -1,0 +1,118 @@
+*,
+head,
+body {
+    margin: 0px;
+}
+
+body {
+    height: 2000px;
+}
+
+.mymenu {
+    height: 120px;
+}
+
+.mymenu ul li {
+    margin-top: 27px;
+}
+
+.ikon1 {
+    margin-left: 15px;
+}
+
+.ikon1 a {
+    margin-left: 5px;
+}
+
+.page1 {
+    height: 680px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(..//img/sekil2.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.text1 {
+    text-align: center;
+    padding-top: 230px;
+    color: white;
+    font-family: cursive;
+}
+
+.text1 h3 {
+    font-size: 70px;
+}
+
+.text1 h4 {
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+.small {
+    max-width: 60px;
+    border-color: rgb(11, 134, 48);
+    border-width: 3px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.salam {
+    height: 500px;
+    /* border: 1px solid black; */
+    margin-left: 270px;
+    margin-right: 270px;
+}
+
+.kart {
+    border-bottom: 3px solid rgb(17, 158, 17);
+    width: 380px;
+    height: 400px;
+    margin-left: 65px;
+    background-color: rgb(236, 235, 235);
+    box-shadow: 1px black;
+}
+
+.kart img {
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    margin-left: 135px;
+    margin-top: 30px;
+}
+
+.kart h3 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.kart p {
+    text-align: center;
+}
+
+.example {}
+
+.example p i {
+    color: rgb(17, 158, 17);
+}
+
+.example p {
+    color: rgb(17, 158, 17);
+}
+
+.ikon2 i {
+    color: rgb(17, 158, 17);
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.footIcon {
+    color: rgb(17, 158, 17);
+    font-size: 30px;
+    padding-left: 400px;
+    margin-left: 20px;
+}
+
+.footLink {
+    margin-left: 170px;
+}

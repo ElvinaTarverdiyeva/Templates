@@ -1,0 +1,17 @@
+@keyframes text1animation {
+    from {
+        transform: translateX(-600px);
+    }
+    to {
+        transform: translateX(0px);
+    }
+}
+
+@keyframes picture1animation {
+    from {
+        transform: translateX(1600px);
+    }
+    to {
+        transform: translateX(0px);
+    }
+}

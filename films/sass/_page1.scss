@@ -1,0 +1,147 @@
+        .page1 {
+            width: 100%;
+            height: 990px;
+            background-color: brown;
+            .boder1 {
+                border: 1px solid grey;
+                padding: 10px 10px 2px 11px;
+                border-radius: 50%;
+            }
+            .boder2 {
+                border: 1px solid grey;
+                padding: 10px 11px 2px 10px;
+                border-radius: 50%;
+            }
+            .carousel-item {
+                img {
+                    filter: brightness(50%);
+                }
+            }
+            .caru1 {
+                animation: caru1 2s 1;
+                width: 600px;
+                height: 600px;
+                position: absolute;
+                z-index: 3;
+                color: white;
+                margin-top: 15%;
+                margin-left: 190px;
+                .img1 {
+                    border-left: 3px solid #bf000a;
+                    padding: 5px;
+                    background: rgb(153, 5, 12);
+                    background: linear-gradient(90deg, rgba(153, 5, 12, 0.48783263305322133) 0%, rgba(153, 5, 12, 0.36738445378151263) 30%, rgba(153, 5, 12, 0.16850490196078427) 74%, rgba(153, 5, 12, 0.014443277310924318) 100%);
+                    width: 300px;
+                }
+                h1 {
+                    font-size: 80px;
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                }
+                .imbd1 {
+                    height: 50px;
+                    width: 390px;
+                    display: flex;
+                    flex-direction: row;
+                    i {
+                        color: #bf000a;
+                        font-size: 20px;
+                        margin-top: 4%;
+                        margin-left: 5px;
+                    }
+                    p {
+                        margin-top: 3%;
+                        margin-left: 10px;
+                    }
+                    .on8 {
+                        width: 40px;
+                        height: 35px;
+                        padding-top: 7px;
+                        text-align: center;
+                        background-color: grey;
+                        margin-top: 1%;
+                        margin-left: 20px;
+                        margin-right: 10px;
+                    }
+                }
+                .aboutfilm {
+                    margin: 30px 0;
+                }
+                h5 {
+                    color: #bf000a;
+                    font-weight: bold;
+                    span {
+                        color: white;
+                    }
+                }
+                .butn1 {
+                    margin-top: 30px;
+                    button {
+                        margin-left: 13px;
+                        width: 150px;
+                        height: 50px;
+                        background-color: #bf000a;
+                        color: white;
+                        border: none;
+                        text-transform: uppercase;
+                        transition: ease-out .3s;
+                        outline: none;
+                        position: relative;
+                        z-index: 1;
+                        .fa {
+                            margin-right: 5px;
+                        }
+                        &:hover {
+                            color: white;
+                            cursor: pointer;
+                        }
+                        &::before {
+                            transition: .8s all ease;
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            right: 0;
+                            bottom: 0;
+                            opacity: 0;
+                            content: "";
+                            background-color: #e50914;
+                        }
+                        &:hover::before {
+                            transition: .8s all ease;
+                            left: 50%;
+                            right: 50%;
+                            opacity: 1;
+                            z-index: -1;
+                        }
+                    }
+                    p {
+                        margin-top: 13px;
+                        margin-left: 20px;
+                        font-weight: bold;
+                    }
+                }
+            }
+            .playfilm {
+                width: 400px;
+                height: 80px;
+                position: absolute;
+                z-index: 3;
+                top: 85%;
+                left: 70%;
+                i {
+                    font-size: 50px;
+                    color: white;
+                    &:hover {
+                        // transition: border 0.5s;
+                        // border: 1px solid #bf000a;
+                        // border-radius: 50px;
+                        color: #bf000a;
+                    }
+                }
+                p {
+                    font-size: 22px;
+                    color: white;
+                    margin-top: 9px;
+                    margin-left: 20px;
+                }
+            }
+        }

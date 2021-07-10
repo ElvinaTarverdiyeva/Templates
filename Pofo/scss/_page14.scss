@@ -1,0 +1,69 @@
+.page14 {
+    width: 100%;
+    height: 140px;
+    .container {
+        margin-top: 100px;
+        .page14div4 {
+            text-align: center;
+            i {
+                font-size: 70px;
+                color: gray;
+            }
+            p {
+                width: 150px;
+                float: left;
+                color: gray;
+            }
+        }
+    }
+}
+
+.page15 {
+    width: 100%;
+    height: 650px;
+    background-image: linear-gradient(rgba(22, 22, 22, 0.75), rgba(22, 22, 22, 0.75), rgba(22, 22, 22, 0.75)), url("https://images-ext-1.discordapp.net/external/FkOSEEl3Xwd92fP54fQAgsp_jTWpxDInvTPF-y6Tt6o/http/www.themezaa.com/html/pofo/images/parallax-bg6.jpg?width=1180&height=676");
+    background-size: 100% 100%;
+    .container {
+        text-align: center;
+        .page15ikon {
+            font-size: 100px;
+            padding-top: 70px;
+            i {
+                color: white;
+            }
+        }
+        h1 {
+            color: white;
+        }
+        p {
+            color: gray;
+        }
+        button {
+            text-transform: uppercase;
+            border-radius: 5px;
+            padding: 5px 15px;
+            background-color: white;
+            color: black;
+            border: 1px solid black;
+            margin-top: 50px;
+            i {
+                color: black;
+                font-size: 20px;
+                margin-right: 15px;
+            }
+            &:hover {
+                transition: 1s;
+                background-color: black;
+                color: white;
+                i {
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+.page16 {
+    width: 100%;
+    height: 200px;
+}

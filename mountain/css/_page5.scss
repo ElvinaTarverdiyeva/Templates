@@ -1,0 +1,72 @@
+.page5 {
+    width: 100%;
+    height: 900px;
+    background-color: rgba(0, 0, 0, 0.89);
+    font-family: cursive;
+    .container {
+        height: 90%;
+        padding-top: 100px;
+        .page5div1 {
+            width: 400px;
+            height: 330px;
+            border: 10px solid #f6b83b94;
+            border-right: none;
+            border-bottom: none;
+            h1 {
+                color: white;
+                font-size: 50px;
+                width: 600px;
+                margin: 50px;
+            }
+            p {
+                color: white;
+                margin: 50px;
+                width: 500px;
+                font-size: 17px;
+            }
+            a {
+                text-decoration: none;
+                border-bottom: 2px solid #f6b83b;
+                color: white;
+                padding: 7px 0;
+                position: absolute;
+                margin-left: 56px;
+                font-size: 19px;
+            }
+        }
+        .page5div2 {
+            width: 400px;
+            height: 400px;
+            border: 10px solid #f6b83b94;
+            border-left: none;
+            border-top: none;
+            float: right;
+            .photo {
+                width: 400px;
+                height: 600px;
+                border: 2px solid;
+                margin-top: -230px;
+                margin-left: -30px;
+                background-image: url(../image/page5.jpg);
+                background-size: cover;
+                .photo2 {
+                    width: 380px;
+                    height: 580px;
+                    // border: 2px solid;
+                    margin-top: -30px;
+                    margin-left: -50px;
+                    background-image: url(../image/page5-2.jpeg);
+                    background-size: cover;
+                }
+            }
+            p {
+                margin-top: -40px;
+                margin-left: 100px;
+                color: white;
+                span {
+                    color: #f6b83b;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,172 @@
+@media only screen and (max-width: 2000px) { 
+    .page4{
+    width: 100%;
+    height: 750px;
+   
+    .page4hed{
+        text-align: center;
+        color: #555555;
+        margin-bottom: 30px;
+        h1{
+            font-size: 55px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+           
+            span{
+                color: #ffb400;
+            }
+        }
+        h6{
+            font-family: 'Courier New', Courier, monospace;
+            font-size:20px;
+        }
+    }
+    .div6-1{
+        width: 100%;
+        height: 250px;
+        border-radius: 10px;
+        margin-bottom: 30px;
+      
+    
+            .middle {
+                position: absolute;
+
+            }
+            .front1 {
+         
+                cursor: pointer;
+                width: 91.8%;
+                height: 248px;
+            
+    
+            }
+            .front,
+            .back {
+                margin-left: -20px;
+                overflow: hidden;
+                backface-visibility: hidden;
+                position: absolute;
+                transition: transform .2s linear;
+                border: 1px solid #e4e4e4;
+                cursor: pointer;
+                width: 99%;
+                height: 248px;
+                border-radius: 10px;
+                background-color: white;
+            }
+            .front {
+                transform: perspective(600px) rotateX(0deg);
+                color: #ffb400;
+               font-family: sans-serif;
+                i{
+                    font-size: 50px;
+                   margin: 25%  0 0 40%;
+                }
+                h4{
+                   text-align: center;
+                    margin-top: 10px;
+                }
+            }
+            .back {
+                height:100%;
+              
+                transform: perspective(600px) rotateY(-180deg);
+              
+            }
+            .back-content {
+                h5{
+                    margin-left: 20px;
+                    color: #ffb400;
+                    margin-top: 20px;
+                }
+                p{
+                    margin-left: 20px;
+                    margin-top: 20px;
+                    color: rgba(0, 0, 0, 0.699);
+                    width: 85%;
+                }
+                i{
+                    position: absolute;
+                    z-index: -1;
+                    font-size: 200px;
+                    opacity: 0.2;
+                    color: #ffb400;
+                    left: 57%;
+                    top: -50px;
+                }
+                .fa-file-pdf{
+                    left: 72%;
+                    top: -45px;
+                }
+            }
+            .front1:hover>.front {
+                transform: perspective(600px) rotateY(180deg);
+            }
+            .front1:hover>.back {
+                transform: perspective(600px) rotateY(0deg);
+            }
+        }
+
+    }
+
+}
+@media only screen and (max-width:1000px) { 
+
+    .page4{
+
+        height: 1280px;
+
+    
+        .div6-1{
+        
+        height: 150px;
+        margin-bottom: 20px;
+        
+                .front {
+                    display: none;
+                    transform: none;
+                    
+                }
+                .back {
+                    height:150px;
+                    display: block;
+                    transform:none;
+
+                }
+                .back-content {
+
+                    i{
+
+                        z-index: 1;
+                        
+                        left: 75%;
+                        top: -50px;
+                    }
+                    .fa-file-pdf{
+                        left: 84%;
+                        top: -45px;
+                    }
+                }
+                .front1:hover>.front {
+                    transform: none;
+                }
+                .front1:hover>.back {
+                    transform: none;
+                }
+            }
+    
+        }
+}
+
+@media only screen and (max-width:650px) {
+    .page4{
+        height: 1590px;
+        .div6-1{  
+            margin-left: 10px;
+        height: 200px;
+                .back {
+                    height:200px;
+                }
+            }
+    
+        }
+}

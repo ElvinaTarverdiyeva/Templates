@@ -1,0 +1,343 @@
+            @media only screen and (max-width: 1000px) {
+                header {
+                    position: sticky;
+                    top: 0px;
+                    background-color: white;
+                    z-index: 3;
+                    transition: 1s;
+                }
+                .page1 {
+                    width: 100%;
+                    height: 600px;
+                    .text1 {
+                        display: none;
+                    }
+                    .picture1 {
+                        float: right;
+                        width: 100%;
+                        height: 100%;
+                        margin-right: 25px;
+                        animation: picture1animation 0.7s 1;
+                    }
+                }
+                .page2 {
+                    position: static;
+                    margin-top: 20px;
+                    width: 100%;
+                    height: 830px;
+                    display: flex;
+                    flex-direction: column;
+                    .text1 {
+                        position: static;
+                        width: 100%;
+                        height: 20%;
+                        animation: text1animation 2s 1;
+                        h1 {
+                            position: static;
+                            font-size: 70px;
+                            font-weight: bold;
+                            text-align: center;
+                            float: none;
+                        }
+                    }
+                    .picture1 {
+                        width: 100%;
+                        height: 80%;
+                        margin-top: 150px;
+                        animation: picture1animation 0.7s 1;
+                    }
+                }
+                .page3 {
+                    width: 100%;
+                    height: 1100px;
+                    .icons {
+                        margin-top: 160px;
+                        width: 100%;
+                        height: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        margin-left: 25%;
+                        .div1 {
+                            width: 500px;
+                            height: 350px;
+                            display: flex;
+                            flex-direction: column;
+                            animation: text1animation 2s 1;
+                            i {
+                                font-size: 120px;
+                                text-align: center;
+                                margin-top: 70px;
+                            }
+                            p {
+                                font-size: 22px;
+                                padding: 10px 40px 0 50px;
+                            }
+                        }
+                        .div2 {
+                            width: 500px;
+                            height: 350px;
+                            display: flex;
+                            flex-direction: column;
+                            animation: picture1animation 0.7s 1;
+                            i {
+                                font-size: 120px;
+                                text-align: center;
+                                margin-top: 70px;
+                            }
+                            p {
+                                font-size: 22px;
+                                padding: 10px 40px 0 80px;
+                            }
+                        }
+                        .div3 {
+                            margin-top: -60px;
+                            width: 500px;
+                            height: 350px;
+                            display: flex;
+                            flex-direction: column;
+                            animation: text1animation 2s 1;
+                            position: relative;
+                            i {
+                                font-size: 120px;
+                                text-align: center;
+                                margin-left: 37%;
+                                position: absolute;
+                            }
+                            p {
+                                font-size: 22px;
+                                padding: 10px 40px 0 40px;
+                                position: relative;
+                                margin-top: 170px;
+                            }
+                        }
+                    }
+                }
+                .page4 {
+                    height: 900px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    .text1 {
+                        width: 100%;
+                        height: 10%;
+                        h2 {
+                            display: block;
+                            font-size: 50px;
+                            font-weight: bold;
+                            font-family: 'Montserrat', sans-serif;
+                            margin-top: 0px;
+                            text-align: center;
+                        }
+                        h1 {
+                            display: none;
+                        }
+                        .ikons {
+                            display: none;
+                        }
+                    }
+                    .picture1 {
+                        margin-top: 100px;
+                        width: 100%;
+                        height: 70%;
+                        .pictures {
+                            width: 100%;
+                            height: 90%;
+                        }
+                        .text4 {
+                            width: 100%;
+                            height: 10%;
+                        }
+                    }
+                }
+                .page5 {
+                    margin-top: -80px;
+                    width: 100%;
+                    .page5head {
+                        .text1 {
+                            position: static;
+                            width: 100%;
+                            height: 10%;
+                            h2 {
+                                display: block;
+                                font-size: 70px;
+                                font-weight: bold;
+                                float: none;
+                                text-align: center;
+                                margin: 0px 120px;
+                            }
+                            h1 {
+                                display: none;
+                            }
+                            .ps {
+                                width: 150px;
+                                height: 130px;
+                                font-size: 20px;
+                                position: absolute;
+                                margin-left: 45%;
+                                margin-top: 800px;
+                            }
+                        }
+                        .picture1 {
+                            float: none;
+                            width: 80%;
+                            height: 90%;
+                            margin-left: 10%;
+                            margin-top: 20px;
+                        }
+                    }
+                    .page5foot {
+                        width: 100%;
+                        height: 200px;
+                        p {
+                            margin-top: 70px;
+                            width: 700px;
+                            font-size: 20px;
+                            margin-left: 130px;
+                        }
+                        i {
+                            position: absolute;
+                            font-size: 25px;
+                            margin-top: 40px;
+                            margin-left: 50%;
+                        }
+                    }
+                }
+                .page6 {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    .text1 {
+                        position: static;
+                        width: 100%;
+                        height: 10%;
+                        h2 {
+                            display: block;
+                            font-size: 70px;
+                            font-weight: bold;
+                            text-align: center;
+                        }
+                        h1 {
+                            display: none;
+                        }
+                    }
+                    .form1 {
+                        float: none;
+                        width: 100%;
+                        height: 1200px;
+                        .basliqikon {
+                            width: 100%;
+                            height: 45%;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-evenly;
+                            .ikonlar {
+                                margin: 0;
+                                text-align: center;
+                                p {
+                                    display: block;
+                                }
+                                i {
+                                    margin-bottom: 10px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            
+            @media only screen and (max-width: 600px) {
+                .page1 {
+                    width: 100%;
+                    height: 300px;
+                }
+                .page2 {
+                    height: 700px;
+                    margin-top: 80px;
+                    .text1 {
+                        h2 {
+                            display: block;
+                            position: static;
+                            font-size: 70px;
+                            font-weight: bold;
+                            text-align: center;
+                            float: none;
+                        }
+                        h1 {
+                            display: none;
+                        }
+                    }
+                    .picture1 {
+                        width: 100%;
+                        height: 60%;
+                        margin-top: 20px;
+                        animation: picture1animation 0.7s 1;
+                    }
+                }
+                .page3 {
+                    .icons {
+                        margin-top: 10px;
+                        margin-left: 2px;
+                    }
+                }
+                .page4 {
+                    height: 900px;
+                    .picture1 {
+                        margin-top: 100px;
+                        width: 100%;
+                        height: 50%;
+                        .pictures {
+                            width: 100%;
+                            height: 90%;
+                        }
+                        .text4 {
+                            margin-left: 40px;
+                            width: 100%;
+                            height: 10%;
+                            display: flex;
+                            flex-direction: column;
+                            .button1 {
+                                width: 100%;
+                                margin-left: 22%;
+                                margin-top: 10px;
+                            }
+                        }
+                    }
+                }
+                .page5 {
+                    margin-top: -150px;
+                    .page5head {
+                        .text1 {
+                            h2 {
+                                font-size: 50px;
+                            }
+                            .ps {
+                                margin-left: 38%;
+                            }
+                        }
+                        .picture1 {
+                            height: 70%;
+                            margin-top: 60px;
+                        }
+                    }
+                    .page5foot {
+                        p {
+                            margin-left: 20px;
+                        }
+                        i {
+                            margin-top: 30px;
+                            margin-left: 48%;
+                        }
+                    }
+                }
+                .page6 {
+                    .text1 {
+                        h2 {
+                            font-size: 55px;
+                        }
+                    }
+                    .form1 {
+                        margin-top: 40px;
+                    }
+                }
+            }

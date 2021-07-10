@@ -1,0 +1,637 @@
+body {
+  height: 3000px;
+}
+
+.page1 {
+  height: 1000px;
+  width: 100%;
+  background-image: url(../image/page1bg.jpg);
+  background-size: 100% 100%;
+  font-family: cursive;
+}
+
+.page1 .menudiv {
+  display: none;
+  width: 300px;
+  height: 100%;
+  background-color: black;
+  position: absolute;
+  -webkit-animation: menudiv 1s linear;
+          animation: menudiv 1s linear;
+}
+
+.page1 .menudiv .buttonX {
+  float: right;
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 30px;
+}
+
+.page1 .menudiv ul {
+  margin-top: 40px;
+  margin-left: 50px;
+}
+
+.page1 .menudiv ul li {
+  color: white;
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.page1 .menudiv ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.page1 .menudiv ul li a:hover {
+  color: red;
+}
+
+.page1 .container {
+  height: 100%;
+  position: relative;
+}
+
+.page1 .container button {
+  float: right;
+  border: none;
+  background-color: transparent;
+}
+
+.page1 .container button i {
+  font-size: 30px;
+  color: white;
+  margin-top: 25px;
+}
+
+.page1 .container .div-right {
+  width: 450px;
+  height: 450px;
+  border: 10px solid #f6b83b94;
+  border-right: none;
+  position: absolute;
+  margin-top: 550px;
+}
+
+.page1 .container .div-right p:nth-child(1) {
+  background-color: #ffb04275;
+  width: 400px;
+  height: 30px;
+  float: right;
+  margin-top: 40px;
+  padding: 3px 10px;
+  color: white;
+}
+
+.page1 .container .div-right h2 {
+  width: 600px;
+  margin-top: 150px;
+  margin-left: 60px;
+  font-size: 60px;
+  color: white;
+}
+
+.page1 .container .div-right .text1 {
+  color: white;
+  margin-left: 56px;
+  width: 860px;
+  margin-top: 30px;
+  font-size: 19px;
+}
+
+.page1 .container .div-right a {
+  text-decoration: none;
+  border-bottom: 2px solid white;
+  color: white;
+  padding: 10px 0;
+  position: absolute;
+  margin-left: 56px;
+  font-size: 19px;
+}
+
+.page2 {
+  height: 780px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.89);
+  padding-top: 80px;
+  font-family: cursive;
+}
+
+.page2 .container {
+  height: 90%;
+}
+
+.page2 .container .photo {
+  height: 630px;
+  background-image: url(../image/page2.jpeg);
+  background-size: 100% 100%;
+}
+
+.page2 .container .page2text {
+  height: 630px;
+}
+
+.page2 .container .page2text .borderleft {
+  border: 10px solid #f6b83b94;
+  border-left: none;
+  width: 80%;
+  height: 100%;
+  float: right;
+}
+
+.page2 .container .page2text .borderleft h1 {
+  color: white;
+  margin-left: -70px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.page2 .container .page2text .borderleft p {
+  color: white;
+  margin-left: -70px;
+  width: 430px;
+  font-size: 17px;
+}
+
+.page2 .container .page2text .borderleft p span {
+  color: #fad390ab;
+}
+
+.page2 .container .page2text .borderleft a {
+  text-decoration: none;
+  border-bottom: 2px solid #f6b83b;
+  color: white;
+  padding: 10px 0;
+  position: absolute;
+  margin-left: 56px;
+  font-size: 19px;
+}
+
+.page3 {
+  height: 700px;
+  width: 100%;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.15)), to(rgba(0, 0, 0, 0.15))), url("../image/page3.jpeg");
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("../image/page3.jpeg");
+  background-size: 100% 100%;
+  font-family: cursive;
+}
+
+.page3 .container {
+  height: 100%;
+}
+
+.page3 .container .page3text1,
+.page3 .container .page3text2 {
+  height: 700px;
+}
+
+.page3 .container .page3text1 .page3div {
+  width: 130px;
+  height: 130px;
+  border: 10px solid #f6b83b94;
+  border-right: none;
+  border-top: none;
+  margin-top: 100px;
+  position: relative;
+}
+
+.page3 .container .page3text1 .page3div h1 {
+  position: absolute;
+  width: 700px;
+  color: #d2dae2;
+  font-weight: bold;
+  font-size: 40px;
+  margin-top: -40px;
+  margin-left: 30px;
+}
+
+.page3 .container .page3text1 p {
+  width: 600px;
+  color: #d2dae2;
+  font-size: 16px;
+  padding: 50px 30px 20px;
+}
+
+.page3 .container .page3text1 a {
+  text-decoration: none;
+  border-bottom: 2px solid #f6b83b;
+  color: white;
+  padding: 7px 0;
+  position: absolute;
+  margin-left: 56px;
+  font-size: 19px;
+}
+
+.page3 .container .page3text2 p {
+  color: #d2dae2;
+  float: right;
+}
+
+.page3 .container .page3text2 p span {
+  float: right;
+}
+
+.page4 {
+  height: 500px;
+  background-color: rgba(0, 0, 0, 0.89);
+  padding-top: 50px;
+  text-align: center;
+}
+
+.page4 h1 {
+  color: #f6b83b;
+}
+
+.page4 .div4 {
+  margin-top: 70px;
+}
+
+.page4 .div4 .div4div1 .div4div2 {
+  border: 1px solid #f6b83b94;
+  height: 250px;
+}
+
+.page4 .div4 .div4div1 .div4div2 h1 {
+  font-size: 70px;
+  margin-top: 50px;
+}
+
+.page4 .div4 .div4div1 .div4div2 h5 {
+  color: white;
+}
+
+.page5 {
+  width: 100%;
+  height: 900px;
+  background-color: rgba(0, 0, 0, 0.89);
+  font-family: cursive;
+}
+
+.page5 .container {
+  height: 90%;
+  padding-top: 100px;
+}
+
+.page5 .container .page5div1 {
+  width: 400px;
+  height: 330px;
+  border: 10px solid #f6b83b94;
+  border-right: none;
+  border-bottom: none;
+}
+
+.page5 .container .page5div1 h1 {
+  color: white;
+  font-size: 50px;
+  width: 600px;
+  margin: 50px;
+}
+
+.page5 .container .page5div1 p {
+  color: white;
+  margin: 50px;
+  width: 500px;
+  font-size: 17px;
+}
+
+.page5 .container .page5div1 a {
+  text-decoration: none;
+  border-bottom: 2px solid #f6b83b;
+  color: white;
+  padding: 7px 0;
+  position: absolute;
+  margin-left: 56px;
+  font-size: 19px;
+}
+
+.page5 .container .page5div2 {
+  width: 400px;
+  height: 400px;
+  border: 10px solid #f6b83b94;
+  border-left: none;
+  border-top: none;
+  float: right;
+}
+
+.page5 .container .page5div2 .photo {
+  width: 400px;
+  height: 600px;
+  border: 2px solid;
+  margin-top: -230px;
+  margin-left: -30px;
+  background-image: url(../image/page5.jpg);
+  background-size: cover;
+}
+
+.page5 .container .page5div2 .photo .photo2 {
+  width: 380px;
+  height: 580px;
+  margin-top: -30px;
+  margin-left: -50px;
+  background-image: url(../image/page5-2.jpeg);
+  background-size: cover;
+}
+
+.page5 .container .page5div2 p {
+  margin-top: -40px;
+  margin-left: 100px;
+  color: white;
+}
+
+.page5 .container .page5div2 p span {
+  color: #f6b83b;
+}
+
+.page6 {
+  width: 100%;
+  height: 800px;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.65)), to(rgba(0, 0, 0, 0.65))), url("../image/page6.jpeg");
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("../image/page6.jpeg");
+  background-size: 100% 100%;
+  font-family: cursive;
+}
+
+.page6 .container {
+  padding-top: 50px;
+}
+
+.page6 .container .div1 {
+  width: 150px;
+  height: 150px;
+  border: 10px solid #f6b83b94;
+  border-right: none;
+  border-bottom: none;
+}
+
+.page6 .container .div2 {
+  width: 600px;
+  height: 800px;
+}
+
+.page6 .container .div2 h1 {
+  text-align: center;
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+
+.page6 .container .div2 input {
+  width: 95%;
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 10px 20px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  margin-left: 30px;
+}
+
+.page6 .container .div2 textarea {
+  width: 95%;
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 10px 20px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  margin-left: 30px;
+}
+
+.page6 .container .div2 button {
+  width: 130px;
+  height: 50px;
+  border: none;
+  color: white;
+  background-color: #f6b83b;
+  font-size: 20px;
+  margin-left: 40%;
+  font-weight: bold;
+}
+
+.page6 .container .div3 {
+  width: 150px;
+  height: 150px;
+  border: 10px solid #f6b83b94;
+  border-left: none;
+  border-top: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin-bottom: 100px;
+}
+
+.page7 {
+  width: 100%;
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.89);
+}
+
+.page7 .page7div4 {
+  border-top: 2px solid rgba(128, 128, 128, 0.452);
+  margin-top: 80px;
+  color: white;
+  padding-top: 20px;
+}
+
+footer {
+  text-align: center;
+  height: 70px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.733);
+  color: white;
+}
+
+footer p {
+  padding-top: 20px;
+}
+
+footer p a {
+  color: #f6b83b91;
+  text-decoration: underline;
+}
+
+footer p a:hover {
+  color: #f6b83b91;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 980px) {
+  .page1 .container .div-right .text1 {
+    width: 700px;
+  }
+  .page2 .container .page2text {
+    height: 630px;
+  }
+  .page2 .container .page2text .borderleft {
+    float: none;
+    margin-left: 150px;
+  }
+  .page2 .container .page2text .borderleft h1 {
+    margin-left: -90px;
+  }
+  .page2 .container .page2text .borderleft p {
+    margin-left: -90px;
+    width: 340px;
+  }
+  .page2 .container .page2text .borderleft a {
+    margin-top: -10px;
+  }
+  .page4 {
+    height: 700px;
+  }
+  .page4 .div4div2 {
+    margin-bottom: 30px;
+  }
+  .page5 .container .page5div1 {
+    width: 200px;
+  }
+  .page5 .container .page5div1 h1 {
+    font-size: 30px;
+  }
+  .page5 .container .page5div1 p {
+    width: 300px;
+  }
+  .page5 .container .page5div2 {
+    width: 220px;
+    float: none;
+    margin-left: 480px;
+  }
+  .page5 .container .page5div2 .photo {
+    width: 300px;
+  }
+  .page5 .container .page5div2 .photo .photo2 {
+    width: 300px;
+  }
+  .page5 .container .page5div2 p {
+    width: 200px;
+  }
+  .page6 {
+    height: 950px;
+  }
+  .page6 .div3 {
+    margin-left: -100px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    height: 3000px;
+  }
+  .page1 .container .div-right {
+    width: 400px;
+    height: 600px;
+    margin-top: 300px;
+  }
+  .page1 .container .div-right p:nth-child(1) {
+    width: 340px;
+  }
+  .page1 .container .div-right h2 {
+    width: 400px;
+    font-size: 40px;
+  }
+  .page1 .container .div-right .text1 {
+    width: 400px;
+    margin-top: 30px;
+    font-size: 18px;
+  }
+  .page1 .container .div-right a {
+    border-bottom: 2px solid #f6b83b;
+  }
+  .page2 {
+    height: 1350px;
+    padding-top: 0px;
+  }
+  .page2 .borderleft {
+    float: none;
+    margin-left: 150px;
+  }
+  .page2 .borderleft h1 {
+    width: 350px;
+  }
+  .page3 {
+    height: 750px;
+  }
+  .page3 .container .page3text1 .page3div h1 {
+    width: 400px;
+    font-size: 30px;
+  }
+  .page3 .container .page3text1 p {
+    width: 470px;
+  }
+  .page3 .container .page3text2 p {
+    float: none;
+    margin-bottom: 680px;
+  }
+  .page4 {
+    height: 1300px;
+  }
+  .page5 {
+    height: 1440px;
+  }
+  .page5 .container .page5div2 {
+    float: none;
+    margin-top: 600px;
+    margin-left: 70px;
+  }
+  .page5 .container .page5div2 .photo {
+    width: 400px;
+    height: 600px;
+  }
+  .page5 .container .page5div2 .photo .photo2 {
+    width: 380px;
+    height: 580px;
+  }
+  .page6 {
+    height: 900px;
+  }
+  .page6 .container .div2 {
+    width: 600px;
+    height: 800px;
+  }
+  .page6 .container .div2 h1 {
+    width: 440px;
+    font-size: 33px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+  }
+  .page6 .container .div2 input {
+    width: 400px;
+  }
+  .page6 .container .div2 textarea {
+    width: 400px;
+  }
+  .page6 .container .div2 button {
+    margin-left: 25%;
+  }
+  .page6 .container .div3 {
+    margin-left: -270px;
+  }
+  .page7 {
+    height: 600px;
+  }
+}
+
+@-webkit-keyframes menudiv {
+  from {
+    left: -300px;
+    top: 0px;
+  }
+  to {
+    left: 0px;
+    top: 0px;
+  }
+}
+
+@keyframes menudiv {
+  from {
+    left: -300px;
+    top: 0px;
+  }
+  to {
+    left: 0px;
+    top: 0px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

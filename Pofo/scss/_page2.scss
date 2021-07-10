@@ -1,0 +1,78 @@
+    .page2 {
+        width: 100%;
+        height: 750px;
+        background-image: url("https://images-ext-2.discordapp.net/external/4utWneTbPuEdnQIG_c80Bp_GMmSssuFJCENoHuxnMOs/http/www.themezaa.com/html/pofo/images/homepage-option17-banner-bg.jpg?width=1440&height=600");
+        background-size: 100% 100%;
+        .page2div1 {
+            h6 {
+                color: rgb(245, 53, 53);
+                margin-top: 150px;
+                margin-bottom: 15px;
+            }
+            h1 {
+                margin-bottom: 25px;
+            }
+        }
+        .page2div2 {
+            margin-top: 50px;
+            width: 250px;
+            height: 200px;
+            margin-left: 15px;
+            i {
+                font-size: 50px;
+                color: rgb(245, 53, 53);
+                font-weight: initial;
+                margin-bottom: 15px;
+            }
+            p {
+                font-size: 15px;
+            }
+        }
+    }
+    
+    .page3 {
+        font-family: sans-serif;
+        width: 100%;
+        height: 900px;
+        .page3div1 {
+            text-align: center;
+            h1 {
+                margin-top: 130px;
+                width: 780px;
+                margin-left: 170px;
+            }
+            .page3div1p {
+                margin-top: 30px;
+                width: 780px;
+                margin-left: 170px;
+            }
+            .page3div2 {
+                margin-top: 80px;
+                width: 260px;
+                height: 330px;
+                border: 1px solid rgba(128, 128, 128, 0.658);
+                text-align: center;
+                border-radius: 5px;
+                .ikonborder {
+                    margin-top: 50px;
+                    width: 100px;
+                    height: 100px;
+                    border-radius: 50%;
+                    background-color: rgb(238, 40, 73);
+                    margin-left: 30%;
+                    text-align: center;
+                    i {
+                        margin-top: 25%;
+                        color: white;
+                        font-size: 50px;
+                    }
+                }
+                h6 {
+                    margin-top: 30px;
+                }
+                p {
+                    color: rgba(128, 128, 128, 0.74);
+                }
+            }
+        }
+    }

@@ -1,0 +1,459 @@
+    body {
+        overflow-x: hidden;
+    }
+    
+    header {
+        .hed1 {
+            position: sticky;
+            width: 100%;
+            height: 100px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            .line3 {
+                hr {
+                    width: 26px;
+                    height: 2px;
+                    background-color: black;
+                    margin: 0 0 2px 35px;
+                }
+            }
+            .line3:hover hr:nth-child(odd) {
+                transform: scaleX(0.7);
+                transition: 0.5s;
+            }
+            .button1 {
+                button {
+                    border-radius: 40px;
+                    border: 1px solid black;
+                    background-color: transparent;
+                    padding: 10px 30px;
+                    font-size: 17px;
+                    margin: 0 35px 2px 0;
+                    transition: background-color 0.7s, color 0.7s;
+                }
+                button:hover {
+                    background-color: black;
+                    color: white;
+                }
+            }
+        }
+    }
+    
+    .page1 {
+        width: 100%;
+        height: 830px;
+        position: relative;
+        .text1 {
+            position: absolute;
+            background-color: rgba(255, 255, 255, 0.527);
+            width: 780px;
+            height: 100%;
+            animation: text1animation 2s 1;
+            ul {
+                float: right;
+                margin: 192px 150px;
+                li {
+                    margin-bottom: 20px;
+                    a {
+                        text-decoration: none;
+                        font-size: 65px;
+                        color: black;
+                        font-family: 'Montserrat', sans-serif;
+                        font-weight: bold;
+                        letter-spacing: 5px;
+                        background: linear-gradient(to right, #000 50%, red 50%, red);
+                        background-size: 200%;
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                        transition: background-position 0.5s ease-out;
+                    }
+                    a:hover {
+                        background-position: -100%;
+                    }
+                }
+                li:hover::before {
+                    color: rgba(165, 165, 165, 0.623);
+                    content: "/";
+                    font-size: 70px;
+                    font-weight: 1000;
+                }
+            }
+        }
+        .picture1 {
+            float: right;
+            width: 1415px;
+            height: 100%;
+            margin-right: 25px;
+            animation: picture1animation 0.7s 1;
+        }
+    }
+    
+    .page2 {
+        margin-top: 150px;
+        width: 100%;
+        height: 830px;
+        position: relative;
+        .text1 {
+            position: absolute;
+            width: 1000px;
+            height: 100%;
+            animation: text1animation 2s 1;
+            h1 {
+                font-size: 70px;
+                font-weight: bold;
+                float: right;
+                margin: 130px 120px;
+            }
+            h2 {
+                display: none;
+            }
+        }
+        .picture1 {
+            float: right;
+            width: 800px;
+            height: 700px;
+            background-color: yellow;
+            margin-right: 400px;
+            animation: picture1animation 0.7s 1;
+        }
+    }
+    
+    .page3 {
+        // margin-top: 150px;
+        width: 100%;
+        height: 650px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        .icons {
+            width: 1200px;
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            .div1 {
+                width: 500px;
+                height: 200px;
+                display: flex;
+                flex-direction: row;
+                animation: text1animation 2s 1;
+                i {
+                    font-size: 120px;
+                    margin: 50px 0 0 30px;
+                    background: linear-gradient(to right, #000 50%, red 50%, red);
+                    background-size: 200%;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    transition: 0.5s ease-out;
+                }
+                i:hover {
+                    background-position: -100%;
+                }
+                p {
+                    font-size: 22px;
+                    margin: 60px 0 0 30px;
+                    text-shadow: inset 0 0 0 0 rgb(156, 233, 14);
+                    transition: ease-out 0.3s;
+                    outline: none;
+                }
+            }
+            .div2 {
+                width: 490px;
+                height: 400px;
+                display: flex;
+                flex-direction: column;
+                animation: picture1animation 0.7s 1;
+                i {
+                    font-size: 120px;
+                    text-align: center;
+                    margin-top: 200px;
+                    background: linear-gradient(to right, #000 50%, red 50%, red);
+                    background-size: 200%;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    transition: 0.5s ease-out;
+                }
+                i:hover {
+                    background-position: -100%;
+                }
+                p {
+                    font-size: 22px;
+                    padding: 10px 40px 0 40px;
+                }
+            }
+            .div3 {
+                width: 600px;
+                height: 200px;
+                display: flex;
+                flex-direction: row;
+                animation: text1animation 2s 1;
+                i {
+                    font-size: 120px;
+                    margin: 50px 0 0 30px;
+                    background: linear-gradient(to right, #000 50%, red 50%, red);
+                    background-size: 200%;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    transition: 0.5s ease-out;
+                }
+                i:hover {
+                    background-position: -100%;
+                }
+                p {
+                    font-size: 22px;
+                    margin: 60px 0 0 30px;
+                }
+            }
+        }
+    }
+    
+    .page4 {
+        margin-top: 150px;
+        width: 100%;
+        height: 900px;
+        position: relative;
+        .text1 {
+            position: absolute;
+            width: 600px;
+            height: 100%;
+            animation: text1animation 2s 1;
+            h2 {
+                display: none;
+            }
+            h1 {
+                font-size: 70px;
+                font-weight: bold;
+                float: right;
+                font-family: 'Montserrat', sans-serif;
+                margin-top: 120px;
+            }
+            .ikons {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                width: 60px;
+                height: 130px;
+                font-size: 70px;
+                margin-left: 400px;
+                margin-top: 400px;
+                i:hover {
+                    color: red;
+                    transition: 0.5s;
+                }
+                .ikon1 {
+                    margin-left: 30px;
+                }
+            }
+        }
+        .picture1 {
+            float: right;
+            width: 1420px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            animation: picture1animation 0.7s 1;
+            .pictures {
+                width: 1420px;
+                height: 90%;
+                background-color: chocolate;
+            }
+            .text4 {
+                width: 1420;
+                height: 10%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                padding-top: 30px;
+                h1 {
+                    font-weight: bold;
+                    font-size: 30px;
+                    font-family: sans-serif;
+                    margin-bottom: 10px;
+                }
+                p {
+                    // font-weight: bold;
+                    font-size: 17px;
+                    font-family: sans-serif;
+                }
+                .button1 {
+                    button {
+                        border-radius: 40px;
+                        border: 1px solid black;
+                        background-color: transparent;
+                        padding: 10px 30px;
+                        font-size: 17px;
+                        margin: 0 35px 2px 0;
+                        transition: background-color 0.7s, color 0.7s;
+                    }
+                    button:hover {
+                        background-color: black;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+    
+    .page5 {
+        margin-top: 150px;
+        width: 100%;
+        height: 900px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        .page5head {
+            width: 100%;
+            height: 700px;
+            .text1 {
+                position: absolute;
+                width: 930px;
+                height: 700px;
+                animation: text1animation 2s 1;
+                h2 {
+                    display: none;
+                }
+                h1 {
+                    font-size: 70px;
+                    font-weight: bold;
+                    float: right;
+                    margin: 130px 120px;
+                }
+                .ps {
+                    width: 150px;
+                    height: 130px;
+                    font-size: 20px;
+                    margin-left: 640px;
+                    margin-top: 400px;
+                    p {
+                        margin-top: 10px;
+                    }
+                    .big {
+                        font-weight: 600;
+                        font-family: sans-serif;
+                    }
+                }
+            }
+            .picture1 {
+                float: right;
+                width: 800px;
+                height: 700px;
+                margin-right: 400px;
+                animation: picture1animation 0.7s 1;
+            }
+        }
+        .page5foot {
+            width: 100%;
+            height: 200px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            p {
+                margin-top: 70px;
+                width: 550px;
+                font-size: 20px;
+                margin-left: 550px;
+            }
+            i {
+                font-size: 25px;
+                margin-top: 100px;
+                margin-right: 600px;
+            }
+        }
+    }
+    
+    .page6 {
+        width: 100%;
+        height: 1050px;
+        position: relative;
+        padding-top: 200px;
+        .text1 {
+            position: absolute;
+            width: 750px;
+            height: 900px;
+            animation: text1animation 2s 1;
+            h2 {
+                display: none;
+            }
+            h1 {
+                font-size: 70px;
+                font-weight: bold;
+                float: right;
+                margin: 180px 120px;
+            }
+        }
+        .form1 {
+            margin-right: 20px;
+            float: right;
+            width: 74%;
+            height: 900px;
+            border: 10px solid rgba(165, 165, 165, 0.247);
+            animation: picture1animation 0.7s 1;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            .basliqikon {
+                width: 100%;
+                height: 20%;
+                display: flex;
+                flex-direction: row;
+                .ikonlar {
+                    font-size: 23px;
+                    color: rgba(0, 0, 0, 0.753);
+                    margin: 80px 25px 0 80px;
+                    i {
+                        font-size: 29px;
+                        margin-right: 5px;
+                        color: rgba(165, 165, 165, 0.705);
+                    }
+                    p {
+                        display: inline-block;
+                    }
+                }
+            }
+            .formin {
+                width: 50%;
+                height: 70%;
+                input {
+                    width: 99%;
+                    border: none;
+                    border-bottom: 2px solid rgba(165, 165, 165, 0.247);
+                    padding: 10px 1px;
+                    font-size: 17px;
+                    margin-bottom: 40px;
+                }
+                textarea {
+                    width: 99%;
+                    height: 30px;
+                    border: none;
+                    overflow: hidden;
+                    font-size: 17px;
+                }
+                hr {
+                    width: 99%;
+                    height: 1px;
+                    background-color: rgba(165, 165, 165, 0.247);
+                    margin-top: 200px;
+                }
+                button {
+                    width: 100%;
+                    border-radius: 40px;
+                    border: none;
+                    background-color: black;
+                    color: white;
+                    padding: 15px 30px;
+                    font-size: 17px;
+                    transition: background-color 0.7s, color 0.7s;
+                    margin-top: 50px;
+                }
+                button:hover {
+                    background-color: red;
+                    color: white;
+                }
+            }
+        }
+    }

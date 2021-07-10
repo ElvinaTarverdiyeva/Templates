@@ -1,0 +1,138 @@
+.seventeen {
+    height: 730px;
+    width: 100%;
+    background-color: #f3f1f1;
+    display: flex;
+    justify-content: center;
+    .seventeen-txt {
+        height: 250px;
+        width: 300px;
+        text-align: center;
+        padding: 70px 0;
+        margin-left: 36%;
+        hr {
+            background-color: #ff214f;
+            width: 80px;
+        }
+        p {
+            font-size: 14px;
+            color: rgba(92, 91, 91, 0.9);
+        }
+        h2 {
+            font-weight: 600;
+        }
+    }
+    .seventeen-cards {
+        height: 350px;
+        width: 100%;
+        .cards-1 {
+            background-color: white;
+            height: 360px;
+            width: 95%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 7px;
+            img {
+                border-radius: 50%;
+                height: 80px;
+                width: 80px;
+                margin: 30px 0;
+            }
+            p {
+                width: 70%;
+                margin: 20px 0;
+                font-size: 14px;
+                text-align: center;
+                color: rgba(92, 91, 91, 0.9);
+            }
+            h5 {
+                font-size: 18px;
+            }
+            span {
+                color: rgba(92, 91, 91, 0.9);
+                font-size: 11px;
+            }
+        }
+    }
+}
+
+.page18 {
+    width: 100%;
+    height: 800px;
+    .container {
+        height: 100%;
+        .page18hed {
+            text-align: center;
+            margin-top: 100px;
+            margin-bottom: 100px;
+            hr {
+                width: 100px;
+                background-color: rgb(219, 42, 71);
+            }
+        }
+        .page18kards {
+            img {
+                transition: transform 0.5s;
+            }
+            img:hover {
+                transform: scale(1.2, 1.2);
+                position: relative;
+            }
+            p {
+                margin-top: 20px;
+                color: grey;
+                font-size: 11px;
+            }
+            a {
+                color: black;
+                text-decoration: none;
+                transition: color 0.3s;
+                &:hover {
+                    color: rgb(219, 42, 71);
+                }
+            }
+            hr {
+                margin: 20px 0px;
+            }
+        }
+    }
+}
+
+footer {
+    width: 100%;
+    height: 170px;
+    background-color: black;
+    .div1 {
+        margin-top: 70px;
+        p {
+            color: grey;
+        }
+    }
+    .div2 {
+        margin-top: 40px;
+        text-align: center;
+        a {
+            text-decoration: none;
+            color: white;
+            font-size: 50px;
+            span {
+                color: rgb(219, 42, 71);
+            }
+        }
+    }
+    .div3 {
+        margin-top: 70px;
+        p {
+            color: grey;
+        }
+        .links {
+            margin-left: 20px;
+            i {
+                color: white;
+                margin-left: 10px;
+                font-size: 20px;
+            }
+        }
+    }
+}

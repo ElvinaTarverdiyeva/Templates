@@ -1,0 +1,25 @@
+    .page4 {
+        height: 500px;
+        background-color: rgba(0, 0, 0, 0.89);
+        padding-top: 50px;
+        text-align: center;
+        h1 {
+            color: #f6b83b;
+        }
+        .div4 {
+            margin-top: 70px;
+            .div4div1 {
+                .div4div2 {
+                    border: 1px solid #f6b83b94;
+                    height: 250px;
+                    h1 {
+                        font-size: 70px;
+                        margin-top: 50px;
+                    }
+                    h5 {
+                        color: white;
+                    }
+                }
+            }
+        }
+    }

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIDEO GALEREYA</title>
+    <link rel="stylesheet" href="css/mehsullar.css">
+
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+
+
+    <script src="js/caroufredsel.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div>
+        <div class="header2 bg-white container-fluid">
+            <div class="row">
+                <img src="image/logo.png" alt="logo" style="width: 250px; height: 70px;margin-bottom: 10px;">
+            </div>
+        </div>
+
+        <div class="header3 container-fluid">
+            <nav class="navbar navbar-expand-lg ">
+                <div class="navmenu collapse navbar-collapse ">
+                    <ul class="navbar-nav m-auto">
+
+                        <li class="nav-item ">
+                            <a class="fonta nav-link " href="ekokat.html">ANA SAYFA</a>
+                        </li>
+                        <li class="nav-item ">
+                            <div class="dropdown">
+                                <button class="fonta btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                 HAQQIMIZDA
+                                </button>
+                                <div class="dmenu1 dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="mehsullar.html"><i class="fa fa-angle-right" aria-hidden="true" style="margin-right: 7px;"></i>SERTFIKATLAR</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item ">
+                            <div class="dropdown">
+                                <button class="fonta btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    MEHSULLAR
+                                </button>
+                                <div class="dmenu1 dropdown-menu" aria-labelledby="dropdownMenuButton">
+
+                                    <a class="dropdown-item" href="">Солидол Ж</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">ЛЗ ЦНИИ</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Литол 24 PK</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">УССА ГРАФИТ СМАЗКА</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item ">
+                            <div class="dropdown">
+                                <button class="fonta btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    GALEREYA
+                                </button>
+                                <div class="dmenu1 dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="#"><i class="fa fa-angle-right" aria-hidden="true" style="margin-right: 7px;"></i>FOTO GALEREYA</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#"><i class="fa fa-angle-right" aria-hidden="true" style="margin-right: 7px;"></i>VIDEO GALEREYA</a>
+                                </div>
+                            </div>
+                        </li>
+
+
+                        <li class="nav-item ">
+                            <a class="fonta nav-link " href="# ">ELAQE</a>
+                        </li>
+                        <li class="ikon2 nav-item ">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+
+                        </li>
+
+                    </ul>
+
+                </div>
+            </nav>
+
+        </div>
+    </div>
+
+    <div class="seh1 mt-1" id="seh1">
+
+        <div class="row">
+            <h5>VIDEO GALEREYA</h5>
+        </div>
+    </div>
+    <section class="videog container mt-3">
+        <i class="fa fa-play fa-5x" aria-hidden="true" style="color: white;margin-top: 250px;"></i>
+        <hr style="background-color:white;margin-top: 240px; ">
+    </section>
+
+
+
+
+
+    <footer>
+        <div class="container">
+            <hr style="background-color: rgb(19, 126, 85);height: 5px;">
+            <div class="row">
+                <div class="col-sm-3">
+                    <img src="image/footer.jpeg" style="width: 250px; height: 250px;">
+                </div>
+                <div class="col-sm-6 offset-3" style="color: white;">
+                    <h5 style="text-align: center;">QISA İCMAL</h5>
+                    <hr style="background-color:white;">
+                    <p>" Təmiz Şəhər " ASC-nin 9 iyun 2014-cü il tarixli qərarı ilə " Ekokat " MMC Sənayə Parkının rezidenti qismində qeydiyyata alınmış və bu barədə rezidentə müvafiq şəhadətnamə verilmişdi
+                        <a href="#" style="color: white;text-decoration: none; font-size:20px;">. . .</a></p>
+
+                    <br>
+                    <di class="footikon">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                </div>
+            </div>
+
+        </div>
+        </div>
+
+    </footer>
+
+
+    <script>
+        jQuery(document).ready(function() {
+
+            $(window).scroll(function() {
+                var top = $(window).scrollTop();
+                if (top >= 80) {
+
+                    $(".header2").hide();
+                    $(".header3").css({
+                        "position": "fixed",
+                        "top": "0",
+                        "width": "100%",
+                        "z-index": "999"
+
+                    });
+
+                } else {
+                    $(".header2 ").show();
+                    $(".header3 ").css({
+                        "position": "relative",
+                        "width": "100%",
+                        "z-index": "999"
+                    });
+                }
+            });
+
+
+
+        });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

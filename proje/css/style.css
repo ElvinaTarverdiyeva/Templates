@@ -1,0 +1,709 @@
+    *,
+    html,
+    body {
+        margin: 0;
+        /*ic bosluq*/
+        padding: 0;
+        /*dis bosluq*/
+    }
+    
+    body {
+        height: 3000px;
+    }
+    
+    header {
+        height: 112px;
+        line-height: 112px;
+        /* setirler arasi yukseklik*/
+        position: fixed;
+        /* bir yere sabitleyir scroll hereket etdikde oda onunla birlikde yerinden terpenmeden hereket edir*/
+        z-index: 1;
+        /*en altda olandir en yuksek deyeri olan en ustde landir*/
+        width: 100%;
+    }
+    
+    .secondary {
+        background-color: dodgerblue;
+        box-shadow: 0px 0px 17px 0px;
+        /*1ci genine kolgeni ayarlayir 2ci uzununa ayaralyir 3cu bulaniqligin ayarlayir 4cu boyutunu ayarlayir*/
+        transition: all 0.5s ease-in;
+        /*kecidi ayarlayir 0.5 saniyede kecir all butun hallarda ease-in yavas kecib suretli geri qayitma*/
+    }
+    
+    ul {
+        list-style: none;
+        /* listlerin qabagindaki noqteleri falan yox edir*/
+    }
+    
+    ul li {
+        display: inline-block;
+        /*inline olduqda sadece uzunlugu qeder yer tutur yanyana yazilir cumleler amaki genislik yukseklikk vermek olmur inliine-blockda ise genislik ve yukseklikde vermek olur*/
+    }
+    
+    header nav {
+        float: right;
+        /*saga terefe yapisidir*/
+    }
+    
+    .logo h2 {
+        margin-top: 30px;
+        color: white;
+        display: inline-block;
+    }
+    
+    header nav ul li a {
+        padding-right: 50px;
+        font-weight: bold;
+        /* qalinligi ayarlayir*/
+        color: white;
+        transition: all 0.5s ease-in;
+    }
+    
+    header nav ul li a:hover {
+        text-decoration: none;
+        /* textin altindan xett falan meselesin none edir*/
+        color: red;
+    }
+    
+    .img1 {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(..//image/house-in-nature-wallpaper.jpg);
+        background-size: 100% 100%;
+        /*arxa fon seklinin olcusunu ayarlayir*/
+    }
+    
+    .slider,
+    slider ul,
+    .slider ul li {
+        height: 1000px;
+        width: 100%;
+        color: white;
+        text-align: center;
+        /*yerini ayarlayir*/
+    }
+    
+    .slider h2 {
+        font-weight: bold;
+        margin-top: 270px;
+    }
+    
+    .slider span {
+        color: orange;
+    }
+    
+    .slider a {
+        padding: 10px 50px;
+        margin-left: 10px;
+    }
+    
+    .slider a.btn-half {
+        background-color: deepskyblue;
+        color: white;
+        transition: 0.5s ease-in;
+    }
+    
+    .slider a.btn-half:hover {
+        background-color: dodgerblue;
+    }
+    
+    .slider a.btn-full {
+        background-color: orange;
+        color: white;
+        transition: 0.5s ease-in;
+    }
+    
+    .slider a.btn-full:hover {
+        background-color: #e67e22;
+    }
+    
+    .img2 {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(..//image/untitled.png);
+        background-size: 100% 100%;
+    }
+    
+    .img3 {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(..//image/222-2226626_nature-wallpapers-for-windows-10.jpg);
+        background-size: 100% 100%;
+    }
+    
+    .slider i {
+        font-size: 35px;
+        margin-right: 10px;
+    }
+    
+    .intro-area {
+        position: relative;
+        /*oldugu veziyyetden deyisiklik edir*/
+        padding: 100px 0px;
+        text-align: center;
+    }
+    
+    .sub-heading {
+        position: relative;
+        margin-bottom: 75px;
+    }
+    
+    .sub-heading:before {
+        content: "";
+        position: absolute;
+        /*sehifenin basindan deyisiklik edir*/
+        top: 100%;
+        left: 50%;
+        margin-left: -3%;
+        width: 6%;
+        height: 1px;
+        background-color: deepskyblue;
+        z-index: 1;
+        -webkit-transition: 0.3s ease;
+        /*chrome ucun transition*/
+        -moz-transition: 0.3s ease;
+        /*firefox ucun transiition*/
+        -ms-transition: 0.3s ease;
+        /*ms ucun transition*/
+        -o-transition: 0.3s ease;
+        /*opera ucun transition*/
+        transition: 0.3s ease;
+        /*umumi hal ucun*/
+    }
+    
+    .sub-heading:hover:before {
+        /*yazidan evvele elave edir*/
+        width: 24%;
+        margin-left: -12px;
+    }
+    
+    .sub-heading:after {
+        /*yazidan sonraya elave edir*/
+        content: "";
+        /*yazilan seyi elave edir*/
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        margin-left: -3%;
+        width: 6%;
+        height: 1px;
+        background-color: #e1e1e1;
+    }
+    
+    .sub-heading p {
+        color: #818181;
+        display: inline-block;
+        padding: 0px 0px 20px;
+        position: relative;
+        line-height: 24px;
+        letter-spacing: 0.025em;
+        /*herfler arasi bosluq*/
+    }
+    
+    .intro-block {
+        position: relative;
+        background: #f7f7f7;
+        margin: 50px 0px 0px;
+        text-align: center;
+        padding: 70px 25px 40px;
+    }
+    
+    .intro-block:hover,
+    .intro-block.active {
+        background: #0AABE1;
+    }
+    
+    .intro-block:hover {
+        -webkit-transition: 0.6s ease;
+        -moz-transition: 0.6s ease;
+        -ms-transition: 0.6s ease;
+        -o-transition: 0.6s ease;
+        transition: 0.6s ease;
+    }
+    
+    .intro-block .intro-icon {
+        position: absolute;
+        top: -31px;
+        left: 50%;
+        margin-left: -31px;
+    }
+    
+    .intro-block .fa {
+        width: 63px;
+        height: 63px;
+        font-size: 30px;
+        color: white;
+        line-height: 2;
+        background: deepskyblue;
+        border-radius: 50%;
+        /*ovalliq verir 100 faiz olduqda cevre olur*/
+        box-shadow: 0px 0px 0px 10px #CCEEF9;
+    }
+    
+    .intro-block:hover .fa,
+    .intro-block.intro-block.active .fa {
+        background: white;
+        color: deepskyblue;
+        box-shadow: 0px 0px 0px 10px deepskyblue;
+    }
+    
+    .intro-block h3 {
+        font-size: 18px;
+        color: deepskyblue;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+    }
+    
+    .intro-block p {
+        color: #505050;
+    }
+    
+    .intro-block:hover h3,
+    .intro-block:hover p {
+        color: #f6f6f6;
+    }
+    
+    .feature-area {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url(..//image/gozel\ menzere\ sekilleri\ -\ \(19\)_50QCENAT.jpg);
+        background-position: center;
+        background-attachment: fixed;
+    }
+    
+    .title h2,
+    p,
+    h3 {
+        color: white;
+    }
+    
+    .single-feature h3 {
+        color: white;
+    }
+    
+    .single-feature {
+        position: relative;
+        width: 325px;
+        float: left;
+        padding: 30px 0;
+        text-align: center;
+        border-right: 1px solid #65c8e5;
+        border-bottom: 1px solid #65c8e5;
+        transition: 0.3s ease;
+        -webkit-transition: 0.3s ease;
+        -moz-transition: 0.3s ease;
+        -o-transition: 0.3s ease;
+        -ms-transition: 0.3s ease;
+    }
+    
+    .featured-block:after {
+        content: "";
+        display: table;
+        /*Bunu bilmiyoree*/
+    }
+    
+    .featured-block:after {
+        clear: both;
+        /*genislik ve yuksekliyin ikisi bir arada ayaralyir*/
+    }
+    
+    .featured-icon {
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+    
+    .single-feature i.fa {
+        border: 2px solid #fff;
+        padding: 15px;
+        border-radius: 50%;
+        font-size: 30px;
+        background-color: #00a7dd;
+        color: white;
+        width: 64px;
+        height: 64px;
+        transition: 0.3s ease;
+        -webkit-transition: 0.3s ease;
+        -moz-transition: 0.3s ease;
+        -o-transition: 0.3s ease;
+        -ms-transition: 0.3s ease;
+    }
+    
+    .featured-block:hover .single-feature {
+        border-color: white;
+        transition: 0.3s ease;
+        -webkit-transition: 0.3s ease;
+        -moz-transition: 0.3s ease;
+        -o-transition: 0.3s ease;
+        -ms-transition: 0.3s ease;
+    }
+    
+    .single-feature:hover .featured-icon .fa {
+        border: 2px solid #00a7dd;
+        background: white;
+        color: deepskyblue;
+    }
+    
+    .single-feature:nth-of-type(even) {
+        border-right: none;
+    }
+    
+    .single-feature:nth-last-child(2) {
+        border-bottom: none;
+    }
+    
+    .single-feature:last-child {
+        border-bottom: none;
+    }
+    
+    .feature-area {
+        padding: 100px 0;
+    }
+    
+    .feature-mockup {
+        bottom: -225px;
+        position: relative;
+    }
+    
+    .title .sub-heading p {
+        color: white;
+    }
+    
+    .more-feature-area .title h2 {
+        color: black;
+    }
+    
+    .more-feature-area .title .sub-heading p {
+        color: darkgrey;
+    }
+    
+    .more-feature-area {
+        padding: 100px 0;
+    }
+    
+    .feature-list ul {
+        list-style: none;
+    }
+    
+    .feature-list li {
+        position: relative;
+        margin-bottom: 30px;
+        padding-left: 80px;
+    }
+    
+    .feature-list li:hover i {
+        color: white;
+        background: #00a7dd;
+        transition: .5s ease;
+        -webkit-transition: .5s ease;
+        -moz-transition: .5s ease;
+        -o-transition: .5s ease;
+        -ms-transition: .5s ease;
+    }
+    
+    .feature-icon {
+        position: absolute;
+        left: 0;
+    }
+    
+    .feature-icon i {
+        width: 63px;
+        height: 63px;
+        text-align: center;
+        font-size: 30px;
+        background: white;
+        color: deepskyblue;
+        border-radius: 50%;
+        border: 2px solid deepskyblue;
+        line-height: 63px;
+    }
+    
+    .feature-details h3 {
+        color: deepskyblue;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    
+    .feature-details p {
+        color: #616161;
+        font-weight: 200;
+    }
+    
+    .more-feature-area img {
+        width: 370px;
+        height: 370px;
+        margin-left: 70px;
+    }
+    
+    .testimonials {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(..//image/house-in-nature-wallpaper.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        padding-top: 120px;
+        padding-bottom: 120px;
+        color: white;
+        margin-top: -100px;
+    }
+    
+    .testimonials .carousel-indicators {
+        bottom: -60px;
+    }
+    
+    .testimonials .sub-heading p {
+        color: white;
+    }
+    
+    .carousel-inner img {
+        width: 150px;
+        height: 150px;
+        border-radius: 100%;
+        border: 2px solid deepskyblue;
+        padding: 5px;
+    }
+    
+    .testimonials .carousel-indicators li.active {
+        background-color: deepskyblue;
+    }
+    
+    .testimonials .carousel-indicators li {
+        border: deepskyblue;
+    }
+    
+    .team-area {
+        padding: 100px 0px;
+    }
+    
+    .team-area .sub-heading {
+        margin-bottom: 100px;
+    }
+    
+    .team-man {
+        position: absolute;
+        left: 50%;
+        margin-top: -50px;
+        top: -50px;
+        overflow: hidden;
+        /*Bilmirem*/
+        min-height: 100px;
+        /*bilmirem*/
+        width: 100;
+        min-width: 100px;
+        border: 10px solid deepskyblue;
+        border-radius: 50%;
+    }
+    
+    .team-man img {
+        width: 100%;
+        height: 100%;
+        min-height: 100%;
+        min-width: 100%;
+        border-radius: 50%;
+    }
+    
+    .team-man h3 {
+        color: deepskyblue;
+        font-size: 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding-top: 70px;
+        margin-bottom: 5px;
+    }
+    
+    .team-block span {
+        color: #6c6c6c;
+        font-size: 16px;
+        text-transform: capitalize;
+        letter-spacing: 0.025em;
+    }
+    
+    .team-block p {
+        color: dimgray;
+        font-size: 14px;
+        padding: 25px 15px;
+        line-height: 24px;
+    }
+    
+    .team-description {
+        background-color: #f5f5f5;
+    }
+    
+    .team-social-network {
+        text-align: center;
+        padding-bottom: 15px;
+    }
+    
+    .team-social-network a {
+        margin: 0 6px;
+    }
+    
+    .team-social-network i {
+        height: 40px;
+        width: 40px;
+        background: white;
+        text-align: center;
+        color: deepskyblue;
+        border-radius: 50%;
+        border: 3px solid #c4e5f0;
+        padding-top: 10px;
+    }
+    
+    .team-block {
+        text-align: center;
+        position: relative;
+    }
+    
+    .team-block:hover .team-description {
+        background-color: deepskyblue;
+        color: white;
+        transition: .3s ease;
+        -webkit-transition: .3s ease;
+        -moz-transition: .3s ease;
+        -o-transition: .3s ease;
+        -ms-transition: .3s ease;
+    }
+    
+    .team-block:hover .team-title h3,
+    .team-block:hover .team-title span {
+        color: white;
+        transition: .4s ease;
+        -webkit-transition: .4s ease;
+        -moz-transition: .4s ease;
+        -o-transition: .4s ease;
+        -ms-transition: .4s ease;
+    }
+    
+    .team-block:hover .team-description p {
+        color: #f9f9f9;
+        transition: .5s ease;
+        -webkit-transition: .5s ease;
+        -moz-transition: .5s ease;
+        -o-transition: .5s ease;
+        -ms-transition: .5s ease;
+    }
+    
+    .team-block:hover .team-social-network i {
+        border-color: white;
+        background: deepskyblue;
+        color: white;
+        color: white;
+        transition: .6s ease;
+        -webkit-transition: .6s ease;
+        -moz-transition: .6s ease;
+        -o-transition: .6s ease;
+        -ms-transition: .6s ease;
+    }
+    
+    .download h2 {
+        color: white;
+    }
+    
+    .download .sub-heading p {
+        color: white;
+    }
+    
+    .download {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(..//image/house-in-nature-wallpaper.jpg);
+        background-size: cover;
+        /*Bilmirem*/
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        -ms-background-size: cover;
+        background-attachment: fixed;
+    }
+    
+    .download .default-btn {
+        background: transparent;
+        /*Bilmirem*/
+        border: 1px solid white;
+        color: white;
+        font-size: 20px;
+        padding: 8px 40px;
+        margin: 12px;
+        transition: .5s ease;
+    }
+    
+    .download .default-btn:hover {
+        background: white;
+        color: deepskyblue;
+    }
+    
+    .download .fa {
+        margin-right: 10px;
+    }
+    
+    .downloadnow {
+        padding: 100px 0px;
+    }
+    
+    .contact-area {
+        padding: 100px 0;
+    }
+    
+    .divider {
+        border-right: 1px solid #d9d9d9;
+    }
+    
+    .contact-area h3 {
+        text-transform: uppercase;
+        margin-bottom: 18px;
+    }
+    
+    .contact-area h4 {
+        color: #3a3a3a;
+        font-weight: 700;
+        text-transform: capitalize;
+        letter-spacing: 0.025;
+    }
+    
+    .contact-area span {
+        display: block;
+        color: #3a3a3a;
+        font-size: 12px;
+        line-height: normal;
+        letter-spacing: 0.025em;
+    }
+    
+    .contact-area ul li {
+        overflow: hidden;
+        margin-bottom: 25px;
+    }
+    
+    .contact-area ul li:last-child {
+        margin-bottom: 0;
+    }
+    
+    .conact-address ul li .fa {
+        float: left;
+        width: 25px;
+        color: deepskyblue;
+        font-size: 30px;
+    }
+    
+    .conact-address ul li .address-phone {
+        float: left;
+        width: 180px;
+        padding-left: 25px;
+    }
+    
+    .contact-block {
+        padding-left: 25px;
+    }
+    
+    .contact-area .form-control,
+    .contact-area textarea {
+        font-family: 'Roboto', sans-serif;
+        background: #f8fdff;
+        border: 1px solid #a5d3eb;
+        padding: 10px 12px;
+        color: #bdbdbd;
+        height: 45px;
+        font-weight: 400;
+        border-radius: 0;
+        margin: 15px;
+    }
+    
+    .contact-area .form-group {
+        margin-bottom: 30px;
+    }
+    
+    .contact-area textarea {
+        min-height: 115px;
+    }
+    
+    .contact-area .default-btn {
+        padding: 10px;
+    }

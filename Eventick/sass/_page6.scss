@@ -1,0 +1,103 @@
+    .page6 {
+        width: 100%;
+        height: 850px;
+        .page6txt {
+            width: 100%;
+            height: 250px;
+            text-align: center;
+            align-items: center;
+            h1 {
+                margin-top: 70px;
+                span {
+                    color: #E71B37;
+                }
+            }
+            .hr1 {
+                width: 200px;
+                background-color: rgb(192, 189, 189);
+            }
+            .hr2 {
+                width: 150px;
+                background-color: rgb(192, 189, 189);
+                margin-top: -10px;
+            }
+            .hr3 {
+                width: 100px;
+                background-color: rgb(192, 189, 189);
+                margin-top: -10px;
+            }
+            p {
+                margin: 20px 70px;
+            }
+        }
+        .page6img6 {
+            .img6 {
+                width: 100%;
+                height: 220px;
+                margin-top: 30px;
+                .page6hover {
+                    display: none;
+                    width: 100%;
+                    height: 100%;
+                    background-color: #e71b36d0;
+                    text-align: center;
+                    padding-top: 20%;
+                    color: white;
+                    i {
+                        font-size: 18px;
+                        color: #e71b36d0;
+                        border: 1px solid red;
+                        padding: 10px;
+                        border: 1px solid white;
+                        background-color: white;
+                        border-radius: 50%;
+                        float: right;
+                        margin-top: 25px;
+                        margin-right: 25px;
+                        animation: animate1 1s 1;
+                        &:hover {
+                            color: black;
+                        }
+                    }
+                }
+                &:hover {
+                    .page6hover {
+                        display: block;
+                    }
+                }
+            }
+            .img6-1 {
+                background-image: url("https://images-ext-2.discordapp.net/external/5Lb1V9elmygWtdUQlqpRQxekuvu5tHC4MydP9tsF2zk/https/preview.templatehouse.net/eventick/demo/images/gallery1.jpg");
+                background-size: cover;
+            }
+            .img6-2 {
+                background-image: url("https://images-ext-1.discordapp.net/external/__jq98RCRjFCg5mkGMF5MMwC_iffIbJp4Vil78WqW9A/https/preview.templatehouse.net/eventick/demo/images/gallery2.jpg");
+                background-size: cover;
+            }
+            .img6-3 {
+                background-image: url("https://images-ext-1.discordapp.net/external/I0oJtA2GTbR00IAsqb-4X1k-J4cGD3BOxETT4TRgoK4/https/preview.templatehouse.net/eventick/demo/images/gallery3.jpg");
+                background-size: cover;
+            }
+            .img6-4 {
+                background-image: url("https://images-ext-2.discordapp.net/external/oJTQEBcUP97mlx0pYpFr74FI6D6lKz1-EiNPve5NPtw/https/preview.templatehouse.net/eventick/demo/images/gallery4.jpg");
+                background-size: cover;
+            }
+            .img6-5 {
+                background-image: url("https://images-ext-2.discordapp.net/external/kkK0w0btqquqjj3CzLMuhcqByi-rT3OmO74Lyj1AEDg/https/preview.templatehouse.net/eventick/demo/images/gallery5.jpg");
+                background-size: cover;
+            }
+            .img6-6 {
+                background-image: url("https://images-ext-2.discordapp.net/external/st4d2YVjYdBmo0R00HBkeBmYs-dadtNgLyHT1bUNnq0/https/preview.templatehouse.net/eventick/demo/images/gallery6.jpg");
+                background-size: cover;
+            }
+        }
+    }
+    
+    @keyframes animate1 {
+        from {
+            transform: translate(25px, 0px);
+        }
+        to {
+            transform: translate(0px, 0px);
+        }
+    }

@@ -1,0 +1,101 @@
+body {
+    overflow-x: hidden;
+}
+
+.karts {
+    padding: 0px 13px;
+    width: 95%;
+    height: 900px;
+    background-color: #1e272e;
+    margin: 30px 50px;
+    border-radius: 15px;
+    .cart3,
+    .cart1 {
+        // border: 2px solid red;
+        height: 900px;
+        border-radius: 15px;
+    }
+    .cart3 {
+        background-color: #2f3640;
+        .cart3-1 {
+            width: 78%;
+            height: 220px;
+            background-color: #1e272e;
+            margin-top: 20px;
+            border-radius: 10px;
+            margin-left: 10%;
+            color: white;
+            h3 {
+                padding-top: 30px;
+            }
+            img {
+                width: 90px;
+                height: 60px;
+                float: right;
+                // background-color: rgb(6, 6, 77);
+                margin-top: 50px;
+            }
+            .nametime {
+                margin-top: 50px;
+            }
+            &:hover {
+                background-color: #e44946;
+            }
+        }
+        .cart3-2 {
+            margin-top: 20px;
+            height: 150px;
+            text-align: center;
+            color: white;
+            h1 {
+                font-size: 70px;
+                font-weight: bold;
+            }
+        }
+    }
+    .cart1 {
+        .cartimg {
+            margin-left: 21%;
+            .cart3-1 {
+                width: 450px;
+                height: 280px;
+                background-color: #e44946;
+                margin-top: 20px;
+                border-radius: 5px;
+                margin-left: 10%;
+                color: white;
+                h3 {
+                    padding-top: 50px;
+                }
+                img {
+                    width: 90px;
+                    height: 60px;
+                    float: right;
+                    // background-color: rgb(6, 6, 77);
+                    margin-top: 100px;
+                }
+                .nametime {
+                    padding-top: 100px;
+                }
+            }
+        }
+    }
+    .cartabout {
+        margin-top: 70px;
+        table {
+            td {
+                border-top: 1px solid #232d35;
+            }
+            th,
+            td {
+                color: white;
+                padding: 15px;
+            }
+            tr {
+                th {
+                    color: #e44946;
+                }
+            }
+        }
+    }
+}

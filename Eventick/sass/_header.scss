@@ -1,0 +1,62 @@
+    body {
+        background-color: rgb(238, 237, 237);
+        height: 3000px;
+        overflow-x: hidden;
+    }
+    
+    header {
+        background-color: rgba(0, 0, 0, 0.973);
+        width: 100%;
+        .nav-item {
+            .nav-link {
+                color: #b3b6b8;
+                margin-left: 10px;
+                text-decoration: none;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                transition: color 0.5s;
+                &:hover {
+                    color: white;
+                }
+            }
+            .speakers {
+                display: none;
+                position: absolute;
+                z-index: 3;
+                border: none;
+                background-color: rgba(0, 0, 0, 0.973);
+                width: 200px;
+                padding-top: 10px;
+                top: 83px;
+                margin-left: -100px;
+                height: 130px;
+                ul li {
+                    list-style: none;
+                    color: white;
+                    margin-top: 5px;
+                    margin-left: -10px;
+                }
+            }
+        }
+        .active1:hover {
+            .speakers {
+                display: block;
+            }
+        }
+        .getticket {
+            border-left: 2px solid #6c757d;
+            padding: 5px 60px;
+            margin-left: 60px;
+            color: #6c757d;
+            text-decoration: none;
+            transition: color 0.5s;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            &:hover {
+                color: white;
+            }
+        }
+        .menuikon {
+            display: none;
+            color: #6c757d;
+            font-size: 30px;
+        }
+    }

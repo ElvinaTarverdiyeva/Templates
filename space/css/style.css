@@ -1,0 +1,413 @@
+body {
+  overflow-x: hidden;
+  background-color: #fad3901c;
+}
+
+.page1 {
+  width: 100%;
+  height: 850px;
+  background-color: #130f40;
+  font-family: cursive;
+  background-image: url(../image/page1bg.png);
+  background-size: 100% 100%;
+}
+
+.page1 .container {
+  height: 100%;
+}
+
+.page1 .container .page1text1 {
+  width: 800px;
+  height: 400px;
+  color: white;
+}
+
+.page1 .container .page1text1 h1 {
+  font-size: 90px;
+  padding-top: 30%;
+}
+
+.page1 .container .page1text1 h2 {
+  margin: 20px 0;
+}
+
+.page1 .container .page1text1 p {
+  width: 430px;
+}
+
+.page1 .container .page1text1 input {
+  padding: 8px;
+  width: 350px;
+  border: 2px solid #FC427B;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.page1 .container .page1text1 button {
+  border: none;
+  border-radius: 10px;
+  padding: 8px 20px;
+  color: white;
+  background-color: #FC427B;
+}
+
+.page1 .planetname {
+  display: none;
+  width: 700px;
+  height: 850px;
+  position: absolute;
+  right: 0;
+  background-color: #c42e5b;
+  -webkit-animation: planetdiv 2s linear;
+          animation: planetdiv 2s linear;
+}
+
+.page1 .planetname button {
+  font-size: 35px;
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  color: white;
+}
+
+.page1 .planetname .planetimg {
+  width: 100%;
+  height: 65%;
+  background-color: yellow;
+  background-size: cover;
+}
+
+.page1 .planetname h1 {
+  color: white;
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.page1 .planetname p {
+  color: white;
+  width: 680px;
+  text-align: center;
+}
+
+@-webkit-keyframes planetdiv {
+  from {
+    right: -700px;
+    top: 0px;
+  }
+  to {
+    right: 0px;
+    top: 0px;
+  }
+}
+
+@keyframes planetdiv {
+  from {
+    right: -700px;
+    top: 0px;
+  }
+  to {
+    right: 0px;
+    top: 0px;
+  }
+}
+
+.page2 {
+  width: 100%;
+  height: 500px;
+  text-align: center;
+  font-family: cursive;
+  color: black;
+}
+
+.page2 h3 {
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+
+.page2 h1 {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.page2 hr {
+  width: 120px;
+  height: 15px;
+  background-color: #ffaf40c9;
+}
+
+.page2 p {
+  width: 1000px;
+  margin-left: 60px;
+  margin-top: 20px;
+  font-size: 17px;
+}
+
+.page3 {
+  width: 100%;
+  height: 600px;
+  font-family: cursive;
+}
+
+.page3 .container {
+  background-color: white;
+  height: 100%;
+}
+
+.page3 .container div {
+  height: 100%;
+}
+
+.page3 .container .page3photo1 {
+  background-image: url(../image/page3.jpeg);
+  background-size: cover;
+}
+
+.page3 .container .page3text1 h4 {
+  margin-top: 50px;
+}
+
+.page3 .container .page3text1 h1 {
+  margin-top: 30px;
+  font-size: 45px;
+  width: 200px;
+}
+
+.page3 .container .page3text1 hr {
+  width: 120px;
+  height: 15px;
+  background-color: #ffaf40c9;
+  float: left;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.page3 .container .page3text1 p {
+  float: left;
+  margin-top: 20px;
+  font-size: 16px;
+  color: #576574;
+}
+
+.page4 {
+  margin-top: 100px;
+  width: 100%;
+  height: 600px;
+}
+
+.page4 .container {
+  width: 100%;
+  height: 550px;
+}
+
+.page4 .container .page4div2 {
+  height: 550px;
+}
+
+.page4 .container .page4div1 {
+  background-color: white;
+}
+
+.page4 .container .page4div1 .photo1 {
+  margin: 30px 10px;
+  height: 330px;
+  background-image: url(../image/page4-1.jpeg);
+  background-size: 100% 100%;
+}
+
+.page4 .container .page4div1 .photo2 {
+  margin: 30px 10px;
+  height: 330px;
+  background-image: url(../image/page4-2.jpeg);
+  background-size: 100% 100%;
+}
+
+.page4 .container .page4div1 p {
+  text-align: center;
+  font-style: italic;
+}
+
+.page5 {
+  width: 100%;
+  height: 600px;
+  background-color: #130f40;
+  background-image: url(../image/page5.png);
+  font-family: cursive;
+}
+
+.page5 .container {
+  height: 100%;
+  color: white;
+  text-align: center;
+}
+
+.page5 .container h3 {
+  padding-top: 130px;
+}
+
+.page5 .container h1 {
+  font-size: 50px;
+  width: 800px;
+  margin-left: 15%;
+  margin-top: 20px;
+}
+
+.page5 .container hr {
+  width: 120px;
+  height: 13px;
+  background-color: #ffaf40c9;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.page5 .container p {
+  margin-top: 20px;
+  font-size: 16px;
+  width: 900px;
+  margin-left: 10%;
+}
+
+.page6 {
+  width: 100%;
+  height: 500px;
+  background-image: url(../image/page6.jpeg);
+  background-size: 100% 100%;
+  color: white;
+}
+
+.page6 .container {
+  height: 100%;
+}
+
+.page6 .container .page6text1 h1 {
+  padding-top: 150px;
+  margin-bottom: 20px;
+}
+
+.page6 .container .page6photo1 img {
+  margin: 70px 0px 0px 50px;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: rgba(19, 19, 19, 0.774);
+  color: white;
+  text-align: center;
+}
+
+footer p {
+  padding-top: 30px;
+}
+
+footer p a {
+  color: white;
+  text-decoration: underline;
+}
+
+footer p a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .page1 {
+    height: 800px;
+    background-image: url(../image/page6-1.png);
+  }
+  .page1 .planetname {
+    width: 600px;
+    height: 800px;
+  }
+  .page1 .planetname .planetimg {
+    height: 60%;
+  }
+  .page1 .planetname p {
+    width: 90%;
+    margin-left: 30px;
+  }
+}
+
+.page2 {
+  height: 600px;
+}
+
+.page2 p {
+  width: 90%;
+  margin-left: 60px;
+  margin-top: 20px;
+  font-size: 17px;
+}
+
+.page3 {
+  width: 100%;
+  height: 800px;
+}
+
+.page5 .container h1 {
+  font-size: 40px;
+  width: 90%;
+  margin-left: 10%;
+}
+
+.page5 .container p {
+  font-size: 16px;
+  width: 90%;
+}
+
+@media screen and (max-width: 700px) {
+  .page1 {
+    width: 100%;
+    height: 600px;
+  }
+  .page1 .container .page1text1 h1 {
+    font-size: 90px;
+    padding-top: 15%;
+  }
+  .page1 .container .page1text1 input {
+    margin-right: 10px;
+  }
+  .page1 .planetname {
+    width: 100%;
+    height: 600px;
+  }
+  .page1 .planetname .planetimg {
+    height: 50%;
+  }
+  .page1 .planetname h1 {
+    margin-bottom: 10px;
+  }
+  .page1 .planetname p {
+    width: 90%;
+    margin-left: 30px;
+  }
+  .page2 {
+    height: 700px;
+  }
+  .page2 p {
+    margin-left: 40px;
+  }
+  .page3 {
+    height: 1250px;
+    background-color: white;
+  }
+  .page3 .container {
+    height: 900px;
+  }
+  .page3 .container .page3photo1 {
+    height: 80%;
+  }
+  .page4 {
+    height: 1100px;
+  }
+  .page5 {
+    height: 700px;
+  }
+  .page5 .container p {
+    margin-left: 20px;
+  }
+  .page6 {
+    height: 700px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

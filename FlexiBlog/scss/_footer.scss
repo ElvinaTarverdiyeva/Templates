@@ -1,0 +1,34 @@
+footer {
+    width: 100%;
+    height: 300px;
+    margin-top: 150px;
+    background-color: #485460;
+    color: rgb(226, 223, 223);
+    h5 {
+        margin-top: 80px;
+    }
+    a {
+        color: rgb(207, 204, 204);
+        text-decoration: none;
+        &:hover {
+            color: #8484e6;
+            text-decoration: none;
+        }
+    }
+    ul {
+        margin-left: -35px;
+        li {
+            list-style: none;
+            margin-top: 10px;
+        }
+    }
+    .fa-github {
+        color: rgb(44, 44, 92);
+    }
+    .fa-twitter {
+        color: dodgerblue;
+    }
+    .fa-instagram {
+        color: rgb(190, 6, 190);
+    }
+}

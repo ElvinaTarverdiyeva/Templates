@@ -1,0 +1,235 @@
+@media only screen and (max-width: 2000px) { 
+  .page1 {
+    height: 820px;
+    width: 100%;
+    top: 0;
+  }
+  
+  .page1 .carousel-item img {
+    width: 100%;
+    -webkit-filter: brightness(40%);
+    height: 820px; 
+    object-fit: cover; 
+    object-position: center; 
+    filter: brightness(50%);
+  }
+  
+  .page1 .titless {
+    z-index: 1;
+    position: absolute;
+    top: 35%;
+    left: 36%;
+    color: white;
+    height: 300px;
+    width: 620px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .page1 .titless h6 {
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+  }
+  
+  .page1 .titless h1 {
+    font-size: 80px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    width: 900px;
+    margin-left: -120px;
+  }
+  
+  .page1 .titless button {
+    background-color:#ffb400;
+    color: white;
+    border: 1px solid #ffb400;
+    border-radius: 20px;
+    height: 40px;
+    width: 280px;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    i{
+        display: none;
+        position: relative;
+        animation: mymove 1s infinite;  
+        font-size: 13px;
+    }
+  }
+  
+  .page1 .titless button:hover {
+      i{ 
+        display:inline-block;  
+        }
+  
+  }
+
+  
+  .page1 .slider1boxprev {
+    z-index: 2;
+    display: none;
+    position: absolute;
+    height: 67px;
+    width: 67px;
+    top: 46%;
+    left: 5.3%;
+    background-image: url(https://images-ext-2.discordapp.net/external/WQl2ShEoJH-IdzdMt0QURKV5OuxuzxFU1k3-kqK-Pj0/http/slimhamdi.net/salimo/demos/img/revolution-slider/kenburns/kenburns3.jpg?width=1005&height=670);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+  }
+  
+  .page1 .slider1boxnext {
+    z-index: 2;
+    display: none;
+    position: absolute;
+    height: 67px;
+    width: 67px;
+    top: 46%;
+    right: 5.3%;
+    background-image: url(https://images-ext-2.discordapp.net/external/7dezJqiq-k0_DtX4gG70mh63bs3i_BYojDIdUxa5rLQ/http/slimhamdi.net/salimo/demos/img/revolution-slider/kenburns/kenburns2.jpg?width=1005&height=670);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+  }
+  
+  .page1 .slider2boxprev {
+    z-index: 2;
+    display: none;
+    position: absolute;
+    height: 67px;
+    width: 67px;
+    top: 46%;
+    left: 5.3%;
+    background-image: url(https://images-ext-1.discordapp.net/external/IFI5_WhoHrfATjj_mh2kEhA3i28A7UF7bOmlx1ITOi4/http/slimhamdi.net/salimo/demos/img/revolution-slider/kenburns/kenburns1.jpg?width=1005&height=670);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+  }
+  
+  .page1 .slider2boxnext {
+    z-index: 2;
+    display: none;
+    position: absolute;
+    height: 67px;
+    width: 67px;
+    top: 46%;
+    right: 5.3%;
+    background-image: url(https://images-ext-2.discordapp.net/external/WQl2ShEoJH-IdzdMt0QURKV5OuxuzxFU1k3-kqK-Pj0/http/slimhamdi.net/salimo/demos/img/revolution-slider/kenburns/kenburns3.jpg?width=1005&height=670);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+  }
+  
+  .page1 .slider3boxprev {
+    z-index: 2;
+    display: none;
+    position: absolute;
+    height: 67px;
+    width: 67px;
+    top: 46%;
+    left: 5.3%;
+    background-image: url(https://images-ext-2.discordapp.net/external/7dezJqiq-k0_DtX4gG70mh63bs3i_BYojDIdUxa5rLQ/http/slimhamdi.net/salimo/demos/img/revolution-slider/kenburns/kenburns2.jpg?width=1005&height=670);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+  }
+  
+  .page1 .slider3boxnext {
+    z-index: 2;
+    display: none;
+    position: absolute;
+    height: 67px;
+    width: 67px;
+    top: 46%;
+    right: 5.3%;
+    background-image: url(https://images-ext-1.discordapp.net/external/IFI5_WhoHrfATjj_mh2kEhA3i28A7UF7bOmlx1ITOi4/http/slimhamdi.net/salimo/demos/img/revolution-slider/kenburns/kenburns1.jpg?width=1005&height=670);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+  }
+  .carousel-control-prev
+{
+  height: 200px;
+  margin-top: 16.4%;
+  margin-left: -10px;
+}
+
+.carousel-control-next
+{
+  height: 200px;
+  margin-top: 16.4%;
+  margin-right: -10px;
+}
+}
+@media only screen and (max-width:950px) { 
+
+  .page1 .titless {
+    left: 16%;
+  }
+  .carousel-control-prev
+{
+  height: 200px;
+  margin-top: 34%;
+  margin-left: 10px;
+}
+.carousel-control-next
+{
+  height: 200px;
+  margin-top: 34%;
+  margin-right: 10px;
+}
+}
+
+
+@media only screen and (max-width:650px) {
+  .page1 .titless {
+    left: -70px;
+  }
+  
+  .page1 .titless h6 {
+    font-size: 11px;
+ 
+  }
+  
+  .page1 .titless h1 {
+    font-size: 35px;
+    margin-left: -140px;
+   
+  }
+  
+  .page1 .titless button {
+    
+    width: 240px;
+   
+    i{
+        display: none;
+        position: relative;
+        animation: mymove 1s infinite;  
+        font-size: 13px;
+    }
+  }
+  
+  .page1 .titless button:hover {
+      i{ 
+        display:inline-block;  
+        }
+  
+  }
+
+  
+  .carousel-control-prev
+{
+  height: 200px;
+  margin-top: 64%;
+  margin-left: 20px;
+}
+
+.carousel-control-next
+{
+  height: 200px;
+  margin-top: 64%;
+  margin-right: 20px;
+}
+}

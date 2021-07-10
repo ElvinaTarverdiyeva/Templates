@@ -1,0 +1,34 @@
+.page4 {
+    width: 100%;
+    height: 300px;
+    background-image: url("https://images-ext-1.discordapp.net/external/ZSqFKZ2rgwIe-wjyPvp82pUu93k_h3F0FBw_KljMK08/https/preview.templatehouse.net/eventick/demo/images/funfact.jpg?width=1435&height=570");
+    background-size: cover;
+    background-attachment: fixed;
+    .timer4 {
+        border: 1px solid #25191a1a;
+        width: 95%;
+        height: 170px;
+        margin-top: 65px;
+        background-color: white;
+        .timer4border {
+            border: 1px solid #25191a1a;
+            width: 85%;
+            height: 85%;
+            margin-left: 8%;
+            margin-top: 5%;
+            text-align: center;
+            i {
+                font-size: 30px;
+                color: #E71B37;
+                margin-top: 10px;
+            }
+            h2 {
+                font-weight: bold;
+                margin-top: 10px;
+            }
+            p {
+                color: #E71B37;
+            }
+        }
+    }
+}

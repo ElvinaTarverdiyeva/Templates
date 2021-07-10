@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Space</title>
+</head>
+
+<body>
+    <section class="page1">
+        <div class="planetname" id="planetname">
+            <button onclick="buttonx()">X</button>
+            <div class="planetimg" id="planetimg"></div>
+
+            <h1 id="planeth1">Planet Name</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat velit fugit aperiam? Alias odit nisi, voluptates id suscipit sequi tenetur modi quam provident saepe atque dolor ratione inventore labore, aliquam omnis facilis temporibus exercitationem
+                aut! Sint rerum porro suscipit cumque? Vero in perferendis tempora, sint delectus eius maiores atque distinctio?</p>
+        </div>
+        <div class="container">
+            <div class="page1text1">
+                <h1>Space</h1>
+                <h2>Research Center</h2>
+                <p>An international space research organisation that involve to discover the new space things</p>
+                <input type="text" placeholder="Enter a planet name" id="inputP">
+
+                <button onclick="planetFunc()">Submit</button> <br>
+                <p></p>
+
+            </div>
+        </div>
+    </section>
+    <section class="page2">
+        <div class="container">
+            <h3>Fun and engaging education</h3>
+            <h1>ABOUT THE EDUCATION FOUNDATION</h1>
+            <hr>
+            <p>The Manned Space Flight Education Foundation inonprofit educational foundation offering extensive science education programs and a space museum. The cornerstone of its education mission is Space Center Houston, a leading science and space
+                exploration learning center. It is one of Houston’s top attractions, the area’s No. 1 attraction for international visitors, the Official Visitor Center of NASA Johnson Space Center and a Smithsonian Affiliate.</p>
+        </div>
+    </section>
+
+    <section class="page3">
+        <div class="container">
+            <div class="row">
+                <div class="page3photo1 col-sm-12 col-md-8"></div>
+                <div class="page3text1 col-sm-12 col-md-4">
+                    <h4>To the Moon and Beyond</h4>
+                    <h1>WELCOME ABOARD</h1>
+                    <hr>
+                    <p>The Manned Space Flight Education Foundation inonprofit educational foundation offering extensive science education programs and a space museum. The cornerstone of its education mission is Space Center Houston, a leading science and
+                        space exploration learning center. It is one of Houston’s top attractions, the area’s No. 1 attraction for international visitors, the Official Visitor Center of NASA Johnson Space Center and a Smithsonian Affiliate.</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="page4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12 page4div2">
+                    <div class="page4div1">
+                        <div class="photo1"></div>
+                        <p>There is always something new at Space Center Houston with an amazing array of traveling exhibits and astounding events.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12 page4div2">
+                    <div class="page4div1">
+                        <div class="photo2"></div>
+                        <p>There is always something new at Space Center Houston with an amazing array of traveling exhibits and astounding events.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="page5">
+        <div class="container">
+            <h3>Certified Autism Center</h3>
+            <h1>EDUCATIONAL COMPLEX AND SPACE MUSEUM</h1>
+            <hr>
+            <p>TThe certification process involves rigorous training for staff, inspections and improvements that enable Space Center Houston to better welcome and accommodate guests with autism spectrum disorder and other sensory and cognitive challenges.
+                Space Center Houston was always welcoming to guests with special needs,” McMahon said. “I was able to help support that commitment by leading informal training for my instructor colleagues on working with guests with disabilities, including
+                autism.
+            </p>
+
+        </div>
+    </section>
+    <section class="page6">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 page6text1">
+                    <h1>EMPIRE STATE BUILDING</h1>
+                    <p>350 5th Ave, New York, NY 10118 <br> 1 212-736-3100 <br> contacts@esbnyc.com
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-6 page6photo1">
+                    <img src="image/page6-1.png" alt="" width="500px" height="300px">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>
+            <a href="#">Template</a> created with
+            <a href="#">Nicepage.</a>
+
+        </p>
+    </footer>
+
+    <script>
+        function planetFunc() {
+            var inputPlanet = document.getElementById("inputP").value;
+            if (inputPlanet == "merkuri") {
+                document.getElementById("planetimg").style.backgroundImage = "url(../image/mercury.jpg)";
+                document.getElementById("planeth1").innerHTML = "Merkuri"
+                document.getElementById("planetname").style.display = "block"
+
+            } else if (inputPlanet == "venera") {
+                document.getElementById("planetimg").style.backgroundImage = "url(../image/300px-Venus_globe.jpg)";
+                document.getElementById("planeth1").innerHTML = "Venera"
+                document.getElementById("planetname").style.display = "block"
+
+            } else if (inputPlanet == "yer") {
+                document.getElementById("planetimg").style.backgroundImage = "url(../image/yer.jpg)";
+                document.getElementById("planeth1").innerHTML = "Yer"
+                document.getElementById("planetname").style.display = "block"
+
+            } else if (inputPlanet == "mars") {
+                document.getElementById("planetimg").style.backgroundImage = "url(../image/OSIRIS_Mars_true_color.jpg)";
+                document.getElementById("planeth1").innerHTML = "Mars"
+                document.getElementById("planetname").style.display = "block"
+
+            } else if (inputPlanet == "jupiter") {
+                document.getElementById("planetimg").style.backgroundImage = "url(../image/jupiter.png)";
+                document.getElementById("planeth1").innerHTML = "Jupiter"
+                document.getElementById("planetname").style.display = "block"
+
+            } else if (inputPlanet == "saturn") {
+                document.getElementById("planetimg").style.backgroundImage = "url(../image/saturn.jpg)";
+                document.getElementById("planeth1").innerHTML = "Saturn"
+                document.getElementById("planetname").style.display = "block"
+
+            } else if (inputPlanet == "uran") {
+                document.getElementById("planetimg").style.backgroundImage = "url(../image/uran.jpg)";
+                document.getElementById("planeth1").innerHTML = "Uran"
+                document.getElementById("planetname").style.display = "block"
+
+            } else if (inputPlanet == "neptun") {
+                document.getElementById("planetimg").style.backgroundImage = "url(../image/neptun.jpg)";
+                document.getElementById("planeth1").innerHTML = "Neptun"
+                document.getElementById("planetname").style.display = "block"
+
+            } else if (inputPlanet == "pluton") {
+                document.getElementById("planetimg").style.backgroundImage = "url(../image/pluton.jpg)";
+                document.getElementById("planeth1").innerHTML = "Pluton"
+                document.getElementById("planetname").style.display = "block"
+
+            } else {
+                document.getElementById("planetname").style.display = "none"
+                alert("Yanlış planet adı daxil etdiniz:Merkuri,Venera,Yer,Mars,Jupiter,Saturn,Uran,Neptun,Pluton ")
+
+
+            }
+        }
+
+        function buttonx() {
+            document.getElementById("planetname").style.display = "none"
+        }
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

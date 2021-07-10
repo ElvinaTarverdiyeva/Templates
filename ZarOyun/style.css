@@ -1,0 +1,100 @@
+body {
+    background-color: #c8d6e5;
+}
+
+.scor {
+    height: 300px;
+}
+
+.scor .div1 {
+    height: 300px;
+    /* border: 1px solid black; */
+}
+
+.scor .div1 .cart1 {
+    height: 300px;
+    border: 3px solid black;
+    width: 300px;
+    border-radius: 10px;
+    background-color: #fa8231;
+    margin-left: 23%;
+    text-align: center;
+}
+
+.scor .div1 .cart1 h1 {
+    font-size: 150px;
+}
+
+.zar {
+    height: 300px;
+    margin-top: 200px;
+}
+
+.zar .div1 {
+    height: 300px;
+    /* border: 1px solid black; */
+}
+
+.zar .div1 .cart1 {
+    height: 300px;
+    border: 3px solid black;
+    width: 300px;
+    border-radius: 10px;
+    background-color: #3ae374;
+    float: left;
+    text-align: center;
+}
+
+.zar .div1 .cart2 {
+    height: 300px;
+    border: 3px solid black;
+    width: 300px;
+    border-radius: 10px;
+    background-color: #fa8231;
+    float: right;
+    text-align: center;
+}
+
+.zar .div1 .cart1 h1 {
+    font-size: 150px;
+}
+
+.zar .div1 .cart1 button {
+    padding: 7px 30px;
+    border-radius: 10px;
+    background-color: transparent;
+    border-color: #fa8231;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.zar .div1 .cart1 button:hover {
+    padding: 7px 30px;
+    border-radius: 10px;
+    background-color: #3ae374;
+}
+
+.zar .div1 .cart2 h1 {
+    font-size: 150px;
+}
+
+.zar .div1 .cart2 button {
+    padding: 7px 30px;
+    border-radius: 10px;
+    background-color: transparent;
+    border-color: #3ae374;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.zar .div1 .cart2 button:hover {
+    padding: 7px 30px;
+    border-radius: 10px;
+    background-color: #3ae374;
+}
+
+.zar .div1 .cart1 button:hover {
+    padding: 7px 30px;
+    border-radius: 10px;
+    background-color: #fa8231;
+}

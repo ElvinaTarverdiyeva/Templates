@@ -1,0 +1,102 @@
+.contactpage {
+    transition: 1s;
+    opacity: 0;
+    transform: translate(0px, 500px);
+    width: 100%;
+    height: 1000px;
+    color: white;
+    padding-top: 100px;
+    .div1 {
+        .txt {
+            h1 {
+                font-size: 45px;
+                font-weight: bold;
+                margin-bottom: 30px;
+                color: #2d3748;
+            }
+        }
+        .inputs {
+            width: 100%;
+            height: 600px;
+            border-radius: 20px;
+            margin-top: 70px;
+            background-color: #2d3748;
+            padding: 40px;
+            p {
+                font-size: 18px;
+                color: #c6c6c8;
+                margin-top: 20px;
+            }
+            input {
+                width: 100%;
+                border-radius: 5px;
+                height: 40px;
+                border: none;
+                outline: none;
+                padding-left: 20px;
+                background-color: #718096;
+                color: white;
+            }
+            textarea {
+                width: 100%;
+                border-radius: 5px;
+                background-color: #718096;
+                border: none;
+            }
+            button {
+                width: 150px;
+                height: 50px;
+                border-radius: 30px;
+                margin-top: 10px;
+                border: none;
+                color: white;
+                background-color: #667eea;
+                &:hover {
+                    transition: 0.5s;
+                    color: black;
+                    background-color: white;
+                }
+            }
+        }
+    }
+    .div2 {
+        h4 {
+            text-align: center;
+        }
+        .txtp {
+            width: 90%;
+            height: 300px;
+            padding: 30px;
+            background-color: #2d3748;
+            border-radius: 20px;
+            margin-top: 65px;
+            font-size: 19px;
+            margin-left: 30px;
+            margin-bottom: 90px;
+            color: #c6c6c8;
+        }
+        .txtadv {
+            width: 90%;
+            height: 350px;
+            padding: 30px;
+            background-color: #2d3748;
+            border-radius: 20px;
+            margin-top: 85px;
+            font-size: 19px;
+            margin-left: 30px;
+            color: rgb(214, 212, 212);
+            i {
+                margin-right: 10px;
+            }
+            p {
+                color: #c6c6c8;
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+
+.contactpageadd {
+    transform: translate(0px, 0px);
+    opacity: 1;
+}

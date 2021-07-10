@@ -1,0 +1,158 @@
+@media only screen and (max-width:2000px) {
+    .page5{
+    position: relative;
+    .page5bg{
+        position: relative;
+        z-index: 1;
+    width: 100%;
+    height: 850px;
+   
+    clip-path: polygon(0 9%, 100% 0, 100% 92%, 0% 100%);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7)), url("https://images-ext-1.discordapp.net/external/_KBrycIBn5Nm7p5E58espVAq1m13lLweJfP-OaGBWAA/http/slimhamdi.net/salimo/demos/img/sections/testimonials-bg.jpg?width=1440&height=585");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    }
+    
+    .page5about{
+        width: 100%;
+        height: 60%;
+        position: absolute;
+        z-index: 3;
+        top: 18%;
+        color: white;
+
+    }
+
+}
+@-webkit-keyframes rotate-vert-center {
+    0% {
+      -webkit-transform: rotateY(0);
+              transform: rotateY(0);
+    }
+    100% {
+      -webkit-transform: rotateY(360deg);
+              transform: rotateY(360deg);
+    }
+  }
+  @keyframes rotate-vert-center {
+    0% {
+      -webkit-transform: rotateY(0);
+              transform: rotateY(0);
+    }
+    100% {
+      -webkit-transform: rotateY(360deg);
+              transform: rotateY(360deg);
+    }
+  }
+
+.page3eyri{
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: 80px;
+    clip-path: polygon(0 91%, 100% 0, 100% 54%, 0% 100%);
+       background-color: #ffb400; 
+    top: -80px;
+}
+}
+@media only screen and (max-width:1000px) { 
+    .page3{
+        height: 1095px;
+        .page3bg{    
+        height: 1190px;
+        clip-path: polygon(0 7%, 100% 0, 100% 94%, 0 99%);
+        } 
+        .page3about{
+          
+        .page3photo{
+    
+            margin: -20% 20%;
+          
+            img{
+                position: relative;
+    
+            }
+        }
+  
+        }
+        .page3txt{
+            margin-top: 20%;
+           text-align: center;
+        
+            .page3ikon{
+              
+                margin-left: 10%;
+           
+           
+            }
+           
+        }
+    }
+
+    .page3eyri{
+       
+        clip-path: polygon(0 84%, 100% 0, 100% 48%, 0% 100%);
+           background-color: #ffb400; 
+        top: 4px;
+    }
+
+}
+
+
+@media only screen and (max-width:650px) {
+    .page3{
+        height: 1100px;
+        .page3bg{    
+        height: 1150px;
+        clip-path: polygon(0 7%, 100% 0, 100% 94%, 0 99%);
+        } 
+        .page3about{
+          
+        .page3photo{
+    
+            margin: -30% 2%;
+          
+            img{
+                position: relative;
+    
+            }
+        }
+  
+        }
+        .page3txt{
+            margin-top: 30%;
+           text-align: center;
+        
+           .page3ikon{
+       
+            div{
+                
+                width: 50px;
+                height: 50px;
+               
+            }
+            i{
+          
+            padding: 10px;
+            font-size: 23px;
+            
+            
+        }
+        .fa-youtube{
+            padding: 10px 10px;
+        }
+       
+        }
+           
+        }
+    }
+
+    .page3eyri{
+       
+        clip-path: polygon(0 84%, 100% 0, 100% 48%, 0% 100%);
+           background-color: #ffb400; 
+        top: -40px;
+    }
+
+}

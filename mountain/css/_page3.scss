@@ -1,0 +1,59 @@
+.page3 {
+    height: 700px;
+    width: 100%;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("../image/page3.jpeg");
+    background-size: 100% 100%;
+    font-family: cursive;
+    .container {
+        height: 100%;
+        // background-color: chartreuse;
+        .page3text1,
+        .page3text2 {
+            height: 700px;
+        }
+        .page3text1 {
+            .page3div {
+                width: 130px;
+                height: 130px;
+                border: 10px solid #f6b83b94;
+                border-right: none;
+                border-top: none;
+                margin-top: 100px;
+                position: relative;
+                h1 {
+                    position: absolute;
+                    width: 700px;
+                    color: #d2dae2;
+                    font-weight: bold;
+                    font-size: 40px;
+                    margin-top: -40px;
+                    margin-left: 30px;
+                }
+            }
+            p {
+                width: 600px;
+                color: #d2dae2;
+                font-size: 16px;
+                padding: 50px 30px 20px;
+            }
+            a {
+                text-decoration: none;
+                border-bottom: 2px solid #f6b83b;
+                color: white;
+                padding: 7px 0;
+                position: absolute;
+                margin-left: 56px;
+                font-size: 19px;
+            }
+        }
+        .page3text2 {
+            p {
+                color: #d2dae2;
+                float: right;
+                span {
+                    float: right;
+                }
+            }
+        }
+    }
+}

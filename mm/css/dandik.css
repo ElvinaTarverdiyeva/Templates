@@ -1,0 +1,77 @@
+*,
+body {
+    margin: 0px;
+}
+
+body {
+    height: 2000px;
+}
+
+.basliq {
+    background-color: rgb(8, 8, 70);
+    height: 80px;
+}
+
+.basliq ul li a {
+    color: rgb(209, 207, 207);
+    margin-right: 35px;
+    font-size: 19px;
+}
+
+.basliq ul li a:hover {
+    color: white;
+}
+
+.s1:hover {
+    background-color: tomato;
+}
+
+.seh1 {
+    height: 940px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(..//image/sekil1.jpg!d);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 280px;
+}
+
+.seh1 div {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    text-align: center;
+}
+
+.seh1 div p {
+    color: white;
+    font-size: 20px;
+}
+
+.seh2 {
+    height: 940px;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.seh2 .urun div {
+    padding-top: 70px;
+    width: 380px;
+}
+
+.seh3 {
+    height: 940px;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.seh3 .urun div {
+    padding-top: 30px;
+}
+
+footer {
+    background-color: rgb(8, 8, 70);
+    height: 85px;
+    color: rgb(209, 207, 207);
+    text-align: center;
+    padding-top: 30px;
+}

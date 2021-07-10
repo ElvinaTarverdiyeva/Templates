@@ -1,0 +1,1198 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+header .hed1 {
+  position: -webkit-sticky;
+  position: sticky;
+  width: 100%;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .hed1 .line3 hr {
+  width: 26px;
+  height: 2px;
+  background-color: black;
+  margin: 0 0 2px 35px;
+}
+
+header .hed1 .line3:hover hr:nth-child(odd) {
+  -webkit-transform: scaleX(0.7);
+          transform: scaleX(0.7);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+header .hed1 .button1 button {
+  border-radius: 40px;
+  border: 1px solid black;
+  background-color: transparent;
+  padding: 10px 30px;
+  font-size: 17px;
+  margin: 0 35px 2px 0;
+  -webkit-transition: background-color 0.7s, color 0.7s;
+  transition: background-color 0.7s, color 0.7s;
+}
+
+header .hed1 .button1 button:hover {
+  background-color: black;
+  color: white;
+}
+
+.page1 {
+  width: 100%;
+  height: 830px;
+  position: relative;
+}
+
+.page1 .text1 {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.527);
+  width: 780px;
+  height: 100%;
+  -webkit-animation: text1animation 2s 1;
+          animation: text1animation 2s 1;
+}
+
+.page1 .text1 ul {
+  float: right;
+  margin: 192px 150px;
+}
+
+.page1 .text1 ul li {
+  margin-bottom: 20px;
+}
+
+.page1 .text1 ul li a {
+  text-decoration: none;
+  font-size: 65px;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  letter-spacing: 5px;
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, #000), color-stop(50%, red), to(red));
+  background: linear-gradient(to right, #000 50%, red 50%, red);
+  background-size: 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-transition: background-position 0.5s ease-out;
+  transition: background-position 0.5s ease-out;
+}
+
+.page1 .text1 ul li a:hover {
+  background-position: -100%;
+}
+
+.page1 .text1 ul li:hover::before {
+  color: rgba(165, 165, 165, 0.623);
+  content: "/";
+  font-size: 70px;
+  font-weight: 1000;
+}
+
+.page1 .picture1 {
+  float: right;
+  width: 1415px;
+  height: 100%;
+  margin-right: 25px;
+  -webkit-animation: picture1animation 0.7s 1;
+          animation: picture1animation 0.7s 1;
+}
+
+.page2 {
+  margin-top: 150px;
+  width: 100%;
+  height: 830px;
+  position: relative;
+}
+
+.page2 .text1 {
+  position: absolute;
+  width: 1000px;
+  height: 100%;
+  -webkit-animation: text1animation 2s 1;
+          animation: text1animation 2s 1;
+}
+
+.page2 .text1 h1 {
+  font-size: 70px;
+  font-weight: bold;
+  float: right;
+  margin: 130px 120px;
+}
+
+.page2 .text1 h2 {
+  display: none;
+}
+
+.page2 .picture1 {
+  float: right;
+  width: 800px;
+  height: 700px;
+  background-color: yellow;
+  margin-right: 400px;
+  -webkit-animation: picture1animation 0.7s 1;
+          animation: picture1animation 0.7s 1;
+}
+
+.page3 {
+  width: 100%;
+  height: 650px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.page3 .icons {
+  width: 1200px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.page3 .icons .div1 {
+  width: 500px;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-animation: text1animation 2s 1;
+          animation: text1animation 2s 1;
+}
+
+.page3 .icons .div1 i {
+  font-size: 120px;
+  margin: 50px 0 0 30px;
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, #000), color-stop(50%, red), to(red));
+  background: linear-gradient(to right, #000 50%, red 50%, red);
+  background-size: 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-transition: 0.5s ease-out;
+  transition: 0.5s ease-out;
+}
+
+.page3 .icons .div1 i:hover {
+  background-position: -100%;
+}
+
+.page3 .icons .div1 p {
+  font-size: 22px;
+  margin: 60px 0 0 30px;
+  text-shadow: inset 0 0 0 0 #9ce90e;
+  -webkit-transition: ease-out 0.3s;
+  transition: ease-out 0.3s;
+  outline: none;
+}
+
+.page3 .icons .div2 {
+  width: 490px;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-animation: picture1animation 0.7s 1;
+          animation: picture1animation 0.7s 1;
+}
+
+.page3 .icons .div2 i {
+  font-size: 120px;
+  text-align: center;
+  margin-top: 200px;
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, #000), color-stop(50%, red), to(red));
+  background: linear-gradient(to right, #000 50%, red 50%, red);
+  background-size: 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-transition: 0.5s ease-out;
+  transition: 0.5s ease-out;
+}
+
+.page3 .icons .div2 i:hover {
+  background-position: -100%;
+}
+
+.page3 .icons .div2 p {
+  font-size: 22px;
+  padding: 10px 40px 0 40px;
+}
+
+.page3 .icons .div3 {
+  width: 600px;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-animation: text1animation 2s 1;
+          animation: text1animation 2s 1;
+}
+
+.page3 .icons .div3 i {
+  font-size: 120px;
+  margin: 50px 0 0 30px;
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, #000), color-stop(50%, red), to(red));
+  background: linear-gradient(to right, #000 50%, red 50%, red);
+  background-size: 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-transition: 0.5s ease-out;
+  transition: 0.5s ease-out;
+}
+
+.page3 .icons .div3 i:hover {
+  background-position: -100%;
+}
+
+.page3 .icons .div3 p {
+  font-size: 22px;
+  margin: 60px 0 0 30px;
+}
+
+.page4 {
+  margin-top: 150px;
+  width: 100%;
+  height: 900px;
+  position: relative;
+}
+
+.page4 .text1 {
+  position: absolute;
+  width: 600px;
+  height: 100%;
+  -webkit-animation: text1animation 2s 1;
+          animation: text1animation 2s 1;
+}
+
+.page4 .text1 h2 {
+  display: none;
+}
+
+.page4 .text1 h1 {
+  font-size: 70px;
+  font-weight: bold;
+  float: right;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 120px;
+}
+
+.page4 .text1 .ikons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 60px;
+  height: 130px;
+  font-size: 70px;
+  margin-left: 400px;
+  margin-top: 400px;
+}
+
+.page4 .text1 .ikons i:hover {
+  color: red;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.page4 .text1 .ikons .ikon1 {
+  margin-left: 30px;
+}
+
+.page4 .picture1 {
+  float: right;
+  width: 1420px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-animation: picture1animation 0.7s 1;
+          animation: picture1animation 0.7s 1;
+}
+
+.page4 .picture1 .pictures {
+  width: 1420px;
+  height: 90%;
+  background-color: chocolate;
+}
+
+.page4 .picture1 .text4 {
+  width: 1420;
+  height: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 30px;
+}
+
+.page4 .picture1 .text4 h1 {
+  font-weight: bold;
+  font-size: 30px;
+  font-family: sans-serif;
+  margin-bottom: 10px;
+}
+
+.page4 .picture1 .text4 p {
+  font-size: 17px;
+  font-family: sans-serif;
+}
+
+.page4 .picture1 .text4 .button1 button {
+  border-radius: 40px;
+  border: 1px solid black;
+  background-color: transparent;
+  padding: 10px 30px;
+  font-size: 17px;
+  margin: 0 35px 2px 0;
+  -webkit-transition: background-color 0.7s, color 0.7s;
+  transition: background-color 0.7s, color 0.7s;
+}
+
+.page4 .picture1 .text4 .button1 button:hover {
+  background-color: black;
+  color: white;
+}
+
+.page5 {
+  margin-top: 150px;
+  width: 100%;
+  height: 900px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.page5 .page5head {
+  width: 100%;
+  height: 700px;
+}
+
+.page5 .page5head .text1 {
+  position: absolute;
+  width: 930px;
+  height: 700px;
+  -webkit-animation: text1animation 2s 1;
+          animation: text1animation 2s 1;
+}
+
+.page5 .page5head .text1 h2 {
+  display: none;
+}
+
+.page5 .page5head .text1 h1 {
+  font-size: 70px;
+  font-weight: bold;
+  float: right;
+  margin: 130px 120px;
+}
+
+.page5 .page5head .text1 .ps {
+  width: 150px;
+  height: 130px;
+  font-size: 20px;
+  margin-left: 640px;
+  margin-top: 400px;
+}
+
+.page5 .page5head .text1 .ps p {
+  margin-top: 10px;
+}
+
+.page5 .page5head .text1 .ps .big {
+  font-weight: 600;
+  font-family: sans-serif;
+}
+
+.page5 .page5head .picture1 {
+  float: right;
+  width: 800px;
+  height: 700px;
+  margin-right: 400px;
+  -webkit-animation: picture1animation 0.7s 1;
+          animation: picture1animation 0.7s 1;
+}
+
+.page5 .page5foot {
+  width: 100%;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.page5 .page5foot p {
+  margin-top: 70px;
+  width: 550px;
+  font-size: 20px;
+  margin-left: 550px;
+}
+
+.page5 .page5foot i {
+  font-size: 25px;
+  margin-top: 100px;
+  margin-right: 600px;
+}
+
+.page6 {
+  width: 100%;
+  height: 1050px;
+  position: relative;
+  padding-top: 200px;
+}
+
+.page6 .text1 {
+  position: absolute;
+  width: 750px;
+  height: 900px;
+  -webkit-animation: text1animation 2s 1;
+          animation: text1animation 2s 1;
+}
+
+.page6 .text1 h2 {
+  display: none;
+}
+
+.page6 .text1 h1 {
+  font-size: 70px;
+  font-weight: bold;
+  float: right;
+  margin: 180px 120px;
+}
+
+.page6 .form1 {
+  margin-right: 20px;
+  float: right;
+  width: 74%;
+  height: 900px;
+  border: 10px solid rgba(165, 165, 165, 0.247);
+  -webkit-animation: picture1animation 0.7s 1;
+          animation: picture1animation 0.7s 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.page6 .form1 .basliqikon {
+  width: 100%;
+  height: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.page6 .form1 .basliqikon .ikonlar {
+  font-size: 23px;
+  color: rgba(0, 0, 0, 0.753);
+  margin: 80px 25px 0 80px;
+}
+
+.page6 .form1 .basliqikon .ikonlar i {
+  font-size: 29px;
+  margin-right: 5px;
+  color: rgba(165, 165, 165, 0.705);
+}
+
+.page6 .form1 .basliqikon .ikonlar p {
+  display: inline-block;
+}
+
+.page6 .form1 .formin {
+  width: 50%;
+  height: 70%;
+}
+
+.page6 .form1 .formin input {
+  width: 99%;
+  border: none;
+  border-bottom: 2px solid rgba(165, 165, 165, 0.247);
+  padding: 10px 1px;
+  font-size: 17px;
+  margin-bottom: 40px;
+}
+
+.page6 .form1 .formin textarea {
+  width: 99%;
+  height: 30px;
+  border: none;
+  overflow: hidden;
+  font-size: 17px;
+}
+
+.page6 .form1 .formin hr {
+  width: 99%;
+  height: 1px;
+  background-color: rgba(165, 165, 165, 0.247);
+  margin-top: 200px;
+}
+
+.page6 .form1 .formin button {
+  width: 100%;
+  border-radius: 40px;
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 15px 30px;
+  font-size: 17px;
+  -webkit-transition: background-color 0.7s, color 0.7s;
+  transition: background-color 0.7s, color 0.7s;
+  margin-top: 50px;
+}
+
+.page6 .form1 .formin button:hover {
+  background-color: red;
+  color: white;
+}
+
+@-webkit-keyframes text1animation {
+  from {
+    -webkit-transform: translateX(-600px);
+            transform: translateX(-600px);
+  }
+  to {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+@keyframes text1animation {
+  from {
+    -webkit-transform: translateX(-600px);
+            transform: translateX(-600px);
+  }
+  to {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+@-webkit-keyframes picture1animation {
+  from {
+    -webkit-transform: translateX(1600px);
+            transform: translateX(1600px);
+  }
+  to {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+@keyframes picture1animation {
+  from {
+    -webkit-transform: translateX(1600px);
+            transform: translateX(1600px);
+  }
+  to {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    z-index: 3;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  .page1 {
+    width: 100%;
+    height: 600px;
+  }
+  .page1 .text1 {
+    display: none;
+  }
+  .page1 .picture1 {
+    float: right;
+    width: 100%;
+    height: 100%;
+    margin-right: 25px;
+    -webkit-animation: picture1animation 0.7s 1;
+            animation: picture1animation 0.7s 1;
+  }
+  .page2 {
+    position: static;
+    margin-top: 20px;
+    width: 100%;
+    height: 830px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .page2 .text1 {
+    position: static;
+    width: 100%;
+    height: 20%;
+    -webkit-animation: text1animation 2s 1;
+            animation: text1animation 2s 1;
+  }
+  .page2 .text1 h1 {
+    position: static;
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    float: none;
+  }
+  .page2 .picture1 {
+    width: 100%;
+    height: 80%;
+    margin-top: 150px;
+    -webkit-animation: picture1animation 0.7s 1;
+            animation: picture1animation 0.7s 1;
+  }
+  .page3 {
+    width: 100%;
+    height: 1100px;
+  }
+  .page3 .icons {
+    margin-top: 160px;
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-left: 25%;
+  }
+  .page3 .icons .div1 {
+    width: 500px;
+    height: 350px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-animation: text1animation 2s 1;
+            animation: text1animation 2s 1;
+  }
+  .page3 .icons .div1 i {
+    font-size: 120px;
+    text-align: center;
+    margin-top: 70px;
+  }
+  .page3 .icons .div1 p {
+    font-size: 22px;
+    padding: 10px 40px 0 50px;
+  }
+  .page3 .icons .div2 {
+    width: 500px;
+    height: 350px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-animation: picture1animation 0.7s 1;
+            animation: picture1animation 0.7s 1;
+  }
+  .page3 .icons .div2 i {
+    font-size: 120px;
+    text-align: center;
+    margin-top: 70px;
+  }
+  .page3 .icons .div2 p {
+    font-size: 22px;
+    padding: 10px 40px 0 80px;
+  }
+  .page3 .icons .div3 {
+    margin-top: -60px;
+    width: 500px;
+    height: 350px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-animation: text1animation 2s 1;
+            animation: text1animation 2s 1;
+    position: relative;
+  }
+  .page3 .icons .div3 i {
+    font-size: 120px;
+    text-align: center;
+    margin-left: 37%;
+    position: absolute;
+  }
+  .page3 .icons .div3 p {
+    font-size: 22px;
+    padding: 10px 40px 0 40px;
+    position: relative;
+    margin-top: 170px;
+  }
+  .page4 {
+    height: 900px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .page4 .text1 {
+    width: 100%;
+    height: 10%;
+  }
+  .page4 .text1 h2 {
+    display: block;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 0px;
+    text-align: center;
+  }
+  .page4 .text1 h1 {
+    display: none;
+  }
+  .page4 .text1 .ikons {
+    display: none;
+  }
+  .page4 .picture1 {
+    margin-top: 100px;
+    width: 100%;
+    height: 70%;
+  }
+  .page4 .picture1 .pictures {
+    width: 100%;
+    height: 90%;
+  }
+  .page4 .picture1 .text4 {
+    width: 100%;
+    height: 10%;
+  }
+  .page5 {
+    margin-top: -80px;
+    width: 100%;
+  }
+  .page5 .page5head .text1 {
+    position: static;
+    width: 100%;
+    height: 10%;
+  }
+  .page5 .page5head .text1 h2 {
+    display: block;
+    font-size: 70px;
+    font-weight: bold;
+    float: none;
+    text-align: center;
+    margin: 0px 120px;
+  }
+  .page5 .page5head .text1 h1 {
+    display: none;
+  }
+  .page5 .page5head .text1 .ps {
+    width: 150px;
+    height: 130px;
+    font-size: 20px;
+    position: absolute;
+    margin-left: 45%;
+    margin-top: 800px;
+  }
+  .page5 .page5head .picture1 {
+    float: none;
+    width: 80%;
+    height: 90%;
+    margin-left: 10%;
+    margin-top: 20px;
+  }
+  .page5 .page5foot {
+    width: 100%;
+    height: 200px;
+  }
+  .page5 .page5foot p {
+    margin-top: 70px;
+    width: 700px;
+    font-size: 20px;
+    margin-left: 130px;
+  }
+  .page5 .page5foot i {
+    position: absolute;
+    font-size: 25px;
+    margin-top: 40px;
+    margin-left: 50%;
+  }
+  .page6 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .page6 .text1 {
+    position: static;
+    width: 100%;
+    height: 10%;
+  }
+  .page6 .text1 h2 {
+    display: block;
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .page6 .text1 h1 {
+    display: none;
+  }
+  .page6 .form1 {
+    float: none;
+    width: 100%;
+    height: 1200px;
+  }
+  .page6 .form1 .basliqikon {
+    width: 100%;
+    height: 45%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .page6 .form1 .basliqikon .ikonlar {
+    margin: 0;
+    text-align: center;
+  }
+  .page6 .form1 .basliqikon .ikonlar p {
+    display: block;
+  }
+  .page6 .form1 .basliqikon .ikonlar i {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .page1 {
+    width: 100%;
+    height: 300px;
+  }
+  .page2 {
+    height: 700px;
+    margin-top: 80px;
+  }
+  .page2 .text1 h2 {
+    display: block;
+    position: static;
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    float: none;
+  }
+  .page2 .text1 h1 {
+    display: none;
+  }
+  .page2 .picture1 {
+    width: 100%;
+    height: 60%;
+    margin-top: 20px;
+    -webkit-animation: picture1animation 0.7s 1;
+            animation: picture1animation 0.7s 1;
+  }
+  .page3 .icons {
+    margin-top: 10px;
+    margin-left: 2px;
+  }
+  .page4 {
+    height: 900px;
+  }
+  .page4 .picture1 {
+    margin-top: 100px;
+    width: 100%;
+    height: 50%;
+  }
+  .page4 .picture1 .pictures {
+    width: 100%;
+    height: 90%;
+  }
+  .page4 .picture1 .text4 {
+    margin-left: 40px;
+    width: 100%;
+    height: 10%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .page4 .picture1 .text4 .button1 {
+    width: 100%;
+    margin-left: 22%;
+    margin-top: 10px;
+  }
+  .page5 {
+    margin-top: -150px;
+  }
+  .page5 .page5head .text1 h2 {
+    font-size: 50px;
+  }
+  .page5 .page5head .text1 .ps {
+    margin-left: 38%;
+  }
+  .page5 .page5head .picture1 {
+    height: 70%;
+    margin-top: 60px;
+  }
+  .page5 .page5foot p {
+    margin-left: 20px;
+  }
+  .page5 .page5foot i {
+    margin-top: 30px;
+    margin-left: 48%;
+  }
+  .page6 .text1 h2 {
+    font-size: 55px;
+  }
+  .page6 .form1 {
+    margin-top: 40px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

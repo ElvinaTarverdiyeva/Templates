@@ -1,0 +1,123 @@
+@media only screen and (max-width:2000px) {
+    .page6{
+    width: 100%;
+    margin-top: 50px;
+    .page6hed{
+        text-align: center;
+        color: #555555;
+        margin-bottom: 30px;
+        h1{
+            font-size: 55px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+           
+            span{
+                color: #ffb400;
+            }
+        }
+        h6{
+            font-family: 'Courier New', Courier, monospace;
+            font-size:20px;
+        }
+    }
+    .buttons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        button{
+            color: black;
+            border: 2px solid #ffb400; 
+            padding: 10px 30px;
+            border-radius: 20px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin-left: 20px;
+            margin-top: 10px;
+            &:hover{
+                transition: 0.5s;
+                background-color: #ffb400; 
+                color: white;
+            }
+
+        }
+        .btnactive{
+            background-color: #ffb400; 
+            color: white;
+        }
+        .noactive{
+            color: black;
+            border: 2px solid #ffb400; 
+            background-color: transparent; 
+        }
+     
+    }
+    button:nth-child(1){
+        background-color: #ffb400; 
+        color: white;
+    }
+    .page6-4{
+        margin-top: 50px;
+       
+    .div9{
+       width: 360px;
+        height: 350px;
+        margin: 20px 20px 0 0;
+        .image1{
+        .fas{
+            display: none;
+            position: absolute;
+            z-index: 3;
+            font-size: 30px;
+           left: 45%;
+           top: 30%;
+           color: white;
+        }
+        img{
+            width: 100%;
+        }
+        &:hover{
+            img{
+                transition: 0.3s;
+                filter: brightness(50%);
+            }
+            .fas{
+                transition: 0.3s;
+                display: block;
+            }
+        }
+    
+    }
+        h6{
+            border-left: 3px solid rgba(0, 0, 0, 0.815); 
+            padding: 2px 10px;
+            margin-top: 10px;
+            color: #555555;
+        }
+        p{
+            color: #555555;
+        }
+
+    }
+    }
+}
+}
+@media only screen and (max-width:1500px) { 
+    .page6{
+        .page6-4{
+            margin-left: 15%;
+            .div9{
+                width: 300px;
+                 height: 300px;
+            }
+        }
+    }
+}
+@media only screen and (max-width:1000px) { 
+    .page6{
+        .page6-4{
+            margin-left: 15%;
+            .div9{
+                width: 360px;
+                 height: 350px;
+            }
+        }
+    }
+}

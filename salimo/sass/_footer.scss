@@ -1,0 +1,68 @@
+footer
+{
+    width: 100%;
+    height: 400px;
+    background-color: #111;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
+
+
+    p
+    {
+        margin: 20px 0;
+        font-size: 14px;
+
+        .fas
+        {
+            color: #ffb400;
+        }
+    }
+
+    .footicons
+    {
+        margin-top: 0px;
+        width: 400px;
+        height: 80px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+            div
+            {
+                border: none;
+                width: 40px;
+                height: 40px;
+                margin-right: 20px;
+                font-size: 20px;
+                border-radius: 50%;
+                border: 3px solid #ffb400;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .fab
+                {
+                    color: #ffb400;
+                }
+                .fa-facebook-f
+                {
+                    padding-left: 3px;
+                }
+                &:hover 
+                {
+                    background-color: #ffb400;
+                    .fab
+                    {
+                        -webkit-animation: rotate-vert-center 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+                        animation: rotate-vert-center 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+                        color: white;
+                    }
+
+                }
+            }
+    }
+}

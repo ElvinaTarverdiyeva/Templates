@@ -1,0 +1,49 @@
+.page2 {
+    height: 780px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.89);
+    padding-top: 80px;
+    font-family: cursive;
+    .container {
+        height: 90%;
+        .photo {
+            height: 630px;
+            background-image: url(../image/page2.jpeg);
+            background-size: 100% 100%;
+        }
+        .page2text {
+            height: 630px;
+            .borderleft {
+                border: 10px solid #f6b83b94;
+                border-left: none;
+                width: 80%;
+                height: 100%;
+                float: right;
+                h1 {
+                    color: white;
+                    margin-left: -70px;
+                    margin-top: 30px;
+                    margin-bottom: 50px;
+                }
+                p {
+                    color: white;
+                    margin-left: -70px;
+                    width: 430px;
+                    font-size: 17px;
+                    span {
+                        color: #fad390ab;
+                    }
+                }
+                a {
+                    text-decoration: none;
+                    border-bottom: 2px solid #f6b83b;
+                    color: white;
+                    padding: 10px 0;
+                    position: absolute;
+                    margin-left: 56px;
+                    font-size: 19px;
+                }
+            }
+        }
+    }
+}
