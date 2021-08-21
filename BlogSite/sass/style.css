@@ -1,0 +1,376 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Indie+Flower&display=swap");
+header {
+  width: 100%;
+  height: 60;
+  position: absolute;
+  top: 8%;
+}
+
+header .ikonsdiv {
+  margin-left: 80%;
+  font-size: 25px;
+  width: 50px;
+}
+
+header .ikonsdiv i {
+  cursor: pointer;
+}
+
+.navbar {
+  display: none;
+  width: 100%;
+  height: 1000px;
+  position: absolute;
+  z-index: 10;
+  overflow: hidden;
+  background-color: black;
+  -webkit-animation: navbarani 0.5s linear 0s;
+          animation: navbarani 0.5s linear 0s;
+  top: 0;
+}
+
+.navbar h1 {
+  position: absolute;
+  color: white;
+  top: 70px;
+  right: 18%;
+  border: 1px solid white;
+  padding: 7px 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.navbar img {
+  width: 100%;
+  height: 100%;
+  -webkit-animation: navbarani 1s linear 0s;
+          animation: navbarani 1s linear 0s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.navbar .navitemdiv {
+  position: absolute;
+  z-index: 11;
+  top: 17%;
+  width: 400px;
+  height: 600px;
+  position: absolute;
+  left: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .navitemdiv ul li {
+  list-style: none;
+  font-size: 40px;
+  margin-bottom: 10px;
+  width: 300px;
+  text-align: center;
+}
+
+.navbar .navitemdiv ul li a {
+  color: white;
+  font-family: 'Dancing Script', cursive;
+  text-decoration: none;
+  -webkit-transition: 0.5;
+  transition: 0.5;
+}
+
+.navbar .navitemdiv ul li:hover {
+  border-left: 1px solid #ffdacc;
+  border-right: 1px solid #ffdacc;
+}
+
+.navbar .navitemdiv ul li:hover a {
+  color: #ffdacc;
+}
+
+.clousenavclc {
+  -webkit-animation: navbaraniclouse 1s linear 0s;
+          animation: navbaraniclouse 1s linear 0s;
+  visibility: hidden;
+}
+
+body {
+  overflow: hidden;
+}
+
+.page1 {
+  height: auto;
+  background-color: #ffdacc;
+}
+
+.page1 .imgdivleft {
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+  left: -150px;
+  top: -100px;
+}
+
+.page1 .imgdivleft div {
+  position: relative;
+  left: 350px;
+  top: 220px;
+  opacity: 0.8;
+  overflow: hidden;
+  height: 166px;
+  width: 235px;
+}
+
+.page1 .imgdivleft div img {
+  position: absolute;
+  width: 250px;
+}
+
+.page1 .page1text h1 {
+  margin-left: 10%;
+  font-family: 'Dancing Script', cursive;
+  font-size: 70px;
+  margin-top: -160px;
+  position: relative;
+  z-index: 2;
+}
+
+.page1 .page1text .textani {
+  width: 600px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  left: 15%;
+  top: 40px;
+}
+
+.page1 .page1text .textani p {
+  font-size: 30px;
+  font-family: 'Indie Flower', cursive;
+  opacity: 0.9;
+  letter-spacing: 6px;
+}
+
+.page1 .page1text .textani .div1 {
+  width: 600px;
+  height: 125px;
+  background-color: #ffdacc;
+  z-index: 2;
+  position: absolute;
+  left: 600px;
+  -webkit-animation-duration: 0;
+          animation-duration: 0;
+  -webkit-animation: typing 3s steps(10);
+          animation: typing 3s steps(10);
+}
+
+.page1 .birds {
+  width: 90%;
+  height: 300px;
+  position: absolute;
+  left: 10%;
+  top: 15%;
+  overflow: hidden;
+}
+
+.page1 .birds div {
+  width: 400px;
+  height: 230px;
+  position: absolute;
+  overflow: hidden;
+  -webkit-animation: birdFly 1s steps(10) infinite, birdMove 15s linear infinite;
+          animation: birdFly 1s steps(10) infinite, birdMove 15s linear infinite;
+}
+
+.page1 .birds div img {
+  position: absolute;
+  width: 100px;
+}
+
+.page1 .birds div img:nth-child(1) {
+  left: 30%;
+  top: 20%;
+}
+
+.page1 .birds div img:nth-child(2) {
+  left: 50%;
+  top: 53%;
+}
+
+.page1 .birds div img:nth-child(3) {
+  right: 0;
+}
+
+.page1 .birds div img:nth-child(4) {
+  top: 10%;
+}
+
+.page1 .page1img {
+  width: 700px;
+  height: 600px;
+  margin-top: -16%;
+  margin-left: 60%;
+}
+
+.page1 .page1img img {
+  width: 70%;
+}
+
+@-webkit-keyframes birdFly {
+  0% {
+    background-position-x: 0px;
+  }
+  100% {
+    background-position-x: 1305px;
+  }
+}
+
+@keyframes birdFly {
+  0% {
+    background-position-x: 0px;
+  }
+  100% {
+    background-position-x: 1305px;
+  }
+}
+
+@-webkit-keyframes birdMove {
+  0% {
+    left: -10%;
+  }
+  100% {
+    left: 110%;
+  }
+}
+
+@keyframes birdMove {
+  0% {
+    left: -10%;
+  }
+  100% {
+    left: 110%;
+  }
+}
+
+@-webkit-keyframes typing {
+  0% {
+    left: 0%;
+  }
+  10% {
+    left: 60px;
+  }
+  20% {
+    left: 120px;
+  }
+  30% {
+    left: 180px;
+  }
+  40% {
+    left: 240px;
+  }
+  50% {
+    left: 300px;
+  }
+  60% {
+    left: 360px;
+  }
+  70% {
+    left: 420px;
+  }
+  80% {
+    left: 480px;
+  }
+  90% {
+    left: 540px;
+  }
+  100% {
+    left: 600px;
+  }
+}
+
+@keyframes typing {
+  0% {
+    left: 0%;
+  }
+  10% {
+    left: 60px;
+  }
+  20% {
+    left: 120px;
+  }
+  30% {
+    left: 180px;
+  }
+  40% {
+    left: 240px;
+  }
+  50% {
+    left: 300px;
+  }
+  60% {
+    left: 360px;
+  }
+  70% {
+    left: 420px;
+  }
+  80% {
+    left: 480px;
+  }
+  90% {
+    left: 540px;
+  }
+  100% {
+    left: 600px;
+  }
+}
+
+@-webkit-keyframes navbarani {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes navbarani {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes navbaraniclouse {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes navbaraniclouse {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */

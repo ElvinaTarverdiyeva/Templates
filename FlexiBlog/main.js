@@ -12,6 +12,7 @@ $(document).ready(function() {
 
         if (top >= 1200) {
             $(".page4").addClass('page4add');
+            
         }
         if (top >= 4000) {
             $(".page5").addClass('page5add');

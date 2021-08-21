@@ -1,0 +1,77 @@
+@keyframes birdFly{
+    0%{
+        background-position-x: 0px;
+   }
+
+    100%{
+       background-position-x: 1305px;
+   }
+
+}
+@keyframes birdMove{
+   0%{
+       left: -10%;
+   }
+
+   100%{
+       left: 110%;
+   }
+
+}
+
+@keyframes typing {
+    0%{
+        left: 0%;
+    }
+ 10%{
+     left: 60px;
+ }
+ 20%{
+     left: 120px;
+ }
+ 30%{
+    left: 180px;
+}
+40%{
+    left: 240px;
+}
+50%{
+    left: 300px;
+}
+60%{
+    left: 360px;
+}
+70%{
+    left: 420px;
+}
+80%{
+    left: 480px;
+}
+90%{
+    left: 540px;
+}
+100%{
+    left: 600px;
+}
+
+  }
+  @keyframes navbarani{
+    0%{
+       opacity: 0;
+    }
+ 
+    100%{
+       opacity: 1;
+    }
+ 
+ }
+ @keyframes navbaraniclouse{
+    0%{
+       opacity: 1;
+    }
+ 
+    100%{
+       opacity: 0;
+    }
+ 
+ }

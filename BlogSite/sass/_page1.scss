@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Indie+Flower&display=swap');
+
+body{
+    overflow: hidden;
+}
+.page1{
+    height: auto;
+    background-color:  $main-color;
+    .imgdivleft{
+        width: 600px;
+        height: 600px;
+        border-radius: 50%;
+        background-color: white;
+        position: relative;
+        z-index: 1;
+        left: -150px;
+        top: -100px;
+        div{
+            position: relative;
+            left: 350px;
+            top: 220px;
+            opacity: 0.8;
+            overflow: hidden;
+            height: 166px;
+            width: 235px;
+
+            img{
+                position: absolute;
+                width: 250px;
+            }
+        }
+    }
+    .page1text{
+        h1{
+            margin-left: 10%;
+            font-family: 'Dancing Script', cursive;
+            font-size: 70px;
+            margin-top: -160px;
+            position: relative;
+            z-index: 2;
+        }
+        .textani{
+            width: 600px;
+            height: 200px;
+            position: relative;
+            overflow: hidden;
+            left: 15%;
+            top: 40px;
+            p{
+                font-size: 30px;
+                font-family: 'Indie Flower', cursive;
+                opacity: 0.9;
+                letter-spacing: 6px;
+            }
+            .div1{
+                width: 600px;
+                height: 125px;
+                background-color:#ffdacc;
+                z-index: 2;
+                position: absolute;
+                left: 600px;
+                animation-duration: 0;
+                animation: typing 3s steps(10)  ; 
+            }
+        }
+      
+    }
+    .birds{
+        width: 90%;
+        height: 300px;
+        position: absolute;
+        left: 10%;
+        top: 15%;
+        overflow: hidden;
+        div{
+            width: 400px;
+            height: 230px;
+            position: absolute;
+            overflow: hidden;
+            animation: birdFly 1s steps(10) infinite, birdMove 15s linear infinite;
+            img{
+    position: absolute;
+    width: 100px;
+    &:nth-child(1){
+        left: 30%;
+        top: 20%;
+    }
+    &:nth-child(2){
+        left:50%;
+        top: 53%;
+    }
+    &:nth-child(3){
+    right: 0;
+    }
+    &:nth-child(4){
+    top: 10%;
+}}}
+
+    }
+    .page1img{
+        width: 700px;
+        height: 600px;
+        margin-top: -16%;
+        margin-left: 60%;
+        img{
+            width: 70%;
+        }
+    }
+}
